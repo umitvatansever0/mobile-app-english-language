@@ -96,7 +96,7 @@ class AdsService {
         preloadRewarded();
       },
     );
-    await ad.show(onUserEarnedReward: (_, __) => earned = true);
+    await ad.show(onUserEarnedReward: (_, _) => earned = true);
     return result.future;
   }
 

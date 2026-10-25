@@ -90,7 +90,7 @@ class PurchaseService {
       return PurchaseOutcome.notConfigured;
     }
     try {
-      final result = await Purchases.purchasePackage(plan.package!);
+      final result = await Purchases.purchase(PurchaseParams.package(plan.package!));
       _apply(result.customerInfo);
       return isPremium.value ? PurchaseOutcome.success : PurchaseOutcome.failed;
     } on PlatformException catch (e) {
