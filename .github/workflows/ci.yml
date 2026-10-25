@@ -6,12 +6,15 @@ on:
   pull_request:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   test-and-android:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: "17"
@@ -23,26 +26,56 @@ jobs:
         run: |
           python3 tool/build_words.py
           git diff --exit-code assets/data/words.json
-      - run: flutter pub get
-      - run: flutter analyze --no-fatal-infos
-      - run: flutter test
+      - run: mkdir -p ci-out && flutter --version | tee ci-out/flutter-version.txt
+      - run: flutter pub get 2>&1 | tee ci-out/pub-get.txt
+      - name: Analyze
+        run: flutter analyze --no-fatal-infos 2>&1 | tee ci-out/analyze.txt; exit ${PIPESTATUS[0]}
+      - name: Test
+        run: flutter test 2>&1 | tee ci-out/test.txt; exit ${PIPESTATUS[0]}
       - name: Android APK (test reklam kimlikleri, debug imzalı)
-        run: flutter build apk --release
+        run: flutter build apk --release 2>&1 | tee ci-out/build-apk.txt; exit ${PIPESTATUS[0]}
       - uses: actions/upload-artifact@v4
         with:
           name: ingilizce-kartlar-apk
           path: build/app/outputs/flutter-apk/app-release.apk
           retention-days: 14
+      - name: Logları ci-logs dalına yaz
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp -r ci-out /tmp/ci-out
+          git fetch origin ci-logs || true
+          git checkout -B ci-logs origin/ci-logs 2>/dev/null || git checkout --orphan ci-logs
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          rm -rf android-logs && mkdir -p android-logs && cp -r /tmp/ci-out/* android-logs/
+          echo "${GITHUB_SHA} $(date -u)" > android-logs/SHA.txt
+          git add android-logs
+          git commit -m "CI android logs ${GITHUB_SHA}" || true
+          git push -f origin ci-logs
 
   ios-build:
     runs-on: macos-latest
     needs: test-and-android
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: subosito/flutter-action@v2
         with:
           channel: stable
           cache: true
       - run: flutter pub get
       - name: iOS derlemesi (imzasız — sadece derlenebildiğini doğrular)
-        run: flutter build ios --release --no-codesign
+        run: mkdir -p /tmp/ios-out && flutter build ios --release --no-codesign 2>&1 | tee /tmp/ios-out/build-ios.txt; exit ${PIPESTATUS[0]}
+      - name: Logları ci-logs dalına yaz
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin ci-logs
+          git checkout -B ci-logs origin/ci-logs
+          rm -rf ios-logs && mkdir -p ios-logs && cp /tmp/ios-out/* ios-logs/ || true
+          tail -c 200000 ios-logs/build-ios.txt > ios-logs/tail.txt 2>/dev/null || true
+          echo "${GITHUB_SHA} $(date -u)" > ios-logs/SHA.txt
+          git add ios-logs
+          git commit -m "CI ios logs ${GITHUB_SHA}" || true
+          git push origin ci-logs
