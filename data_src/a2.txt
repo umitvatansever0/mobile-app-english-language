@@ -1,0 +1,236 @@
+# A2 kelimeleri — biçim a1.txt ile aynı
+accident|kaza|n|travel|There was an accident on the motorway.|Otoyolda bir kaza oldu.
+address|adres|n|daily|What is your address?|Adresin ne?
+adult|yetişkin|n|people|The ticket is ten pounds for adults.|Bilet yetişkinler için on sterlin.
+advice|tavsiye;öğüt|n|general|Can you give me some advice?|Bana biraz tavsiye verebilir misin?
+afraid|korkmuş;korkan;korkuyor|adj|feelings|I am afraid of dogs.|Köpeklerden korkarım.
+agree|katılmak;aynı fikirde olmak;anlaşmak|v|general|I agree with you.|Sana katılıyorum.
+air|hava|n|nature|I need some fresh air.|Biraz temiz havaya ihtiyacım var.
+alone|yalnız|adj|feelings|She lives alone.|Yalnız yaşıyor.
+already|zaten;çoktan;şimdiden|adv|time|I have already eaten.|Zaten yemek yedim.
+arrive|varmak;ulaşmak;gelmek|v|travel|The train arrives at six.|Tren altıda varıyor.
+art|sanat|n|daily|She is interested in art.|Sanatla ilgileniyor.
+believe|inanmak|v|general|I don't believe you.|Sana inanmıyorum.
+belong|ait olmak|v|general|This book belongs to me.|Bu kitap bana ait.
+borrow|ödünç almak|v|general|Can I borrow your car?|Arabanı ödünç alabilir miyim?
+boring|sıkıcı|adj|feelings|The film was boring.|Film sıkıcıydı.
+bored|sıkılmış|adj|feelings|I am bored.|Canım sıkılıyor.
+born|doğmuş;doğdu|adj|people|I was born in 1990.|1990'da doğdum.
+boss|patron;şef|n|work|My boss is very strict.|Patronum çok sıkı.
+bottle|şişe|n|food|A bottle of water, please.|Bir şişe su, lütfen.
+bridge|köprü|n|city|We walked across the bridge.|Köprünün üzerinden yürüdük.
+build|inşa etmek;yapmak|v|city|They are building a new school.|Yeni bir okul inşa ediyorlar.
+building|bina|n|city|That building is very tall.|O bina çok yüksek.
+burn|yakmak;yanmak|v|general|Don't burn the food!|Yemeği yakma!
+business|iş;ticaret;işletme|n|work|He has his own business.|Kendi işi var.
+careful|dikkatli|adj|general|Be careful! The floor is wet.|Dikkatli ol! Yer ıslak.
+carry|taşımak|v|general|Can you carry this bag?|Bu çantayı taşıyabilir misin?
+catch|yakalamak|v|general|I have to catch the bus.|Otobüse yetişmem lazım.
+celebrate|kutlamak|v|daily|We celebrate New Year with friends.|Yılbaşını arkadaşlarla kutlarız.
+centre|merkez|n|city|The hotel is in the city centre.|Otel şehir merkezinde.
+change|değiştirmek;değişmek;değişiklik|v|general|I want to change my job.|İşimi değiştirmek istiyorum.
+choose|seçmek|v|general|Choose a colour.|Bir renk seç.
+cloud|bulut|n|weather|There are no clouds in the sky.|Gökyüzünde hiç bulut yok.
+cloudy|bulutlu|adj|weather|It's cloudy today.|Bugün hava bulutlu.
+coast|kıyı;sahil|n|nature|We drove along the coast.|Sahil boyunca sürdük.
+comfortable|rahat|adj|home|This bed is very comfortable.|Bu yatak çok rahat.
+company|şirket|n|work|I work for a big company.|Büyük bir şirkette çalışıyorum.
+compare|karşılaştırmak|v|general|Compare the two prices.|İki fiyatı karşılaştır.
+competition|yarışma;rekabet|n|daily|She won the competition.|Yarışmayı kazandı.
+complete|tamamlamak|v|general|Complete the form, please.|Formu doldurun lütfen.
+continue|devam etmek|v|general|Please continue.|Lütfen devam edin.
+cost|mal olmak;tutmak;maliyet|v|shopping|How much does it cost?|Ne kadar tutuyor?
+countryside|kırsal;kırsal bölge;taşra|n|nature|I love walking in the countryside.|Kırda yürümeyi severim.
+cross|karşıya geçmek;geçmek|v|city|Cross the street at the lights.|Caddeyi ışıklardan geç.
+crowded|kalabalık|adj|city|The bus is very crowded.|Otobüs çok kalabalık.
+culture|kültür|n|general|I love Japanese culture.|Japon kültürünü severim.
+customer|müşteri|n|shopping|The customer is always right.|Müşteri her zaman haklıdır.
+dangerous|tehlikeli|adj|general|This road is dangerous.|Bu yol tehlikeli.
+dark|karanlık;koyu|adj|general|It's dark outside.|Dışarısı karanlık.
+decide|karar vermek|v|general|I can't decide.|Karar veremiyorum.
+describe|tarif etmek;anlatmak;betimlemek|v|general|Describe your house.|Evini anlat.
+die|ölmek|v|general|Plants die without water.|Bitkiler susuz ölür.
+different|farklı|adj|general|We are very different.|Biz çok farklıyız.
+dirty|kirli|adj|home|Your shoes are dirty.|Ayakkabıların kirli.
+discover|keşfetmek|v|general|They discovered a new island.|Yeni bir ada keşfettiler.
+dream|rüya;hayal;rüya görmek|n|general|I had a strange dream.|Garip bir rüya gördüm.
+earn|kazanmak|v|work|She earns a lot of money.|Çok para kazanıyor.
+east|doğu|n|travel|The sun rises in the east.|Güneş doğudan doğar.
+education|eğitim|n|school|Education is important.|Eğitim önemlidir.
+enjoy|keyif almak;tadını çıkarmak;zevk almak|v|feelings|Enjoy your meal!|Afiyet olsun!
+enough|yeterli;yeteri kadar|adj|general|We don't have enough time.|Yeterli zamanımız yok.
+environment|çevre|n|nature|We must protect the environment.|Çevreyi korumalıyız.
+exam|sınav|n|school|I have an exam tomorrow.|Yarın sınavım var.
+excited|heyecanlı|adj|feelings|The children are excited.|Çocuklar heyecanlı.
+exciting|heyecan verici|adj|feelings|It was an exciting game.|Heyecan verici bir maçtı.
+expect|beklemek;ummak|v|general|I expect a call from her.|Ondan bir telefon bekliyorum.
+experience|deneyim;tecrübe|n|work|Do you have any experience?|Hiç deneyimin var mı?
+explain|açıklamak|v|school|Can you explain this word?|Bu kelimeyi açıklayabilir misin?
+fail|başarısız olmak;kalmak|v|school|He failed his driving test.|Ehliyet sınavından kaldı.
+fall|düşmek;sonbahar|v|general|Be careful, don't fall!|Dikkat et, düşme!
+famous|ünlü;meşhur|adj|people|She is a famous singer.|O ünlü bir şarkıcı.
+far|uzak|adj|travel|Is the station far from here?|İstasyon buradan uzak mı?
+farm|çiftlik|n|nature|They live on a farm.|Bir çiftlikte yaşıyorlar.
+fight|kavga etmek;savaşmak;kavga|v|general|The boys are fighting.|Çocuklar kavga ediyor.
+fill|doldurmak|v|general|Fill the glass with water.|Bardağı suyla doldur.
+fix|tamir etmek;onarmak|v|home|Can you fix my bike?|Bisikletimi tamir edebilir misin?
+follow|takip etmek;izlemek|v|general|Follow me, please.|Beni takip edin lütfen.
+foreign|yabancı|adj|travel|Do you speak a foreign language?|Yabancı dil konuşuyor musun?
+forest|orman|n|nature|We walked in the forest.|Ormanda yürüdük.
+free|bedava;ücretsiz;özgür;boş|adj|general|The museum is free on Sundays.|Müze pazar günleri ücretsiz.
+fresh|taze;temiz|adj|food|The bread is fresh.|Ekmek taze.
+funny|komik;eğlenceli|adj|feelings|He tells funny stories.|Komik hikayeler anlatıyor.
+future|gelecek|n|time|What are your plans for the future?|Gelecek için planların neler?
+gift|hediye|n|daily|This gift is for you.|Bu hediye senin için.
+grow|büyümek;yetiştirmek|v|nature|Children grow fast.|Çocuklar hızlı büyür.
+guess|tahmin etmek;tahmin|v|general|Guess what happened!|Tahmin et ne oldu!
+guest|misafir;konuk|n|home|We have guests tonight.|Bu akşam misafirlerimiz var.
+happen|olmak;meydana gelmek|v|general|What happened?|Ne oldu?
+hate|nefret etmek|v|feelings|I hate waiting.|Beklemekten nefret ederim.
+healthy|sağlıklı|adj|health|Vegetables are healthy.|Sebzeler sağlıklıdır.
+heavy|ağır|adj|general|This box is very heavy.|Bu kutu çok ağır.
+hill|tepe|n|nature|Our house is on a hill.|Evimiz bir tepede.
+hire|kiralamak;işe almak|v|travel|We hired a car.|Bir araba kiraladık.
+hope|ummak;umut etmek;umut|v|feelings|I hope you feel better.|Umarım daha iyi hissedersin.
+hurt|acımak;ağrımak;incitmek|v|health|My back hurts.|Sırtım ağrıyor.
+important|önemli|adj|general|This is very important.|Bu çok önemli.
+improve|geliştirmek;iyileştirmek;gelişmek|v|school|I want to improve my English.|İngilizcemi geliştirmek istiyorum.
+information|bilgi|n|general|I need some information.|Biraz bilgiye ihtiyacım var.
+interested|ilgili;ilgilenen|adj|feelings|Are you interested in sport?|Sporla ilgilenir misin?
+interesting|ilginç|adj|feelings|That's an interesting idea.|Bu ilginç bir fikir.
+invite|davet etmek|v|daily|I want to invite you to dinner.|Seni akşam yemeğine davet etmek istiyorum.
+island|ada|n|nature|We spent a week on an island.|Bir adada bir hafta geçirdik.
+journey|yolculuk;seyahat|n|travel|The journey takes three hours.|Yolculuk üç saat sürüyor.
+kind|nazik;kibar;tür|adj|people|She is very kind.|O çok nazik.
+kill|öldürmek|v|general|Smoking can kill you.|Sigara seni öldürebilir.
+land|kara;arazi;inmek|n|nature|The plane will land soon.|Uçak birazdan inecek.
+laugh|gülmek|v|feelings|They laughed at my joke.|Şakama güldüler.
+lazy|tembel|adj|people|Don't be lazy!|Tembel olma!
+leave|ayrılmak;terk etmek;bırakmak|v|general|I leave home at eight.|Evden sekizde çıkarım.
+lend|ödünç vermek|v|general|Can you lend me some money?|Bana biraz borç para verebilir misin?
+light|ışık;hafif;açık|n|home|Turn off the light.|Işığı kapat.
+lose|kaybetmek|v|general|I always lose my keys.|Anahtarlarımı hep kaybederim.
+loud|yüksek sesli;gürültülü|adj|general|The music is too loud.|Müzik çok yüksek.
+lucky|şanslı|adj|feelings|You are very lucky.|Çok şanslısın.
+married|evli|adj|family|Are you married?|Evli misin?
+meal|yemek;öğün|n|food|We had a nice meal.|Güzel bir yemek yedik.
+message|mesaj|n|daily|I sent you a message.|Sana bir mesaj gönderdim.
+miss|özlemek;kaçırmak|v|feelings|I miss you.|Seni özlüyorum.
+mistake|hata;yanlış|n|general|Everyone makes mistakes.|Herkes hata yapar.
+modern|modern;çağdaş|adj|general|They live in a modern flat.|Modern bir dairede yaşıyorlar.
+move|taşınmak;hareket etmek;kıpırdamak|v|home|We are moving to a new house.|Yeni bir eve taşınıyoruz.
+museum|müze|n|city|Let's visit the museum.|Hadi müzeyi gezelim.
+nature|doğa|n|nature|I love nature.|Doğayı severim.
+near|yakın;yakınında|adj|city|Is there a pharmacy near here?|Buralarda bir eczane var mı?
+neighbour|komşu|n|home|Our neighbours are very friendly.|Komşularımız çok cana yakın.
+nervous|gergin;endişeli;sinirli|adj|feelings|I'm nervous about the exam.|Sınav için gerginim.
+noise|gürültü;ses|n|general|What's that noise?|O ses ne?
+north|kuzey|n|travel|Scotland is in the north.|İskoçya kuzeyde.
+offer|teklif etmek;önermek;teklif|v|general|He offered me a job.|Bana bir iş teklif etti.
+order|sipariş etmek;sipariş;emir|v|food|Are you ready to order?|Sipariş vermeye hazır mısınız?
+pain|ağrı;acı|n|health|I have a pain in my back.|Sırtımda bir ağrı var.
+passenger|yolcu|n|travel|The bus has fifty passengers.|Otobüste elli yolcu var.
+passport|pasaport|n|travel|Don't forget your passport.|Pasaportunu unutma.
+past|geçmiş|n|time|Forget the past.|Geçmişi unut.
+plan|plan;planlamak|n|general|What are your plans for tonight?|Bu akşam için planların neler?
+plant|bitki;dikmek|n|nature|Water the plants, please.|Bitkileri sula lütfen.
+polite|kibar;nazik|adj|people|Be polite to everyone.|Herkese karşı kibar ol.
+poor|fakir;yoksul;zavallı|adj|general|They are a poor family.|Onlar yoksul bir aile.
+popular|popüler;sevilen|adj|general|This song is very popular.|Bu şarkı çok popüler.
+possible|mümkün;olası|adj|general|Is it possible?|Mümkün mü?
+prefer|tercih etmek|v|feelings|I prefer tea to coffee.|Çayı kahveye tercih ederim.
+prepare|hazırlamak;hazırlanmak|v|general|I prepare dinner every evening.|Her akşam yemek hazırlarım.
+present|hediye;şimdiki zaman|n|daily|I bought her a present.|Ona bir hediye aldım.
+pretty|güzel;hoş;oldukça|adj|people|She is very pretty.|O çok güzel.
+promise|söz vermek;söz|v|general|I promise I'll come.|Geleceğime söz veriyorum.
+protect|korumak|v|general|Sunglasses protect your eyes.|Güneş gözlüğü gözlerini korur.
+quiet|sessiz;sakin|adj|general|The library is very quiet.|Kütüphane çok sessiz.
+quickly|hızlıca;çabucak;hızlı|adv|general|Come quickly!|Çabuk gel!
+rain (verb)|yağmur yağmak|v|weather|It often rains in London.|Londra'da sık sık yağmur yağar.
+ready|hazır|adj|general|Dinner is ready.|Yemek hazır.
+receive|almak;teslim almak|v|general|Did you receive my email?|E-postamı aldın mı?
+recommend|tavsiye etmek;önermek|v|general|Can you recommend a good restaurant?|İyi bir restoran tavsiye edebilir misin?
+relax|dinlenmek;rahatlamak|v|daily|I relax at the weekend.|Hafta sonu dinlenirim.
+rent|kira;kiralamak|n|home|The rent is very high.|Kira çok yüksek.
+repair|tamir etmek;onarmak|v|home|They repaired the roof.|Çatıyı tamir ettiler.
+repeat|tekrarlamak|v|school|Please repeat after me.|Lütfen benden sonra tekrarlayın.
+rich|zengin|adj|general|He is very rich.|O çok zengin.
+safe|güvenli;güvende|adj|general|This area is safe.|Bu bölge güvenli.
+save|biriktirmek;kurtarmak;kaydetmek|v|general|I'm saving money for a car.|Araba için para biriktiriyorum.
+search|aramak;arama|v|general|I searched everywhere for my phone.|Telefonumu her yerde aradım.
+send|göndermek;yollamak|v|daily|Send me a photo.|Bana bir fotoğraf gönder.
+serious|ciddi|adj|general|This is a serious problem.|Bu ciddi bir sorun.
+share|paylaşmak|v|general|Let's share the pizza.|Pizzayı paylaşalım.
+shout|bağırmak|v|general|Don't shout!|Bağırma!
+show|göstermek;gösteri|v|general|Show me your photos.|Bana fotoğraflarını göster.
+shy|utangaç;çekingen|adj|people|He is very shy.|O çok utangaç.
+silly|aptalca;saçma|adj|general|Don't be silly.|Saçmalama.
+smell|koklamak;kokmak;koku|v|general|The flowers smell nice.|Çiçekler güzel kokuyor.
+smile|gülümsemek;gülümseme|v|feelings|She always smiles.|Her zaman gülümser.
+south|güney|n|travel|Antalya is in the south of Turkey.|Antalya Türkiye'nin güneyinde.
+spend|harcamak;geçirmek|v|shopping|I spend too much money on clothes.|Kıyafetlere çok para harcıyorum.
+steal|çalmak|v|general|Someone stole my bike.|Biri bisikletimi çaldı.
+strange|garip;tuhaf|adj|general|That's strange.|Bu garip.
+stranger|yabancı|n|people|Don't talk to strangers.|Yabancılarla konuşma.
+strong|güçlü;kuvvetli;sert|adj|general|He is very strong.|O çok güçlü.
+succeed|başarmak;başarılı olmak|v|general|If you work hard, you will succeed.|Çok çalışırsan başarırsın.
+suddenly|aniden;birdenbire|adv|general|Suddenly the lights went out.|Aniden ışıklar söndü.
+suitcase|bavul;valiz|n|travel|My suitcase is very heavy.|Bavulum çok ağır.
+sure|emin|adj|general|Are you sure?|Emin misin?
+surprise|sürpriz;şaşırtmak|n|feelings|What a nice surprise!|Ne güzel bir sürpriz!
+surprised|şaşırmış;şaşkın|adj|feelings|I was surprised to see him.|Onu görünce şaşırdım.
+taste|tatmak;tadı olmak;tat|v|food|Taste this soup.|Bu çorbanın tadına bak.
+terrible|korkunç;berbat;çok kötü|adj|general|The weather is terrible.|Hava berbat.
+thin|zayıf;ince|adj|people|She is tall and thin.|O uzun ve zayıf.
+throw|atmak;fırlatmak|v|general|Throw the ball to me.|Topu bana at.
+tidy|düzenli;toplamak;derli toplu|adj|home|My room is always tidy.|Odam her zaman düzenli.
+tired of|bıkmış;-den bıkmak|phr|feelings|I'm tired of this job.|Bu işten bıktım.
+tourist|turist|n|travel|There are many tourists in summer.|Yazın çok turist olur.
+traffic|trafik|n|city|The traffic is terrible today.|Bugün trafik berbat.
+trip|gezi;yolculuk;seyahat|n|travel|We went on a trip to Cappadocia.|Kapadokya'ya bir geziye gittik.
+true|doğru;gerçek|adj|general|Is it true?|Doğru mu?
+trust|güvenmek;güven|v|feelings|I trust you.|Sana güveniyorum.
+try|denemek;çalışmak;uğraşmak|v|general|Try this cake.|Bu keki dene.
+turn|dönmek;çevirmek;sıra|v|travel|Turn left at the corner.|Köşeden sola dön.
+ugly|çirkin|adj|general|That building is ugly.|O bina çirkin.
+umbrella|şemsiye|n|weather|Take an umbrella, it's raining.|Şemsiye al, yağmur yağıyor.
+unfortunately|maalesef;ne yazık ki|adv|general|Unfortunately, I can't come.|Maalesef gelemem.
+university|üniversite|n|school|She studies at university.|Üniversitede okuyor.
+use|kullanmak|v|general|Can I use your phone?|Telefonunu kullanabilir miyim?
+useful|yararlı;faydalı;kullanışlı|adj|general|This app is very useful.|Bu uygulama çok faydalı.
+usually|genellikle;genelde;çoğunlukla|adv|time|I usually walk to work.|Genellikle işe yürüyerek giderim.
+view|manzara;görüş|n|travel|The view from the hotel is amazing.|Otelden manzara harika.
+wake|uyandırmak;uyanmak|v|daily|Wake me up at seven.|Beni yedide uyandır.
+wallet|cüzdan|n|shopping|I lost my wallet.|Cüzdanımı kaybettim.
+war|savaş|n|general|War is terrible.|Savaş korkunçtur.
+waste|israf etmek;boşa harcamak;atık|v|general|Don't waste water.|Suyu israf etme.
+west|batı|n|travel|The sun sets in the west.|Güneş batıdan batar.
+wet|ıslak|adj|weather|My shoes are wet.|Ayakkabılarım ıslak.
+win|kazanmak|v|daily|Our team won the match.|Takımımız maçı kazandı.
+wish|dilemek;dilek|v|feelings|I wish you a happy birthday.|Sana mutlu bir doğum günü dilerim.
+worried|endişeli;kaygılı|adj|feelings|I am worried about my exam.|Sınavım için endişeliyim.
+worry|endişelenmek;merak etmek|v|feelings|Don't worry!|Merak etme!
+worse|daha kötü|adj|general|The weather is worse today.|Bugün hava daha kötü.
+worst|en kötü|adj|general|It was the worst day of my life.|Hayatımın en kötü günüydü.
+better|daha iyi|adj|general|I feel better today.|Bugün daha iyi hissediyorum.
+best|en iyi|adj|general|You are my best friend.|Sen benim en iyi arkadaşımsın.
+almost|neredeyse;hemen hemen|adv|general|I'm almost ready.|Neredeyse hazırım.
+anything|herhangi bir şey;bir şey;hiçbir şey|pron|general|Do you need anything?|Bir şeye ihtiyacın var mı?
+everything|her şey|pron|general|Everything is OK.|Her şey yolunda.
+nothing|hiçbir şey;hiç|pron|general|There is nothing in the fridge.|Buzdolabında hiçbir şey yok.
+someone|biri;birisi|pron|general|Someone is at the door.|Kapıda biri var.
+everyone|herkes|pron|general|Everyone is here.|Herkes burada.
+somewhere|bir yer;bir yerde;bir yere|adv|general|I left my keys somewhere.|Anahtarlarımı bir yerde bıraktım.
+abroad|yurt dışında;yurt dışına;yurt dışı|adv|travel|I want to study abroad.|Yurt dışında okumak istiyorum.
+ago|önce|adv|time|I came here two years ago.|Buraya iki yıl önce geldim.
+during|sırasında;boyunca|prep|time|Don't talk during the film.|Film sırasında konuşma.
+until|-e kadar;kadar|prep|time|I work until six.|Altıya kadar çalışırım.
+without|-sız;-siz;olmadan|prep|general|I drink coffee without sugar.|Kahveyi şekersiz içerim.
+between|arasında|prep|general|The bank is between the café and the shop.|Banka kafeyle dükkanın arasında.
+behind|arkasında|prep|general|The garden is behind the house.|Bahçe evin arkasında.
+in front of|önünde|prep|general|I'll meet you in front of the cinema.|Seninle sinemanın önünde buluşurum.
+opposite|karşısında;zıt|prep|city|The bank is opposite the station.|Banka istasyonun karşısında.
+although|-e rağmen;gerçi;her ne kadar|conj|general|Although it was cold, we went out.|Soğuk olmasına rağmen dışarı çıktık.
+if|eğer;-se;-sa|conj|general|If it rains, we'll stay home.|Yağmur yağarsa evde kalırız.
+so|bu yüzden;böylece;çok|conj|general|I was tired, so I went to bed.|Yorgundum, bu yüzden yattım.
+while|-ken;iken|conj|time|I listen to music while I cook.|Yemek yaparken müzik dinlerim.

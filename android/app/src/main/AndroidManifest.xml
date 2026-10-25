@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
-        android:label="ingilizce_calisma_kartlari"
+        android:label="İngilizce Kartlar"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
@@ -27,6 +28,10 @@
         </activity>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
+        <!-- AdMob uygulama kimliği: build.gradle.kts içindeki admobAppId (varsayılan: Google TEST kimliği) -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="${admobAppId}"/>
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
@@ -40,6 +45,14 @@
         <intent>
             <action android:name="android.intent.action.PROCESS_TEXT"/>
             <data android:mimeType="text/plain"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SENDTO"/>
+            <data android:scheme="mailto"/>
         </intent>
     </queries>
 </manifest>
