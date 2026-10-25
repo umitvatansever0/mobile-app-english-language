@@ -41,6 +41,7 @@ jobs:
           retention-days: 14
       - name: Logları ci-logs dalına yaz
         if: always()
+        continue-on-error: true
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -68,11 +69,12 @@ jobs:
         run: mkdir -p /tmp/ios-out && flutter build ios --release --no-codesign 2>&1 | tee /tmp/ios-out/build-ios.txt; exit ${PIPESTATUS[0]}
       - name: Logları ci-logs dalına yaz
         if: always()
+        continue-on-error: true
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git fetch origin ci-logs
-          git checkout -B ci-logs origin/ci-logs
+          git fetch origin ci-logs:refs/remotes/origin/ci-logs
+          git checkout -f -B ci-logs origin/ci-logs
           rm -rf ios-logs && mkdir -p ios-logs && cp /tmp/ios-out/* ios-logs/ || true
           tail -c 200000 ios-logs/build-ios.txt > ios-logs/tail.txt 2>/dev/null || true
           echo "${GITHUB_SHA} $(date -u)" > ios-logs/SHA.txt
