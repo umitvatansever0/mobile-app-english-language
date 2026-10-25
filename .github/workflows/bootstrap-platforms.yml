@@ -1,0 +1,37 @@
+name: Bootstrap platform folders
+
+# One-time job: generates android/ and ios/ with `flutter create` (only if they
+# don't exist yet) and commits them back to the branch.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/bootstrap-platforms.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Generate missing platform folders
+        run: |
+          flutter --version
+          if [ ! -d android ] || [ ! -d ios ]; then
+            flutter create --org com.umitvatansever --project-name ingilizce_calisma_kartlari --platforms android,ios .
+            rm -f test/widget_test.dart
+          fi
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add android ios .metadata || true
+          if git diff --cached --quiet; then echo "Nothing to commit"; exit 0; fi
+          git commit -m "chore: generate android/ and ios/ platform folders"
+          git push
