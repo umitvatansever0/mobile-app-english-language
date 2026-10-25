@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -61,8 +62,13 @@ class AppState extends ChangeNotifier {
     state._history = prefs.loadHistory();
     state._streak = prefs.loadStreak();
     state._earned = prefs.earnedBadges;
-    await state.tts.init(prefs.accent);
-    await state.purchases.init(cachedPremium: prefs.cachedPremium);
+    // Ses ve abonelik başlatma açılışı asla bekletmesin.
+    unawaited(state.tts.init(prefs.accent).timeout(const Duration(seconds: 5), onTimeout: () {}).catchError((Object e) {
+      debugPrint('TTS init hata: $e');
+    }));
+    unawaited(state.purchases.init(cachedPremium: prefs.cachedPremium).timeout(const Duration(seconds: 8), onTimeout: () {}).catchError((Object e) {
+      debugPrint('Purchases init hata: $e');
+    }));
     state.purchases.isPremium.addListener(() {
       prefs.cachedPremium = state.purchases.isPremium.value;
       state.notifyListeners();
