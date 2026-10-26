@@ -20,7 +20,7 @@ Türkçe konuşanlar için İngilizce kelime kartları uygulaması (Flutter — 
 - **Diğer:** Koyu tema, titreşim ve otomatik seslendirme ayarları
 - **Ücretsiz model:**
   - Günde 20 kelime.
-  - Kota dolunca paywall açılır ve **"Reklam izle, +20 kelime"** seçeneği sunulur (günlük reklam sınırı yok; `AppConfig.maxRewardedAdsPerDay` ile sınır konabilir).
+  - Kota dolunca paywall açılır ve **"Reklam izle, +5 kelime"** seçeneği sunulur (günde en fazla 3 reklam; `AppConfig` içinden değiştirilebilir).
   - Ücretsiz sürümde banner reklam gösterilir, kart ekranında gösterilmez.
 - **Premium:** Sınırsız kelime, 50/100'lük seanslar, kategoriler ve konu desteleri, ek modlar, reklamsız deneyim
 - **Kelime verisi:** 1386 kelime, 6 seviye (A1: 402, A2: 235, B1: 293, B2: 186, C1: 142, C2: 128). Her kelimede Türkçe karşılıklar, kelime türü, konu ve Türkçe çevirili örnek cümle var. Yeni kelimeler kullanıcının hedef seviyesinden gelir; hedef seviye bitince bir alt seviyeye geçilir.

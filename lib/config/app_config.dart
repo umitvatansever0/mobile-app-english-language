@@ -22,10 +22,10 @@ class AppConfig {
   // --- Ücretsiz kullanım kuralları ---
   static const dailyFreeWords = 20;
   /// Bir ödüllü reklam izlenince kazanılan ek kelime hakkı.
-  static const rewardedBonusWords = 20;
+  static const rewardedBonusWords = 5;
 
   /// Günlük ödüllü reklam sınırı. null = sınırsız.
-  static const int? maxRewardedAdsPerDay = null;
+  static const int? maxRewardedAdsPerDay = 3;
   static const premiumSessionSizes = [20, 50, 100];
 
   /// RevenueCat'te oluşturulacak entitlement kimliği.
