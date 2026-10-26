@@ -71,6 +71,8 @@ void main() {
       await tapText(t, 'Harika', ms: 1500);
     }
     await shot(t, '10-sonuc');
+    await t.drag(find.byType(Scrollable).first, const Offset(0, -800));
+    await wait(t);
     await tapText(t, 'Tamamla', ms: 2000);
 
     // Sekmeler
