@@ -193,11 +193,11 @@ class _WordRow extends StatelessWidget {
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
               decoration: BoxDecoration(
-                color: mastered ? AppColors.success.withValues(alpha: 0.15) : cs.primaryContainer,
+                color: mastered ? AppColors.success.withValues(alpha: 0.15) : AppColors.tealSoft,
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Text(mastered ? 'Ustalaştı' : 'Öğreniyor',
-                  style: TextStyle(color: mastered ? AppColors.success : cs.primary, fontSize: 13)),
+                  style: TextStyle(color: mastered ? AppColors.emeraldDeep : AppColors.tealDeep, fontSize: 13, fontWeight: FontWeight.w800)),
             ),
         ]),
       ),

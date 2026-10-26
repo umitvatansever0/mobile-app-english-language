@@ -213,10 +213,10 @@ class _BadgeDialog extends StatelessWidget {
   Widget build(BuildContext context) => Dialog(
         backgroundColor: AppColors.tealDeep,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-        child: Padding(
-          padding: const EdgeInsets.fromLTRB(24, 30, 24, 22),
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.fromLTRB(24, 28, 24, 22),
           child: Column(mainAxisSize: MainAxisSize.min, children: [
-            BadgeMedal(badge: badge, size: 140),
+            BadgeMedal(badge: badge, size: 116),
             const SizedBox(height: 24),
             const Tag('YENİ ROZET'),
             const SizedBox(height: 10),

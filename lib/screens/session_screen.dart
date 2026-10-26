@@ -65,13 +65,15 @@ class _SessionScreenState extends State<SessionScreen> {
   List<String> _choices = const [];
   bool _saving = false;
 
-  AppState get _app => context.read<AppState>();
+  // dispose() içinde context kullanılamaz; referansı baştan sakla.
+  late final AppState _app;
   Word get _w => _words[_i];
   bool get _reverse => widget.mode == StudyMode.typeEn || widget.mode == StudyMode.listen;
 
   @override
   void initState() {
     super.initState();
+    _app = context.read<AppState>();
     WidgetsBinding.instance.addPostFrameCallback((_) => _prepareCard());
   }
 
