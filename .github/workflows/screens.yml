@@ -43,10 +43,7 @@ jobs:
           target: google_apis
           profile: pixel_6
           disable-animations: true
-          script: |
-            mkdir -p /tmp/screens-out
-            flutter drive --driver=test_driver/integration_test.dart --target=integration_test/screens_test.dart 2>&1 | tee /tmp/screens-out/drive.txt || true
-            adb logcat -d | grep -E "flutter|AndroidRuntime|FATAL" | tail -300 > /tmp/screens-out/logcat.txt || true
+          script: bash tool/screens.sh
       - name: Görüntüleri ci-logs dalına yaz
         if: always()
         continue-on-error: true
