@@ -63,7 +63,7 @@ void main() {
     await tapText(t, 'Devam et', ms: 1500);
 
     // Oturumu bitir -> rozet -> sonuç
-    await t.tap(find.byTooltip('Kapat').first);
+    await t.tap(find.byIcon(Icons.close_rounded).first);
     await wait(t, 800);
     await tapText(t, 'Bitir', ms: 2500);
     if (find.text('Harika').evaluate().isNotEmpty) {
@@ -85,7 +85,7 @@ void main() {
     await shot(t, '13-profil');
     await tapText(t, "Premium'a geç", ms: 2500);
     await shot(t, '14-premium');
-    await t.tap(find.byTooltip('Kapat').first);
+    await t.tap(find.byIcon(Icons.close_rounded).first);
     await wait(t);
 
     // Koyu tema
