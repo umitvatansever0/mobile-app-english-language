@@ -44,6 +44,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
+      - name: Disk alanı aç (emülatör ~7 GB istiyor)
+        run: |
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/.ghcup /usr/local/share/boost /opt/hostedtoolcache/CodeQL /usr/local/lib/node_modules || true
+          df -h /
       - uses: actions/checkout@v5
         with:
           ref: ${{ github.event.workflow_run.head_sha || github.sha }}
@@ -67,6 +71,7 @@ jobs:
           arch: x86_64
           target: google_apis
           disable-animations: true
+          disk-size: 4096M
           script: bash tool/screens.sh
       - name: Görüntüleri ci-logs dalına yaz
         if: always()
