@@ -36,7 +36,12 @@ jobs:
           cache: true
       - run: flutter pub get
       - name: Debug APK'yı önceden derle (emülatör adımını kısaltır)
-        run: flutter build apk --debug 2>&1 | tail -20 > /tmp/screens-out/build.txt; df -h / >> /tmp/screens-out/disk-after.txt
+        run: |
+          flutter build apk --debug -t integration_test/screens_test.dart 2>&1 | tail -20 > /tmp/screens-out/build.txt
+          # Gradle/Kotlin daemon'ları emülatörün belleğini yemesin
+          pkill -f GradleDaemon || true
+          pkill -f KotlinCompileDaemon || true
+          free -h >> /tmp/screens-out/disk-after.txt
       - name: KVM
         run: |
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
@@ -48,6 +53,7 @@ jobs:
           arch: x86_64
           target: google_apis
           disable-animations: true
+          emulator-boot-timeout: 900
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           script: bash tool/screens.sh
       - name: Görüntüleri ci-logs dalına yaz
