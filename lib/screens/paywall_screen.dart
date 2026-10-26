@@ -184,7 +184,9 @@ class _PaywallScreenState extends State<PaywallScreen> {
                 Padding(
                   padding: const EdgeInsets.only(top: 6),
                   child: Text(
-                    'Bugün ${AppConfig.maxRewardedAdsPerDay - app.today.adsWatched} reklam hakkın kaldı.',
+                    AppConfig.maxRewardedAdsPerDay == null
+                        ? 'Her reklam +${AppConfig.rewardedBonusWords} kelime hakkı verir.'
+                        : 'Bugün ${AppConfig.maxRewardedAdsPerDay! - app.today.adsWatched} reklam hakkın kaldı.',
                     textAlign: TextAlign.center,
                     style: TextStyle(color: pal.muted, fontSize: 13, fontWeight: FontWeight.w700),
                   ),

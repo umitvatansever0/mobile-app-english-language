@@ -39,7 +39,10 @@ class DailyStats {
 
   int remainingFree() => (freeAllowance - studied).clamp(0, 1 << 30);
 
-  bool get canWatchRewardedAd => adsWatched < AppConfig.maxRewardedAdsPerDay;
+  bool get canWatchRewardedAd {
+    final max = AppConfig.maxRewardedAdsPerDay;
+    return max == null || adsWatched < max;
+  }
 
   DailyStats copyWith({int? studied, int? correct, int? wrong, int? dontKnow, int? newWords, int? adsWatched}) =>
       DailyStats(

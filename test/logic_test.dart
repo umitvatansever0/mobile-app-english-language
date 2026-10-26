@@ -82,16 +82,16 @@ void main() {
   });
 
   group('Kota', () {
-    test('günlük 20 + reklam başına 3, en fazla 3 reklam', () {
+    test('günlük 20 + reklam başına 20, reklam sınırı yok', () {
       var d = DailyStats.empty(DateTime(2026, 10, 25));
       expect(d.remainingFree(), 20);
       d = d.copyWith(studied: 20);
       expect(d.remainingFree(), 0);
       d = d.copyWith(adsWatched: 1);
-      expect(d.remainingFree(), 3);
-      d = d.copyWith(adsWatched: 3);
-      expect(d.canWatchRewardedAd, isFalse);
-      expect(d.remainingFree(), 9);
+      expect(d.remainingFree(), 20);
+      d = d.copyWith(adsWatched: 10);
+      expect(d.canWatchRewardedAd, isTrue);
+      expect(d.remainingFree(), 200);
     });
   });
 

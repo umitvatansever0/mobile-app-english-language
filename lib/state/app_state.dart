@@ -257,7 +257,7 @@ class AppState extends ChangeNotifier {
   }
 
   // ---------------- Reklam ödülü ----------------
-  /// Ödüllü reklamı gösterir; izlenirse +3 kelime hakkı verir.
+  /// Ödüllü reklamı gösterir; izlenirse AppConfig.rewardedBonusWords kadar hak verir.
   Future<bool> watchAdForBonus() async {
     if (!canWatchRewardedAd) return false;
     final ok = await ads.showRewarded();
