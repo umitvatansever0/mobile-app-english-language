@@ -1,0 +1,187 @@
+# B2 kelimeleri — biçim a1.txt ile aynı
+abandon|terk etmek;bırakmak;vazgeçmek|v|general|They had to abandon the car in the snow.|Arabayı karda bırakmak zorunda kaldılar.
+absolutely|kesinlikle;tamamen|adv|general|You are absolutely right.|Kesinlikle haklısın.
+abuse|kötüye kullanmak;istismar;suistimal|n|law|This is an abuse of power.|Bu bir yetki suistimalidir.
+access|erişim;giriş;erişmek|n|science|Do you have access to the internet?|İnternete erişimin var mı?
+accurate|doğru;kesin;isabetli|adj|academic|The report is not completely accurate.|Rapor tamamen doğru değil.
+accuse|suçlamak;itham etmek|v|law|He was accused of stealing money.|Para çalmakla suçlandı.
+acknowledge|kabul etmek;onaylamak|v|people|She acknowledged that she was wrong.|Haksız olduğunu kabul etti.
+adapt|uyum sağlamak;uyarlamak|v|general|Children adapt quickly to new situations.|Çocuklar yeni durumlara hızla uyum sağlar.
+adequate|yeterli;uygun|adj|general|The salary is adequate but not great.|Maaş yeterli ama harika değil.
+adjust|ayarlamak;alışmak;uyum sağlamak|v|general|You can adjust the height of the chair.|Sandalyenin yüksekliğini ayarlayabilirsin.
+admit|itiraf etmek;kabul etmek|v|people|He admitted that he had lied.|Yalan söylediğini itiraf etti.
+affect|etkilemek|v|general|The weather affects my mood.|Hava ruh halimi etkiliyor.
+agreement|anlaşma;mutabakat|n|business|The two companies signed an agreement.|İki şirket bir anlaşma imzaladı.
+alternative|alternatif;seçenek|n|general|Is there an alternative to this plan?|Bu plana bir alternatif var mı?
+analyse|analiz etmek;incelemek|v|academic|We need to analyse the data carefully.|Verileri dikkatlice analiz etmemiz gerek.
+anticipate|öngörmek;beklemek|v|general|We don't anticipate any problems.|Herhangi bir sorun beklemiyoruz.
+appreciate|takdir etmek;minnettar olmak|v|feelings|I really appreciate your help.|Yardımını gerçekten takdir ediyorum.
+approach|yaklaşım;yaklaşmak|n|academic|We need a new approach to this problem.|Bu soruna yeni bir yaklaşım gerekiyor.
+appropriate|uygun;yerinde|adj|general|Jeans are not appropriate for a wedding.|Kot pantolon düğün için uygun değil.
+approve|onaylamak;uygun bulmak|v|work|The manager approved my request.|Müdür talebimi onayladı.
+assess|değerlendirmek|v|academic|Teachers assess students' progress every term.|Öğretmenler her dönem öğrencilerin gelişimini değerlendirir.
+assume|varsaymak;farz etmek|v|general|I assume you've already eaten.|Yemek yediğini varsayıyorum.
+assumption|varsayım|n|academic|That's a dangerous assumption.|Bu tehlikeli bir varsayım.
+attempt|girişim;deneme;denemek|n|general|He passed the test on his second attempt.|Sınavı ikinci denemesinde geçti.
+authority|yetki;otorite;makam|n|law|The local authorities closed the road.|Yerel yetkililer yolu kapattı.
+awareness|farkındalık;bilinç|n|society|We want to raise awareness of the problem.|Sorun hakkında farkındalık yaratmak istiyoruz.
+bias|önyargı;taraflılık|n|media|The newspaper shows a clear political bias.|Gazete açık bir siyasi taraflılık gösteriyor.
+bond|bağ|n|people|There is a strong bond between the sisters.|Kız kardeşler arasında güçlü bir bağ var.
+campaign|kampanya|n|society|They started a campaign against smoking.|Sigaraya karşı bir kampanya başlattılar.
+candidate|aday|n|law|There are three candidates for the job.|İş için üç aday var.
+capable|yetenekli;muktedir;yapabilecek durumda|adj|character|She is capable of running the company.|Şirketi yönetebilecek kapasitede.
+capacity|kapasite;sığa|n|numbers|The stadium has a capacity of 50,000.|Stadyumun kapasitesi 50.000.
+circumstances|koşullar;şartlar|n|general|Under the circumstances, we had no choice.|Bu koşullar altında başka seçeneğimiz yoktu.
+claim|iddia etmek;talep etmek;iddia|v|law|He claims that he saw a ghost.|Bir hayalet gördüğünü iddia ediyor.
+commit|işlemek;bağlanmak;adamak|v|law|He committed a serious crime.|Ciddi bir suç işledi.
+commitment|bağlılık;taahhüt;sorumluluk|n|work|Marriage is a big commitment.|Evlilik büyük bir sorumluluktur.
+comparison|karşılaştırma|n|academic|In comparison with last year, sales are up.|Geçen yılla karşılaştırıldığında satışlar arttı.
+compensation|tazminat;telafi|n|law|They received compensation for the delay.|Gecikme için tazminat aldılar.
+competent|yetkin;ehil|adj|work|He is a very competent doctor.|O çok yetkin bir doktor.
+concern|endişe;kaygı;ilgilendirmek|n|feelings|There is growing concern about air quality.|Hava kalitesiyle ilgili endişe artıyor.
+conflict|çatışma;anlaşmazlık|n|society|There is a conflict between the two groups.|İki grup arasında bir çatışma var.
+consequence|sonuç;netice|n|general|You must accept the consequences of your actions.|Davranışlarının sonuçlarını kabul etmelisin.
+considerable|hatırı sayılır;önemli;epey|adj|general|It took a considerable amount of time.|Hatırı sayılır miktarda zaman aldı.
+consist of|-den oluşmak|phr|general|The team consists of five people.|Ekip beş kişiden oluşuyor.
+constant|sürekli;sabit|adj|general|The baby needs constant attention.|Bebeğin sürekli ilgiye ihtiyacı var.
+consumer|tüketici|n|finance|Consumers want cheaper products.|Tüketiciler daha ucuz ürünler istiyor.
+contribute|katkıda bulunmak|v|society|Everyone contributed to the project.|Herkes projeye katkıda bulundu.
+contribution|katkı;bağış|n|society|Thank you for your contribution.|Katkın için teşekkürler.
+controversial|tartışmalı|adj|media|It's a very controversial decision.|Çok tartışmalı bir karar.
+convert|dönüştürmek;çevirmek|v|general|We converted the garage into an office.|Garajı ofise dönüştürdük.
+cooperate|işbirliği yapmak|v|work|The two departments need to cooperate.|İki departmanın işbirliği yapması gerekiyor.
+cope|başa çıkmak;üstesinden gelmek|v|feelings|She is coping well with the new job.|Yeni işle iyi başa çıkıyor.
+crucial|çok önemli;kritik;hayati|adj|general|The next few days are crucial.|Önümüzdeki birkaç gün çok kritik.
+deadline|son teslim tarihi|n|work|The deadline is next Friday.|Son teslim tarihi gelecek cuma.
+debate|tartışma;münazara|n|society|There was a long debate about the new law.|Yeni yasa hakkında uzun bir tartışma oldu.
+decline|düşüş;azalmak;reddetmek|n|finance|There has been a decline in sales.|Satışlarda bir düşüş oldu.
+dedicated|kendini adamış;özverili|adj|character|She is a very dedicated teacher.|Çok özverili bir öğretmen.
+define|tanımlamak|v|academic|How would you define success?|Başarıyı nasıl tanımlarsın?
+deliberately|kasten;bilerek|adv|general|He deliberately broke the window.|Pencereyi bilerek kırdı.
+democracy|demokrasi|n|law|Free elections are essential in a democracy.|Serbest seçimler demokraside vazgeçilmezdir.
+deny|inkar etmek;reddetmek|v|law|He denied stealing the money.|Parayı çaldığını inkar etti.
+depressed|depresif;bunalımda;moralsiz|adj|feelings|He felt depressed after losing his job.|İşini kaybettikten sonra bunalıma girdi.
+desperate|çaresiz;umutsuz|adj|feelings|They were desperate for help.|Yardıma çok muhtaçlardı.
+detect|tespit etmek;fark etmek|v|science|The test can detect the virus early.|Test virüsü erken tespit edebiliyor.
+diverse|çeşitli;farklı|adj|society|London is a very diverse city.|Londra çok çeşitli kültürlerin olduğu bir şehir.
+dominate|hakim olmak;baskın olmak|v|general|Two companies dominate the market.|Pazara iki şirket hakim.
+efficient|verimli;etkili|adj|work|This new machine is much more efficient.|Bu yeni makine çok daha verimli.
+element|unsur;öğe;eleman|n|academic|Trust is an important element in any relationship.|Güven her ilişkide önemli bir unsurdur.
+eliminate|ortadan kaldırmak;elemek|v|general|We want to eliminate all errors.|Tüm hataları ortadan kaldırmak istiyoruz.
+emphasis|vurgu|n|academic|There is too much emphasis on exams.|Sınavlara çok fazla vurgu yapılıyor.
+enable|olanak sağlamak;mümkün kılmak|v|general|The money will enable us to build a new school.|Para yeni bir okul yapmamızı mümkün kılacak.
+encounter|karşılaşmak;rastlamak|v|general|We encountered many problems on the way.|Yolda birçok sorunla karşılaştık.
+enormous|devasa;muazzam|adj|general|They live in an enormous house.|Devasa bir evde yaşıyorlar.
+ensure|sağlamak;garantilemek|v|general|Please ensure that all doors are locked.|Lütfen tüm kapıların kilitli olduğundan emin olun.
+entire|bütün;tüm|adj|general|I spent the entire day cleaning.|Bütün günü temizlik yaparak geçirdim.
+establish|kurmak;tesis etmek|v|business|The company was established in 1990.|Şirket 1990'da kuruldu.
+estimate|tahmin etmek;tahmin|v|numbers|Experts estimate the cost at two million.|Uzmanlar maliyeti iki milyon olarak tahmin ediyor.
+evaluate|değerlendirmek|v|academic|We need to evaluate the results.|Sonuçları değerlendirmemiz gerek.
+evidence|kanıt;delil|n|law|There is no evidence that he did it.|Onun yaptığına dair bir kanıt yok.
+evolve|gelişmek;evrimleşmek|v|science|Languages evolve over time.|Diller zamanla gelişir.
+exaggerate|abartmak|v|people|Don't exaggerate, it wasn't that bad.|Abartma, o kadar da kötü değildi.
+exceed|aşmak;geçmek|v|numbers|Don't exceed the speed limit.|Hız sınırını aşma.
+exception|istisna|n|general|Everyone came, with the exception of Tom.|Tom hariç herkes geldi.
+exclude|hariç tutmak;dışlamak|v|general|The price excludes tax.|Fiyata vergi dahil değil.
+expand|genişlemek;büyümek;genişletmek|v|business|The company plans to expand into Asia.|Şirket Asya'ya açılmayı planlıyor.
+expert|uzman|n|work|She is an expert in computer security.|Bilgisayar güvenliği uzmanı.
+exposure|maruz kalma;teşhir|n|health|Too much exposure to the sun is bad for your skin.|Güneşe çok maruz kalmak cildin için kötüdür.
+extent|ölçü;derece;kapsam|n|general|To some extent, I agree with you.|Bir dereceye kadar sana katılıyorum.
+facility|tesis;olanak|n|city|The hotel has excellent sports facilities.|Otelin mükemmel spor tesisleri var.
+factor|faktör;etken|n|academic|Price is an important factor.|Fiyat önemli bir etken.
+flexible|esnek|adj|work|I have flexible working hours.|Esnek çalışma saatlerim var.
+frustrated|hüsrana uğramış;bıkkın|adj|feelings|I get frustrated when my computer is slow.|Bilgisayarım yavaş olunca sinirleniyorum.
+fundamental|temel;esas|adj|academic|There is a fundamental problem with the plan.|Planda temel bir sorun var.
+guarantee|garanti;garanti etmek|n|shopping|The TV comes with a two-year guarantee.|Televizyon iki yıl garantili.
+hesitate|tereddüt etmek;duraksamak|v|people|Don't hesitate to call me.|Beni aramaktan çekinme.
+highlight|vurgulamak;öne çıkarmak;en önemli an|v|academic|The report highlights several problems.|Rapor birkaç sorunu vurguluyor.
+identify|tanımlamak;belirlemek;teşhis etmek|v|general|Can you identify the man in the photo?|Fotoğraftaki adamı tanıyabilir misin?
+ignorant|cahil;bilgisiz|adj|character|I'm ignorant about politics.|Siyaset konusunda bilgisizim.
+impact|etki;darbe|n|general|The internet has had a huge impact on our lives.|İnternetin hayatımız üzerinde büyük bir etkisi oldu.
+implement|uygulamak;hayata geçirmek|v|business|The new rules will be implemented next year.|Yeni kurallar gelecek yıl uygulanacak.
+imply|ima etmek;anlamına gelmek|v|people|Are you implying that I'm lying?|Yalan söylediğimi mi ima ediyorsun?
+indicate|göstermek;belirtmek|v|academic|Studies indicate that exercise improves memory.|Araştırmalar egzersizin hafızayı geliştirdiğini gösteriyor.
+inevitable|kaçınılmaz|adj|general|Change is inevitable.|Değişim kaçınılmazdır.
+initial|ilk;başlangıçtaki|adj|time|My initial reaction was surprise.|İlk tepkim şaşkınlıktı.
+insight|içgörü;kavrayış|n|academic|The book gives a great insight into Japanese culture.|Kitap Japon kültürüne dair harika bir içgörü sunuyor.
+inspire|ilham vermek|v|feelings|Her story inspired me.|Onun hikayesi bana ilham verdi.
+interpret|yorumlamak;tercümanlık yapmak|v|academic|How do you interpret these results?|Bu sonuçları nasıl yorumluyorsun?
+investigate|soruşturmak;araştırmak|v|law|The police are investigating the murder.|Polis cinayeti soruşturuyor.
+invest|yatırım yapmak|v|finance|He invested his savings in property.|Birikimlerini gayrimenkule yatırdı.
+investment|yatırım|n|finance|Buying a house is a good investment.|Ev almak iyi bir yatırımdır.
+issue|konu;sorun;mesele|n|society|Climate change is a global issue.|İklim değişikliği küresel bir sorundur.
+justify|haklı çıkarmak;gerekçelendirmek|v|academic|How can you justify spending so much?|Bu kadar harcamayı nasıl haklı çıkarabilirsin?
+labour|emek;işçilik;iş gücü|n|work|The cost of labour is very high.|İşçilik maliyeti çok yüksek.
+launch|başlatmak;piyasaya sürmek;fırlatmak|v|business|They will launch the new phone in May.|Yeni telefonu mayısta piyasaya sürecekler.
+legal|yasal;hukuki|adj|law|Is it legal to park here?|Buraya park etmek yasal mı?
+maintain|sürdürmek;korumak;bakımını yapmak|v|general|It's important to maintain a healthy weight.|Sağlıklı bir kiloyu korumak önemli.
+majority|çoğunluk|n|society|The majority of people agree.|İnsanların çoğunluğu aynı fikirde.
+minority|azınlık|n|society|Only a minority of students failed.|Öğrencilerin sadece küçük bir kısmı kaldı.
+moreover|üstelik;ayrıca;dahası|adv|academic|The house is too small. Moreover, it's too expensive.|Ev çok küçük. Üstelik çok da pahalı.
+motivate|motive etmek;güdülemek|v|feelings|Good teachers motivate their students.|İyi öğretmenler öğrencilerini motive eder.
+negotiate|müzakere etmek;pazarlık yapmak|v|business|We negotiated a better price.|Daha iyi bir fiyat için pazarlık yaptık.
+nevertheless|yine de;buna rağmen|adv|academic|It was raining. Nevertheless, we went out.|Yağmur yağıyordu. Yine de dışarı çıktık.
+objective|hedef;amaç;nesnel|n|work|Our main objective is to increase sales.|Ana hedefimiz satışları artırmak.
+obligation|yükümlülük;zorunluluk|n|law|You are under no obligation to buy.|Satın alma zorunluluğun yok.
+observe|gözlemlemek;izlemek|v|science|Scientists observed the animals for months.|Bilim insanları hayvanları aylarca gözlemledi.
+obtain|elde etmek;edinmek|v|general|You must obtain a visa before you travel.|Seyahat etmeden önce vize almalısın.
+occur|meydana gelmek;olmak|v|general|The accident occurred at midnight.|Kaza gece yarısı meydana geldi.
+option|seçenek|n|general|We have two options.|İki seçeneğimiz var.
+outcome|sonuç|n|general|We are waiting for the outcome of the meeting.|Toplantının sonucunu bekliyoruz.
+overcome|üstesinden gelmek;yenmek|v|feelings|She overcame her fear of flying.|Uçma korkusunu yendi.
+participate|katılmak|v|society|All students must participate in the event.|Tüm öğrenciler etkinliğe katılmalı.
+particular|özel;belirli|adj|general|Is there a particular reason?|Belirli bir sebebi var mı?
+perspective|bakış açısı;perspektif|n|academic|Try to see it from my perspective.|Buna benim bakış açımdan bakmaya çalış.
+phenomenon|olgu;fenomen|n|science|Northern lights are a natural phenomenon.|Kuzey ışıkları doğal bir olgudur.
+policy|politika;poliçe|n|law|The government changed its policy on education.|Hükümet eğitim politikasını değiştirdi.
+potential|potansiyel;olası|n|general|She has great potential as a singer.|Şarkıcı olarak büyük bir potansiyeli var.
+precise|kesin;tam;net|adj|academic|Can you be more precise?|Daha net olabilir misin?
+priority|öncelik|n|work|Safety is our top priority.|Güvenlik en büyük önceliğimiz.
+procedure|prosedür;işlem;yöntem|n|work|What is the procedure for getting a visa?|Vize almanın prosedürü nedir?
+promote|tanıtmak;terfi ettirmek;desteklemek|v|business|She was promoted to manager.|Müdürlüğe terfi etti.
+proportion|oran;orantı|n|numbers|A large proportion of the population is young.|Nüfusun büyük bir oranı genç.
+pursue|peşinden koşmak;sürdürmek|v|work|He decided to pursue a career in law.|Hukuk alanında kariyer yapmaya karar verdi.
+recover|iyileşmek;toparlanmak;geri almak|v|health|She is recovering from an operation.|Bir ameliyattan sonra iyileşiyor.
+reflect|yansıtmak;düşünmek|v|general|His words reflect his true feelings.|Sözleri gerçek duygularını yansıtıyor.
+reform|reform;yeniden düzenlemek|n|law|The country needs economic reform.|Ülkenin ekonomik reforma ihtiyacı var.
+regulation|düzenleme;yönetmelik|n|law|There are strict regulations on noise.|Gürültüyle ilgili katı yönetmelikler var.
+reject|reddetmek;geri çevirmek|v|work|My application was rejected.|Başvurum reddedildi.
+relevant|ilgili;alakalı|adj|academic|That question is not relevant.|O soru konuyla ilgili değil.
+reluctant|isteksiz;gönülsüz|adj|feelings|He was reluctant to help.|Yardım etmeye isteksizdi.
+rely on|güvenmek;bel bağlamak|phr|people|You can always rely on me.|Bana her zaman güvenebilirsin.
+represent|temsil etmek|v|law|She represents her country at the Olympics.|Olimpiyatlarda ülkesini temsil ediyor.
+reputation|itibar;ün|n|business|The restaurant has a good reputation.|Restoranın iyi bir itibarı var.
+resolve|çözmek;karar vermek|v|general|We need to resolve this conflict.|Bu anlaşmazlığı çözmemiz gerek.
+resource|kaynak|n|nature|Water is a precious resource.|Su değerli bir kaynaktır.
+restrict|kısıtlamak;sınırlamak|v|law|The new law restricts smoking in public places.|Yeni yasa kamusal alanlarda sigarayı kısıtlıyor.
+reveal|ortaya çıkarmak;açığa vurmak|v|general|The study revealed some surprising facts.|Çalışma bazı şaşırtıcı gerçekleri ortaya çıkardı.
+revenue|gelir;hasılat|n|finance|Tourism brings in a lot of revenue.|Turizm çok gelir getiriyor.
+significant|önemli;kayda değer|adj|academic|There has been a significant increase in prices.|Fiyatlarda kayda değer bir artış oldu.
+similar|benzer|adj|general|My sister and I have similar tastes.|Kız kardeşimle benzer zevklerimiz var.
+sophisticated|gelişmiş;sofistike;karmaşık|adj|science|This is a very sophisticated system.|Bu çok gelişmiş bir sistem.
+specific|belirli;özel;spesifik|adj|general|Can you give me a specific example?|Bana belirli bir örnek verebilir misin?
+status|durum;statü|n|society|What is the status of my order?|Siparişimin durumu nedir?
+strategy|strateji|n|business|We need a new marketing strategy.|Yeni bir pazarlama stratejisine ihtiyacımız var.
+substantial|önemli;büyük;esaslı|adj|general|They made a substantial profit.|Büyük bir kâr elde ettiler.
+sufficient|yeterli|adj|general|We don't have sufficient time.|Yeterli zamanımız yok.
+sustainable|sürdürülebilir|adj|nature|We need more sustainable energy.|Daha sürdürülebilir enerjiye ihtiyacımız var.
+symptom|belirti;semptom|n|health|Fever is a common symptom of flu.|Ateş gribin yaygın bir belirtisidir.
+tendency|eğilim|n|general|He has a tendency to talk too much.|Çok konuşma eğilimi var.
+tension|gerginlik;gerilim|n|feelings|There was a lot of tension in the room.|Odada çok gerginlik vardı.
+theory|teori;kuram|n|science|Einstein's theory changed physics.|Einstein'ın teorisi fiziği değiştirdi.
+threat|tehdit|n|society|Pollution is a threat to our health.|Kirlilik sağlığımız için bir tehdit.
+tolerate|tahammül etmek;hoş görmek|v|people|I can't tolerate rude behaviour.|Kaba davranışa tahammül edemem.
+transform|dönüştürmek;değiştirmek|v|general|The internet transformed the way we work.|İnternet çalışma şeklimizi dönüştürdü.
+trend|eğilim;trend;akım|n|media|This is the latest fashion trend.|Bu son moda akımı.
+unemployment|işsizlik|n|work|Unemployment is rising.|İşsizlik artıyor.
+urgent|acil|adj|work|I have an urgent message for you.|Sana acil bir mesajım var.
+vary|değişmek;farklılık göstermek|v|general|Prices vary from shop to shop.|Fiyatlar dükkandan dükkana değişir.
+victim|kurban;mağdur|n|law|The victims of the flood need help.|Sel mağdurlarının yardıma ihtiyacı var.
+violence|şiddet|n|law|There is too much violence on TV.|Televizyonda çok fazla şiddet var.
+virtually|neredeyse;hemen hemen|adv|general|The town was virtually empty.|Kasaba neredeyse boştu.
+visible|görünür;görülebilir|adj|general|The mountain is visible from my window.|Dağ penceremden görünüyor.
+wealth|servet;zenginlik|n|finance|He made his wealth in the oil business.|Servetini petrol işinden yaptı.
+welfare|refah;sosyal yardım|n|society|The government is responsible for public welfare.|Hükümet halkın refahından sorumludur.
+whereas|oysa;-iken|conj|academic|I like tea, whereas my wife prefers coffee.|Ben çay severim, oysa eşim kahveyi tercih eder.
+widespread|yaygın|adj|society|The use of smartphones is widespread.|Akıllı telefon kullanımı yaygın.
+withdraw|çekmek;geri çekmek|v|finance|I need to withdraw some money.|Biraz para çekmem lazım.

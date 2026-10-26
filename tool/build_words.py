@@ -8,13 +8,14 @@ kimlik için kullanılır.
 import json, re, sys, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-LEVELS = ["a1", "a2", "b1", "b2", "c1"]
+LEVELS = ["a1", "a2", "b1", "b2", "c1", "c2"]
 POS = {"n", "v", "adj", "adv", "pron", "prep", "conj", "num", "det", "int", "phr"}
 
 def slug(s):
     return re.sub(r"[^a-z0-9]+", "_", s.lower()).strip("_")
 
 words, seen, errors = [], set(), []
+seen_en = {}  # (kelime, tür) -> ilk görüldüğü dosya; seviyeler arası tekrarı engeller
 for lvl in LEVELS:
     f = ROOT / "data_src" / f"{lvl}.txt"
     if not f.exists():
@@ -31,6 +32,10 @@ for lvl in LEVELS:
             errors.append(f"{f.name}:{ln}: bilinmeyen tür '{pos}'"); continue
         en = re.sub(r"\s*\((verb|adj|noun)\)$", "", en_raw)
         answers = [a.strip() for a in tr.split(";") if a.strip()]
+        key = (en.lower(), pos)
+        if key in seen_en:
+            errors.append(f"{f.name}:{ln}: '{en}' ({pos}) zaten {seen_en[key]} içinde var"); continue
+        seen_en[key] = f.name
         wid = f"{lvl}_{slug(en)}_{pos}"
         if wid in seen:
             errors.append(f"{f.name}:{ln}: tekrar eden kelime '{en}' ({pos})"); continue

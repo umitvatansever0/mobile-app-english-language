@@ -1,0 +1,294 @@
+# B1 kelimeleri — biçim a1.txt ile aynı
+achieve|başarmak;elde etmek;ulaşmak|v|work|She achieved all her goals this year.|Bu yıl tüm hedeflerine ulaştı.
+achievement|başarı|n|work|Finishing the marathon was a great achievement.|Maratonu bitirmek büyük bir başarıydı.
+actually|aslında;gerçekte|adv|general|Actually, I don't like coffee very much.|Aslında kahveyi pek sevmem.
+admire|hayran olmak;takdir etmek|v|feelings|I really admire my grandmother.|Büyükanneme gerçekten hayranım.
+advantage|avantaj;üstünlük|n|general|Speaking English is a big advantage.|İngilizce konuşmak büyük bir avantaj.
+disadvantage|dezavantaj;sakınca|n|general|The main disadvantage is the price.|Ana dezavantajı fiyatı.
+advertise|reklam yapmak;ilan vermek|v|media|They advertise their products on TV.|Ürünlerinin reklamını televizyonda yapıyorlar.
+advertisement|reklam;ilan|n|media|I saw an advertisement for a new phone.|Yeni bir telefonun reklamını gördüm.
+afford|-e gücü yetmek;karşılayabilmek|v|finance|We can't afford a new car.|Yeni bir arabaya gücümüz yetmez.
+aim|amaç;hedef;amaçlamak|n|general|Our aim is to help small businesses.|Amacımız küçük işletmelere yardım etmek.
+allow|izin vermek|v|general|My parents don't allow me to stay out late.|Ailem geç saate kadar dışarıda kalmama izin vermiyor.
+amazing|harika;inanılmaz;muhteşem|adj|feelings|The view from the top was amazing.|Tepeden manzara harikaydı.
+ambition|hırs;tutku;büyük hedef|n|character|Her ambition is to become a pilot.|En büyük hedefi pilot olmak.
+announce|duyurmak;ilan etmek|v|media|They announced the winner on Friday.|Kazananı cuma günü açıkladılar.
+annoy|sinirlendirmek;kızdırmak|v|feelings|Loud music really annoys me.|Yüksek müzik beni gerçekten sinirlendiriyor.
+annoyed|sinirli;canı sıkılmış|adj|feelings|She was annoyed because he was late.|O geç kaldığı için sinirliydi.
+anxious|endişeli;kaygılı;huzursuz|adj|feelings|I always feel anxious before exams.|Sınavlardan önce hep endişeli hissederim.
+apologise|özür dilemek|v|people|You should apologise to your sister.|Kız kardeşinden özür dilemelisin.
+appear|görünmek;ortaya çıkmak|v|general|A strange man appeared at the door.|Kapıda garip bir adam belirdi.
+apply|başvurmak;uygulamak|v|work|I applied for a job at the bank.|Bankadaki bir işe başvurdum.
+appointment|randevu|n|health|I have a dentist appointment at three.|Saat üçte dişçi randevum var.
+argue|tartışmak;kavga etmek|v|people|My brothers argue about everything.|Erkek kardeşlerim her şey hakkında tartışır.
+argument|tartışma;münakaşa;argüman|n|people|They had an argument about money.|Para yüzünden tartıştılar.
+arrange|ayarlamak;düzenlemek;organize etmek|v|general|Can you arrange a meeting for Monday?|Pazartesi için bir toplantı ayarlayabilir misin?
+attend|katılmak;devam etmek|v|school|Over 200 people attended the conference.|Konferansa 200'den fazla kişi katıldı.
+attitude|tutum;davranış;bakış açısı|n|character|He has a very positive attitude.|Çok olumlu bir tutumu var.
+attract|çekmek;cezbetmek|v|general|The festival attracts thousands of tourists.|Festival binlerce turisti çekiyor.
+available|mevcut;müsait;uygun|adj|general|Is this room available tonight?|Bu oda bu gece müsait mi?
+average|ortalama|adj|numbers|The average age of the students is 22.|Öğrencilerin ortalama yaşı 22.
+avoid|kaçınmak;sakınmak|v|general|Try to avoid sugar and fast food.|Şekerden ve fast fooddan kaçınmaya çalış.
+aware|farkında;haberdar|adj|general|Are you aware of the risks?|Risklerin farkında mısın?
+background|geçmiş;arka plan;altyapı|n|people|She comes from a musical background.|Müzisyen bir aileden geliyor.
+balance|denge;bakiye|n|general|It's important to keep a balance between work and life.|İş ve özel hayat arasında denge kurmak önemli.
+behave|davranmak;uslu durmak|v|people|The children behaved very well today.|Çocuklar bugün çok uslu davrandı.
+behaviour|davranış|n|people|His behaviour at the party was terrible.|Partideki davranışı berbattı.
+benefit|fayda;yarar;menfaat|n|general|Regular exercise has many benefits.|Düzenli egzersizin birçok faydası var.
+bill|fatura;hesap|n|finance|Can we have the bill, please?|Hesabı alabilir miyiz lütfen?
+blame|suçlamak;sorumlu tutmak|v|people|Don't blame me for your mistakes.|Kendi hataların için beni suçlama.
+bother|rahatsız etmek;zahmet etmek|v|people|Sorry to bother you, but where is the station?|Rahatsız ettiğim için özür dilerim ama istasyon nerede?
+brave|cesur;yürekli|adj|character|The firefighter was very brave.|İtfaiyeci çok cesurdu.
+breath|nefes|n|body|Take a deep breath and relax.|Derin bir nefes al ve rahatla.
+breathe|nefes almak|v|body|It's hard to breathe in this smoke.|Bu dumanın içinde nefes almak zor.
+budget|bütçe|n|finance|We have a small budget for the holiday.|Tatil için küçük bir bütçemiz var.
+calm|sakin;huzurlu|adj|feelings|Stay calm and listen to me.|Sakin ol ve beni dinle.
+career|kariyer;meslek hayatı|n|work|She wants a career in medicine.|Tıpta kariyer yapmak istiyor.
+cause|sebep olmak;neden olmak;sebep|v|general|The storm caused a lot of damage.|Fırtına büyük hasara yol açtı.
+celebration|kutlama|n|daily|There was a big celebration after the match.|Maçtan sonra büyük bir kutlama vardı.
+challenge|meydan okuma;zorluk;zor görev|n|general|Learning a new language is a real challenge.|Yeni bir dil öğrenmek gerçek bir zorluk.
+character|karakter;kişilik|n|character|The main character in the book is a young girl.|Kitabın ana karakteri genç bir kız.
+charge|ücret almak;şarj etmek;ücret|v|finance|The hotel charges 100 euros a night.|Otel gecelik 100 avro alıyor.
+cheat|kopya çekmek;hile yapmak;aldatmak|v|school|He was caught cheating in the exam.|Sınavda kopya çekerken yakalandı.
+cheerful|neşeli;güler yüzlü|adj|character|She is always cheerful in the morning.|Sabahları hep neşelidir.
+citizen|vatandaş|n|society|Every citizen has the right to vote.|Her vatandaşın oy kullanma hakkı vardır.
+climate|iklim|n|nature|The climate here is warm and dry.|Buranın iklimi sıcak ve kurak.
+colleague|iş arkadaşı;meslektaş|n|work|I'm going to lunch with my colleagues.|İş arkadaşlarımla öğle yemeğine gidiyorum.
+comment|yorum;yorum yapmak|n|media|Thanks for all your comments.|Tüm yorumlarınız için teşekkürler.
+common|yaygın;ortak;sık rastlanan|adj|general|Smith is a common name in England.|Smith İngiltere'de yaygın bir isimdir.
+communicate|iletişim kurmak|v|people|We communicate by email.|E-postayla iletişim kuruyoruz.
+community|topluluk;toplum;cemiyet|n|society|He is well known in the local community.|Yerel toplulukta iyi tanınır.
+compete|yarışmak;rekabet etmek|v|daily|Ten teams will compete in the tournament.|Turnuvada on takım yarışacak.
+complain|şikayet etmek;yakınmak|v|people|He always complains about the food.|Yemekten hep şikayet eder.
+complaint|şikayet|n|shopping|I want to make a complaint.|Şikayette bulunmak istiyorum.
+concentrate|konsantre olmak;odaklanmak|v|school|I can't concentrate with this noise.|Bu gürültüde konsantre olamıyorum.
+conclusion|sonuç;karar|n|academic|What conclusion did you reach?|Hangi sonuca vardın?
+condition|durum;koşul;şart|n|general|The car is in good condition.|Araba iyi durumda.
+confident|kendinden emin;özgüvenli|adj|character|She is a confident speaker.|Kendinden emin bir konuşmacı.
+confirm|onaylamak;teyit etmek|v|travel|Please confirm your booking by email.|Lütfen rezervasyonunuzu e-postayla onaylayın.
+confused|kafası karışık;şaşkın|adj|feelings|I'm confused. Can you explain again?|Kafam karıştı. Tekrar açıklar mısın?
+connect|bağlamak;bağlanmak|v|science|Connect your phone to the Wi-Fi.|Telefonunu Wi-Fi'ye bağla.
+consider|düşünmek;göz önünde bulundurmak|v|general|We are considering moving to Spain.|İspanya'ya taşınmayı düşünüyoruz.
+contact|iletişime geçmek;irtibat|v|people|Please contact us if you have any questions.|Sorunuz olursa lütfen bizimle iletişime geçin.
+contain|içermek;kapsamak|v|general|This drink contains a lot of sugar.|Bu içecek çok şeker içeriyor.
+convenient|uygun;elverişli;kullanışlı|adj|general|Is Monday convenient for you?|Pazartesi senin için uygun mu?
+conversation|konuşma;sohbet|n|people|We had a long conversation about life.|Hayat hakkında uzun bir sohbet ettik.
+convince|ikna etmek;inandırmak|v|people|I convinced him to come with us.|Onu bizimle gelmeye ikna ettim.
+correct|doğru;düzeltmek|adj|school|Is this answer correct?|Bu cevap doğru mu?
+crime|suç|n|law|Crime is a big problem in some cities.|Bazı şehirlerde suç büyük bir sorun.
+criminal|suçlu;cezai|n|law|The police caught the criminal.|Polis suçluyu yakaladı.
+criticise|eleştirmek|v|people|He criticised the government's plan.|Hükümetin planını eleştirdi.
+cure|tedavi;çare;iyileştirmek|n|health|There is no cure for the common cold.|Soğuk algınlığının bir çaresi yok.
+curious|meraklı|adj|character|Children are naturally curious.|Çocuklar doğal olarak meraklıdır.
+damage|hasar;zarar;zarar vermek|n|general|The fire caused serious damage.|Yangın ciddi hasara yol açtı.
+deal with|ilgilenmek;başa çıkmak;halletmek|phr|work|I'll deal with this problem tomorrow.|Bu sorunla yarın ilgileneceğim.
+debt|borç|n|finance|He is trying to pay off his debts.|Borçlarını ödemeye çalışıyor.
+decision|karar|n|general|It was a difficult decision.|Zor bir karardı.
+degree|derece;diploma;lisans|n|school|She has a degree in economics.|İktisat diploması var.
+delay|gecikme;rötar;ertelemek|n|travel|There is a two-hour delay.|İki saatlik bir rötar var.
+deliver|teslim etmek;dağıtmak|v|shopping|They deliver pizza until midnight.|Gece yarısına kadar pizza teslim ediyorlar.
+demand|talep;talep etmek|n|finance|There is a high demand for nurses.|Hemşirelere yüksek talep var.
+depend|bağlı olmak;güvenmek|v|general|It depends on the weather.|Havaya bağlı.
+deserve|hak etmek|v|general|You deserve a holiday.|Bir tatili hak ediyorsun.
+design|tasarım;tasarlamak|n|work|I love the design of this building.|Bu binanın tasarımına bayılıyorum.
+destroy|yok etmek;yıkmak;mahvetmek|v|general|The earthquake destroyed many houses.|Deprem birçok evi yıktı.
+detail|ayrıntı;detay|n|general|Please send me more details.|Lütfen bana daha fazla ayrıntı gönderin.
+determined|kararlı;azimli|adj|character|She is determined to win.|Kazanmaya kararlı.
+develop|geliştirmek;gelişmek|v|work|They are developing a new app.|Yeni bir uygulama geliştiriyorlar.
+development|gelişme;geliştirme;kalkınma|n|society|Children need support for healthy development.|Çocukların sağlıklı gelişim için desteğe ihtiyacı var.
+device|cihaz;alet|n|science|Turn off all electronic devices.|Tüm elektronik cihazları kapatın.
+disappear|kaybolmak;ortadan kaybolmak|v|general|My keys have disappeared again.|Anahtarlarım yine kayboldu.
+disappointed|hayal kırıklığına uğramış|adj|feelings|I was disappointed with the result.|Sonuçtan hayal kırıklığına uğradım.
+discount|indirim|n|shopping|Students get a 20% discount.|Öğrenciler %20 indirim alıyor.
+discuss|tartışmak;görüşmek|v|work|We need to discuss the plan.|Planı konuşmamız gerek.
+disease|hastalık|n|health|Heart disease is very common.|Kalp hastalığı çok yaygın.
+divide|bölmek;ayırmak|v|numbers|Divide the cake into eight pieces.|Pastayı sekiz parçaya böl.
+effect|etki;sonuç|n|general|The medicine had no effect.|İlacın hiçbir etkisi olmadı.
+effort|çaba;gayret|n|general|Thank you for your effort.|Çaban için teşekkürler.
+electricity|elektrik|n|science|The electricity went off during the storm.|Fırtına sırasında elektrikler kesildi.
+emergency|acil durum|n|health|Call 112 in an emergency.|Acil durumda 112'yi ara.
+employ|işe almak;istihdam etmek|v|work|The company employs 500 people.|Şirket 500 kişi istihdam ediyor.
+employee|çalışan;işçi;personel|n|work|All employees must wear a badge.|Tüm çalışanlar kart takmak zorunda.
+employer|işveren|n|work|My employer pays for my training.|İşverenim eğitimimin parasını ödüyor.
+encourage|cesaretlendirmek;teşvik etmek|v|people|My teacher encouraged me to write.|Öğretmenim beni yazmaya teşvik etti.
+entertainment|eğlence|n|media|There is live entertainment every evening.|Her akşam canlı eğlence var.
+equipment|ekipman;donanım;teçhizat|n|work|We need new sports equipment.|Yeni spor ekipmanına ihtiyacımız var.
+especially|özellikle|adv|general|I love fruit, especially strawberries.|Meyveyi severim, özellikle çileği.
+event|olay;etkinlik|n|daily|The concert was the biggest event of the year.|Konser yılın en büyük etkinliğiydi.
+eventually|sonunda;nihayetinde|adv|time|We eventually found the hotel.|Sonunda oteli bulduk.
+exactly|tam olarak;aynen|adv|general|That's exactly what I wanted.|Tam olarak istediğim buydu.
+exhausted|bitkin;çok yorgun|adj|feelings|I was exhausted after the long trip.|Uzun yolculuktan sonra bitkindim.
+explore|keşfetmek;araştırmak|v|travel|We spent the day exploring the old town.|Günü eski şehri keşfederek geçirdik.
+express|ifade etmek;dile getirmek|v|people|It's hard to express my feelings in English.|Duygularımı İngilizce ifade etmek zor.
+fair|adil;haklı;fuar|adj|society|That's not fair!|Bu adil değil!
+familiar|tanıdık;aşina|adj|general|Her face looks familiar.|Yüzü tanıdık geliyor.
+fashion|moda|n|clothes|She works in the fashion industry.|Moda sektöründe çalışıyor.
+fear|korku;korkmak|n|feelings|He has a fear of flying.|Uçma korkusu var.
+fee|ücret;harç|n|finance|The entrance fee is ten dollars.|Giriş ücreti on dolar.
+fit|uymak;formda;sığmak|v|clothes|These jeans don't fit me.|Bu kot pantolon bana olmuyor.
+flight|uçuş|n|travel|Our flight leaves at six in the morning.|Uçuşumuz sabah altıda kalkıyor.
+force|zorlamak;güç;kuvvet|v|general|Nobody forced you to come.|Kimse seni gelmeye zorlamadı.
+forgive|affetmek;bağışlamak|v|feelings|Please forgive me.|Lütfen beni affet.
+fortunately|neyse ki;şans eseri|adv|general|Fortunately, nobody was hurt.|Neyse ki kimse yaralanmadı.
+frightened|korkmuş;ürkmüş|adj|feelings|The child was frightened of the dark.|Çocuk karanlıktan korkuyordu.
+generation|nesil;kuşak|n|society|The younger generation uses social media a lot.|Genç nesil sosyal medyayı çok kullanıyor.
+generous|cömert|adj|character|It was very generous of you to pay.|Ödemen çok cömertçeydi.
+goal|hedef;amaç;gol|n|general|My goal is to speak English fluently.|Hedefim akıcı İngilizce konuşmak.
+government|hükümet|n|law|The government announced new taxes.|Hükümet yeni vergiler açıkladı.
+grateful|minnettar;müteşekkir|adj|feelings|I'm very grateful for your help.|Yardımın için çok minnettarım.
+habit|alışkanlık|n|daily|Smoking is a bad habit.|Sigara içmek kötü bir alışkanlık.
+handle|başa çıkmak;idare etmek;kulp|v|work|She handles stress very well.|Stresle çok iyi başa çıkıyor.
+harm|zarar;zarar vermek|n|general|A little chocolate won't do you any harm.|Biraz çikolata sana zarar vermez.
+height|boy;yükseklik|n|body|What is your height?|Boyun kaç?
+honest|dürüst|adj|character|To be honest, I didn't like the film.|Dürüst olmak gerekirse filmi beğenmedim.
+however|ancak;bununla birlikte;fakat|adv|general|It was cold. However, we went swimming.|Hava soğuktu. Yine de yüzmeye gittik.
+ignore|görmezden gelmek;umursamamak|v|people|He ignored my advice.|Tavsiyemi görmezden geldi.
+illegal|yasa dışı;yasadışı;kanunsuz|adj|law|It's illegal to drive without a licence.|Ehliyetsiz araç kullanmak yasa dışıdır.
+imagine|hayal etmek;düşünmek|v|general|Imagine a world without cars.|Arabasız bir dünya hayal et.
+immediately|hemen;derhal|adv|time|Call me immediately when you arrive.|Varınca hemen beni ara.
+impression|izlenim;etki|n|people|She made a good impression at the interview.|Mülakatta iyi bir izlenim bıraktı.
+include|içermek;dahil etmek|v|general|Breakfast is included in the price.|Kahvaltı fiyata dahil.
+income|gelir|n|finance|Their income is not very high.|Gelirleri çok yüksek değil.
+increase|artmak;artırmak;artış|v|numbers|Prices have increased a lot this year.|Fiyatlar bu yıl çok arttı.
+independent|bağımsız|adj|character|She is very independent for her age.|Yaşına göre çok bağımsız.
+influence|etkilemek;etki|v|general|My father influenced my choice of career.|Babam meslek seçimimi etkiledi.
+injury|yaralanma;sakatlık|n|health|He can't play because of an injury.|Sakatlığı yüzünden oynayamıyor.
+innocent|masum;suçsuz|adj|law|He says he is innocent.|Masum olduğunu söylüyor.
+insist|ısrar etmek|v|people|She insisted on paying for dinner.|Akşam yemeğini ödemekte ısrar etti.
+instead|onun yerine;bunun yerine|adv|general|Let's walk instead of taking the bus.|Otobüse binmek yerine yürüyelim.
+intend|niyet etmek;planlamak|v|general|I intend to finish this today.|Bunu bugün bitirmeyi planlıyorum.
+interview|mülakat;röportaj;görüşme|n|work|I have a job interview tomorrow.|Yarın bir iş görüşmem var.
+introduce|tanıştırmak;tanıtmak;sunmak|v|people|Let me introduce my wife.|Eşimi tanıştırayım.
+invent|icat etmek|v|science|Who invented the telephone?|Telefonu kim icat etti?
+involve|içermek;kapsamak;dahil etmek|v|general|The job involves a lot of travel.|İş çok seyahat gerektiriyor.
+jealous|kıskanç|adj|feelings|He gets jealous when she talks to other men.|O başka erkeklerle konuşunca kıskanıyor.
+judge|yargıç;hakim;yargılamak|n|law|The judge sent him to prison.|Hakim onu hapse gönderdi.
+knowledge|bilgi;bilgi birikimi|n|school|He has a good knowledge of history.|Tarih bilgisi iyi.
+lack|eksiklik;yokluk;eksik olmak|n|general|The project failed because of a lack of money.|Proje para eksikliği yüzünden başarısız oldu.
+law|kanun;yasa;hukuk|n|law|Everyone must obey the law.|Herkes yasalara uymak zorunda.
+lawyer|avukat|n|law|You should talk to a lawyer.|Bir avukatla konuşmalısın.
+lead|yönetmek;liderlik etmek;götürmek|v|work|She leads a team of ten people.|On kişilik bir ekibi yönetiyor.
+leader|lider;önder|n|society|He is a natural leader.|O doğuştan bir lider.
+limit|sınır;sınırlamak|n|general|The speed limit here is 50.|Burada hız sınırı 50.
+loan|kredi;borç;ödünç|n|finance|We took out a loan to buy the house.|Evi almak için kredi çektik.
+local|yerel;mahalli|adj|city|We buy vegetables from the local market.|Sebzeleri yerel pazardan alırız.
+lonely|yalnız;kimsesiz|adj|feelings|He felt lonely in the big city.|Büyük şehirde kendini yalnız hissetti.
+manage|başarmak;yönetmek;idare etmek|v|work|Did you manage to fix the computer?|Bilgisayarı tamir etmeyi başardın mı?
+manager|müdür;yönetici|n|work|I'd like to speak to the manager.|Müdürle konuşmak istiyorum.
+material|malzeme;materyal;kumaş|n|general|What material is this shirt made of?|Bu gömlek hangi kumaştan yapılmış?
+measure|ölçmek;önlem|v|science|Measure the room before you buy a carpet.|Halı almadan önce odayı ölç.
+memory|hafıza;anı|n|general|I have a terrible memory for names.|İsimler konusunda hafızam berbat.
+mention|bahsetmek;söz etmek|v|people|He didn't mention the accident.|Kazadan bahsetmedi.
+method|yöntem;metot|n|academic|This is a new method of teaching.|Bu yeni bir öğretim yöntemi.
+mind|akıl;zihin;sakıncası olmak|n|general|Do you mind if I open the window?|Pencereyi açmamın sakıncası var mı?
+mood|ruh hali;keyif|n|feelings|You are in a good mood today.|Bugün keyfin yerinde.
+noisy|gürültülü|adj|city|Our neighbours are very noisy.|Komşularımız çok gürültücü.
+obvious|açık;belli;bariz|adj|general|The answer is obvious.|Cevap belli.
+occasion|durum;vesile;özel gün|n|daily|We only use these plates on special occasions.|Bu tabakları sadece özel günlerde kullanırız.
+opinion|fikir;görüş;düşünce|n|people|In my opinion, the film was too long.|Bence film çok uzundu.
+opportunity|fırsat|n|work|This job is a great opportunity.|Bu iş harika bir fırsat.
+ordinary|sıradan;olağan|adj|general|It was just an ordinary day.|Sıradan bir gündü.
+organise|düzenlemek;organize etmek|v|work|Who organised the party?|Partiyi kim düzenledi?
+otherwise|aksi takdirde;yoksa|adv|general|Hurry up, otherwise we'll be late.|Acele et, yoksa geç kalacağız.
+own|kendi;sahip olmak|adj|general|I want my own room.|Kendi odamı istiyorum.
+owner|sahip;mal sahibi|n|general|Who is the owner of this car?|Bu arabanın sahibi kim?
+patient|sabırlı;hasta|adj|character|Be patient, the bus will come soon.|Sabırlı ol, otobüs birazdan gelir.
+pay attention|dikkat etmek|phr|school|Please pay attention to the teacher.|Lütfen öğretmene dikkat edin.
+per cent|yüzde|n|numbers|Ninety per cent of the students passed.|Öğrencilerin yüzde doksanı geçti.
+perform|sahnelemek;icra etmek;performans göstermek|v|daily|The band will perform tonight.|Grup bu akşam sahne alacak.
+permission|izin|n|general|You need permission to take photos here.|Burada fotoğraf çekmek için izin gerekiyor.
+persuade|ikna etmek|v|people|I persuaded her to see a doctor.|Onu doktora gitmeye ikna ettim.
+pollution|kirlilik|n|nature|Air pollution is a serious problem.|Hava kirliliği ciddi bir sorun.
+positive|olumlu;pozitif|adj|character|Try to stay positive.|Olumlu kalmaya çalış.
+negative|olumsuz;negatif|adj|character|Don't be so negative.|Bu kadar olumsuz olma.
+predict|tahmin etmek;öngörmek|v|general|Nobody can predict the future.|Kimse geleceği tahmin edemez.
+pressure|baskı;basınç|n|work|She works well under pressure.|Baskı altında iyi çalışır.
+prevent|önlemek;engellemek|v|health|Washing your hands helps prevent illness.|Ellerini yıkamak hastalığı önlemeye yardımcı olur.
+previous|önceki;bir önceki|adj|time|I met him on a previous visit.|Onunla önceki bir ziyaretimde tanıştım.
+produce|üretmek|v|work|The factory produces cars.|Fabrika araba üretiyor.
+profit|kâr;kazanç|n|finance|The company made a big profit this year.|Şirket bu yıl büyük kâr etti.
+progress|ilerleme;gelişme|n|school|You are making good progress.|İyi ilerleme kaydediyorsun.
+proper|düzgün;uygun;doğru dürüst|adj|general|You need a proper coat for winter.|Kış için düzgün bir monta ihtiyacın var.
+prove|kanıtlamak;ispatlamak|v|law|Can you prove it?|Bunu kanıtlayabilir misin?
+provide|sağlamak;temin etmek|v|general|The hotel provides free towels.|Otel ücretsiz havlu sağlıyor.
+public|halk;kamu;kamusal|adj|society|The park is open to the public.|Park halka açık.
+punish|cezalandırmak|v|law|He was punished for lying.|Yalan söylediği için cezalandırıldı.
+purpose|amaç;maksat|n|general|What is the purpose of your visit?|Ziyaretinizin amacı nedir?
+qualification|nitelik;yeterlilik;diploma|n|work|What qualifications do you have?|Ne gibi niteliklerin var?
+quality|kalite;nitelik|n|shopping|These shoes are good quality.|Bu ayakkabılar kaliteli.
+quantity|miktar;nicelik|n|numbers|We need a large quantity of paper.|Çok miktarda kağıda ihtiyacımız var.
+quit|bırakmak;istifa etmek|v|work|He quit his job last month.|Geçen ay işini bıraktı.
+raise|kaldırmak;yükseltmek;yetiştirmek|v|general|Raise your hand if you have a question.|Sorunuz varsa elinizi kaldırın.
+range|yelpaze;çeşit;aralık|n|shopping|The shop has a wide range of products.|Mağazada geniş bir ürün yelpazesi var.
+rate|oran;hız;kur|n|finance|What is the exchange rate today?|Bugün döviz kuru ne?
+reach|ulaşmak;varmak;uzanmak|v|travel|We reached the top of the mountain at noon.|Öğlen dağın zirvesine ulaştık.
+react|tepki vermek|v|people|How did he react to the news?|Habere nasıl tepki verdi?
+realise|fark etmek;anlamak|v|general|I didn't realise it was so late.|Bu kadar geç olduğunu fark etmemiştim.
+reason|sebep;neden|n|general|What's the reason for the delay?|Gecikmenin sebebi ne?
+reduce|azaltmak;düşürmek|v|numbers|We need to reduce costs.|Maliyetleri azaltmamız gerek.
+refuse|reddetmek|v|people|She refused to answer the question.|Soruyu cevaplamayı reddetti.
+regret|pişman olmak;pişmanlık|v|feelings|I regret not studying harder.|Daha çok çalışmadığım için pişmanım.
+relationship|ilişki|n|people|They have a good relationship.|İyi bir ilişkileri var.
+reliable|güvenilir|adj|character|My car is old but reliable.|Arabam eski ama güvenilir.
+remain|kalmak;olduğu gibi kalmak|v|general|Please remain in your seats.|Lütfen yerlerinizde kalın.
+remind|hatırlatmak|v|general|Remind me to call my mother.|Annemi aramamı hatırlat.
+replace|değiştirmek;yerine koymak|v|general|We need to replace the old windows.|Eski pencereleri değiştirmemiz gerek.
+reply|cevap vermek;yanıtlamak;cevap|v|daily|He hasn't replied to my email.|E-postama cevap vermedi.
+report|rapor;haber;bildirmek|n|work|I have to write a report.|Bir rapor yazmam lazım.
+request|rica;istek;talep|n|general|I have a small request.|Küçük bir ricam var.
+research|araştırma|n|academic|She does research on climate change.|İklim değişikliği üzerine araştırma yapıyor.
+reserve|ayırtmak;rezervasyon yapmak|v|travel|I'd like to reserve a table for two.|İki kişilik bir masa ayırtmak istiyorum.
+respect|saygı;saygı duymak|n|people|You should show respect to older people.|Yaşlılara saygı göstermelisin.
+responsible|sorumlu|adj|character|Who is responsible for this mess?|Bu dağınıklıktan kim sorumlu?
+result|sonuç|n|general|The results will be ready next week.|Sonuçlar gelecek hafta hazır olacak.
+retire|emekli olmak|v|work|My father retired last year.|Babam geçen yıl emekli oldu.
+return|geri dönmek;iade etmek;dönüş|v|travel|When did you return from London?|Londra'dan ne zaman döndün?
+reward|ödül;ödüllendirmek|n|general|There is a reward for finding the dog.|Köpeği bulana ödül var.
+risk|risk;tehlike|n|general|Smoking increases the risk of cancer.|Sigara kanser riskini artırır.
+rubbish|çöp;saçmalık|n|home|Take out the rubbish, please.|Çöpü çıkar lütfen.
+rude|kaba;terbiyesiz|adj|character|It's rude to interrupt people.|İnsanların sözünü kesmek kabalıktır.
+rule|kural|n|general|You must follow the rules.|Kurallara uymalısın.
+salary|maaş|n|work|He earns a good salary.|İyi bir maaş alıyor.
+satisfied|memnun;tatmin olmuş|adj|feelings|Are you satisfied with the service?|Hizmetten memnun musunuz?
+scared|korkmuş;korkan|adj|feelings|I'm scared of spiders.|Örümceklerden korkarım.
+schedule|program;takvim;tarife|n|work|I have a busy schedule this week.|Bu hafta programım yoğun.
+score|skor;puan;sayı yapmak|n|daily|What was the final score?|Son skor neydi?
+secret|sır;gizli|n|people|Can you keep a secret?|Sır saklayabilir misin?
+sense|duyu;anlam;his|n|general|He has a great sense of humour.|Harika bir mizah anlayışı var.
+separate|ayrı;ayırmak|adj|general|We sleep in separate rooms.|Ayrı odalarda uyuyoruz.
+series|dizi;seri|n|media|I'm watching a new TV series.|Yeni bir dizi izliyorum.
+serve|servis yapmak;hizmet etmek|v|food|Breakfast is served from seven to ten.|Kahvaltı yediden ona kadar servis edilir.
+situation|durum;vaziyet|n|general|It's a difficult situation.|Zor bir durum.
+skill|beceri;yetenek|n|work|Communication skills are very important.|İletişim becerileri çok önemli.
+social|sosyal;toplumsal|adj|society|Social media changed our lives.|Sosyal medya hayatımızı değiştirdi.
+solution|çözüm|n|general|We need to find a solution quickly.|Hızlıca bir çözüm bulmalıyız.
+solve|çözmek|v|general|Can you solve this problem?|Bu sorunu çözebilir misin?
+source|kaynak|n|academic|Fruit is a good source of vitamins.|Meyve iyi bir vitamin kaynağıdır.
+spread|yaymak;yayılmak|v|general|The news spread quickly.|Haber hızla yayıldı.
+staff|personel;çalışanlar|n|work|The hotel staff were very friendly.|Otel personeli çok güler yüzlüydü.
+standard|standart;seviye|n|general|The standard of teaching here is high.|Buradaki eğitim seviyesi yüksek.
+stress|stres|n|health|I'm under a lot of stress at work.|İşte çok stres altındayım.
+suffer|acı çekmek;muzdarip olmak|v|health|She suffers from headaches.|Baş ağrılarından muzdarip.
+suggest|önermek;teklif etmek|v|people|I suggest we take a taxi.|Taksi tutmamızı öneririm.
+suggestion|öneri;teklif|n|people|Do you have any suggestions?|Herhangi bir önerin var mı?
+support|desteklemek;destek|v|people|My family always supports me.|Ailem beni her zaman destekler.
+suppose|sanmak;farz etmek|v|general|I suppose you're right.|Sanırım haklısın.
+survive|hayatta kalmak|v|general|Everyone survived the crash.|Kazadan herkes sağ kurtuldu.
+tend|eğiliminde olmak|v|general|I tend to eat too much when I'm stressed.|Stresliyken çok yeme eğilimindeyim.
+tool|alet;araç|n|work|You need the right tools for this job.|Bu iş için doğru aletlere ihtiyacın var.
+topic|konu|n|school|What's the topic of your essay?|Kompozisyonunun konusu ne?
+total|toplam;tam|n|numbers|The total is 45 euros.|Toplam 45 avro.
+tough|zor;sert;dayanıklı|adj|general|It was a tough decision.|Zor bir karardı.
+tradition|gelenek|n|society|It's a family tradition to eat together on Sundays.|Pazar günleri birlikte yemek yemek bir aile geleneği.
+treat|davranmak;tedavi etmek;ısmarlamak|v|people|Treat others as you want to be treated.|Başkalarına nasıl davranılmasını istiyorsan öyle davran.
+trouble|sorun;dert;bela|n|general|I had trouble finding your house.|Evini bulmakta zorlandım.
+truth|gerçek;doğruluk|n|general|Tell me the truth.|Bana gerçeği söyle.
+typical|tipik|adj|general|This is a typical Turkish breakfast.|Bu tipik bir Türk kahvaltısı.
+unless|-medikçe;-mezse|conj|general|You won't pass unless you study.|Çalışmazsan geçemezsin.
+upset|üzgün;morali bozuk;üzmek|adj|feelings|She was upset about the news.|Habere üzüldü.
+valuable|değerli;kıymetli|adj|finance|This ring is very valuable.|Bu yüzük çok değerli.
+value|değer|n|finance|The value of the house has gone up.|Evin değeri arttı.
+variety|çeşitlilik;çeşit|n|general|There is a wide variety of food.|Çok çeşitli yemek var.
+various|çeşitli;türlü|adj|general|I've lived in various countries.|Çeşitli ülkelerde yaşadım.
+volunteer|gönüllü;gönüllü olmak|n|society|She works as a volunteer at the hospital.|Hastanede gönüllü olarak çalışıyor.
+worth|değer;değmek|adj|finance|The film is worth seeing.|Film görmeye değer.

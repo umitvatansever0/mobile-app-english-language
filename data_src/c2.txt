@@ -1,0 +1,129 @@
+# C2 kelimeleri — biçim a1.txt ile aynı
+aberration|sapma;anormallik|n|academic|The bad result was an aberration.|Kötü sonuç bir sapmaydı.
+abhor|nefret etmek;tiksinmek|v|feelings|I abhor violence of any kind.|Her türlü şiddetten tiksinirim.
+acquiesce|razı olmak;boyun eğmek|v|people|She finally acquiesced to their demands.|Sonunda taleplerine razı oldu.
+acumen|keskin zeka;sezgi;beceri|n|business|She has great business acumen.|Çok keskin bir iş zekası var.
+adamant|kararlı;inatçı;direten|adj|character|He was adamant that he hadn't seen her.|Onu görmediği konusunda direndi.
+admonish|uyarmak;azarlamak|v|people|The teacher admonished the boys for being late.|Öğretmen geç kaldıkları için çocukları azarladı.
+aesthetic|estetik|adj|media|The building has great aesthetic appeal.|Binanın büyük bir estetik çekiciliği var.
+affluent|varlıklı;zengin|adj|finance|They live in an affluent neighbourhood.|Varlıklı bir mahallede yaşıyorlar.
+alleviate|hafifletmek;dindirmek|v|health|This medicine will alleviate the pain.|Bu ilaç ağrıyı hafifletecek.
+altruistic|fedakar;özgeci|adj|character|Her motives were purely altruistic.|Niyetleri tamamen fedakarcaydı.
+ambivalent|kararsız;çelişkili duygular içinde|adj|feelings|I feel ambivalent about moving abroad.|Yurt dışına taşınma konusunda çelişkili duygular içindeyim.
+ameliorate|iyileştirmek;düzeltmek|v|society|They tried to ameliorate living conditions.|Yaşam koşullarını iyileştirmeye çalıştılar.
+anomaly|anormallik;aykırılık|n|science|The test showed an anomaly in the data.|Test verilerde bir anormallik gösterdi.
+apathy|ilgisizlik;umursamazlık|n|society|Voter apathy is a growing problem.|Seçmen ilgisizliği büyüyen bir sorun.
+arduous|zahmetli;çetin;yorucu|adj|general|It was a long and arduous journey.|Uzun ve yorucu bir yolculuktu.
+astute|kurnaz;zeki;keskin görüşlü|adj|character|She is an astute businesswoman.|Keskin görüşlü bir iş kadını.
+audacious|cüretkar;gözü pek|adj|character|It was an audacious plan.|Cüretkar bir plandı.
+austerity|kemer sıkma;sadelik|n|finance|The government introduced austerity measures.|Hükümet kemer sıkma önlemleri getirdi.
+benevolent|iyiliksever;hayırsever|adj|character|He was a benevolent ruler.|İyiliksever bir hükümdardı.
+blatant|açık;bariz;utanmazca|adj|general|That's a blatant lie.|Bu apaçık bir yalan.
+candid|açık sözlü;samimi|adj|character|She was very candid about her mistakes.|Hataları konusunda çok açık sözlüydü.
+capricious|kaprisli;değişken;dönek|adj|character|The weather here is capricious.|Buranın havası çok değişken.
+catalyst|katalizör;tetikleyici|n|science|The protest was a catalyst for change.|Protesto değişim için bir katalizör oldu.
+circumvent|atlatmak;etrafından dolaşmak|v|law|They found a way to circumvent the rules.|Kuralları atlatmanın bir yolunu buldular.
+cognitive|bilişsel|adj|science|Reading improves cognitive skills.|Okumak bilişsel becerileri geliştirir.
+complacent|kayıtsız;rehavet içinde;kendini beğenmiş|adj|character|We can't afford to be complacent.|Rehavete kapılmaya hakkımız yok.
+conducive|elverişli;yardımcı|adj|general|The noisy room is not conducive to study.|Gürültülü oda ders çalışmaya elverişli değil.
+conjecture|tahmin;varsayım|n|academic|That's pure conjecture.|Bu tamamen bir tahmin.
+conspicuous|göze çarpan;dikkat çekici|adj|general|He felt conspicuous in his bright suit.|Parlak takım elbisesiyle dikkat çektiğini hissetti.
+convoluted|karmaşık;dolambaçlı|adj|academic|The plot of the film is very convoluted.|Filmin konusu çok karmaşık.
+corroborate|doğrulamak;teyit etmek|v|law|A witness corroborated his story.|Bir tanık hikayesini doğruladı.
+culminate|doruğa ulaşmak;sonuçlanmak|v|general|Years of work culminated in success.|Yılların emeği başarıyla sonuçlandı.
+cumbersome|hantal;kullanışsız|adj|general|The old system was slow and cumbersome.|Eski sistem yavaş ve hantaldı.
+debilitating|güçten düşüren;zayıflatıcı|adj|health|It is a debilitating disease.|Güçten düşüren bir hastalık.
+deference|hürmet;saygı|n|people|He listened with deference to his elders.|Büyüklerini saygıyla dinledi.
+delineate|tanımlamak;sınırlarını çizmek|v|academic|The report delineates our responsibilities.|Rapor sorumluluklarımızı tanımlıyor.
+deplete|tüketmek;azaltmak|v|nature|We are depleting the Earth's resources.|Dünyanın kaynaklarını tüketiyoruz.
+deride|alay etmek;küçümsemek|v|people|His ideas were derided by experts.|Fikirleri uzmanlar tarafından küçümsendi.
+detrimental|zararlı;zarar verici|adj|health|Smoking is detrimental to your health.|Sigara sağlığına zararlıdır.
+dichotomy|ikilik;ikiye bölünme|n|academic|There is a dichotomy between theory and practice.|Teori ile pratik arasında bir ikilik var.
+diligent|çalışkan;özenli|adj|character|She is a diligent student.|O çalışkan bir öğrenci.
+discern|ayırt etmek;sezmek|v|general|It's hard to discern the truth.|Gerçeği ayırt etmek zor.
+disparity|eşitsizlik;farklılık|n|society|There is a disparity between rich and poor.|Zengin ve fakir arasında bir eşitsizlik var.
+disseminate|yaymak|v|media|The internet helps disseminate information.|İnternet bilginin yayılmasına yardımcı olur.
+eccentric|eksantrik;tuhaf;sıra dışı|adj|character|My uncle is a bit eccentric.|Amcam biraz tuhaftır.
+elusive|yakalanması zor;anlaşılması güç|adj|general|Success remained elusive.|Başarı ele geçmedi.
+emulate|örnek almak;taklit etmek|v|people|He tried to emulate his father.|Babasını örnek almaya çalıştı.
+enigma|bilmece;muamma;gizem|n|general|He remains an enigma to me.|O benim için hâlâ bir muamma.
+ephemeral|geçici;kısa ömürlü|adj|time|Fame is often ephemeral.|Şöhret çoğu zaman kısa ömürlüdür.
+epitome|simge;özü;en iyi örnek|n|general|She is the epitome of elegance.|O zarafetin simgesi.
+eradicate|kökünü kazımak;yok etmek|v|health|The aim is to eradicate the disease.|Amaç hastalığın kökünü kazımak.
+erroneous|hatalı;yanlış|adj|academic|The report contained erroneous information.|Rapor hatalı bilgiler içeriyordu.
+exacerbate|kötüleştirmek;şiddetlendirmek|v|general|The drug may exacerbate the symptoms.|İlaç belirtileri şiddetlendirebilir.
+exemplary|örnek;örnek gösterilecek|adj|character|His behaviour was exemplary.|Davranışı örnek gösterilecek nitelikteydi.
+exorbitant|fahiş;aşırı pahalı|adj|finance|The hotel charges exorbitant prices.|Otel fahiş fiyatlar istiyor.
+expedite|hızlandırmak|v|work|We will try to expedite your order.|Siparişinizi hızlandırmaya çalışacağız.
+fallacy|yanılgı;safsata|n|academic|It's a fallacy that money brings happiness.|Paranın mutluluk getirdiği bir yanılgıdır.
+fastidious|titiz;mızmız|adj|character|He is fastidious about cleanliness.|Temizlik konusunda çok titiz.
+fervent|ateşli;tutkulu;hararetli|adj|feelings|She is a fervent supporter of the team.|Takımın ateşli bir taraftarı.
+frivolous|anlamsız;ciddiyetsiz;önemsiz|adj|general|It was a frivolous complaint.|Anlamsız bir şikayetti.
+futile|beyhude;boşuna|adj|general|All our efforts were futile.|Bütün çabalarımız boşunaydı.
+gregarious|sosyal;girişken;sokulgan|adj|character|He is a gregarious person who loves parties.|Partileri seven girişken biri.
+hackneyed|basmakalıp;klişe;bayat|adj|media|The film is full of hackneyed phrases.|Film basmakalıp ifadelerle dolu.
+hinder|engellemek;güçleştirmek|v|general|Bad weather hindered the rescue.|Kötü hava kurtarma çalışmalarını engelledi.
+idiosyncratic|kendine özgü;tuhaf|adj|character|He has an idiosyncratic style of writing.|Kendine özgü bir yazım tarzı var.
+impeccable|kusursuz;mükemmel|adj|general|Her English is impeccable.|İngilizcesi kusursuz.
+impetus|itici güç;ivme|n|general|The new law gave impetus to the industry.|Yeni yasa sektöre ivme kazandırdı.
+inadvertently|istemeden;yanlışlıkla|adv|general|I inadvertently deleted the file.|Dosyayı yanlışlıkla sildim.
+incessant|aralıksız;durmaksızın|adj|general|The incessant noise drove me crazy.|Aralıksız gürültü beni çıldırttı.
+incongruous|uyumsuz;yersiz;aykırı|adj|general|The modern building looks incongruous in the old town.|Modern bina eski şehirde aykırı duruyor.
+indigenous|yerli;yerel|adj|society|The indigenous people of the area are farmers.|Bölgenin yerli halkı çiftçidir.
+indispensable|vazgeçilmez;olmazsa olmaz|adj|general|A good dictionary is indispensable.|İyi bir sözlük vazgeçilmezdir.
+ineffable|tarifsiz;anlatılamaz|adj|feelings|The beauty of the place was ineffable.|Oranın güzelliği tarif edilemezdi.
+innate|doğuştan;fıtri|adj|character|She has an innate talent for music.|Doğuştan müzik yeteneği var.
+insatiable|doymak bilmez|adj|character|He has an insatiable appetite for knowledge.|Doymak bilmez bir öğrenme isteği var.
+intrinsic|içsel;asıl;özünde olan|adj|academic|The ring has little intrinsic value.|Yüzüğün gerçek değeri çok az.
+inundate|boğmak;sel gibi gelmek;su basmak|v|general|We were inundated with letters.|Mektuplara boğulduk.
+juxtapose|yan yana koymak|v|media|The artist juxtaposes old and new images.|Sanatçı eski ve yeni görüntüleri yan yana koyuyor.
+lethargic|uyuşuk;halsiz|adj|health|The heat made everyone lethargic.|Sıcak herkesi uyuşuk yaptı.
+lucrative|kazançlı;kârlı|adj|finance|It's a very lucrative business.|Çok kârlı bir iş.
+magnanimous|yüce gönüllü;cömert|adj|character|He was magnanimous in victory.|Zaferde yüce gönüllüydü.
+meticulous|titiz;çok dikkatli|adj|character|She keeps meticulous records.|Çok titiz kayıtlar tutuyor.
+mundane|sıradan;dünyevi;tekdüze|adj|daily|I spend my days on mundane tasks.|Günlerimi sıradan işlerle geçiriyorum.
+nebulous|belirsiz;bulanık|adj|academic|The plan is still a bit nebulous.|Plan hâlâ biraz belirsiz.
+nonchalant|kayıtsız;umursamaz;rahat|adj|character|He seemed nonchalant about the exam.|Sınav konusunda umursamaz görünüyordu.
+nostalgia|nostalji;geçmişe özlem|n|feelings|The song filled me with nostalgia.|Şarkı beni nostaljiyle doldurdu.
+obsolete|eskimiş;modası geçmiş;kullanılmayan|adj|science|This technology is now obsolete.|Bu teknoloji artık eskidi.
+omnipresent|her yerde olan|adj|general|Advertising is omnipresent in our lives.|Reklam hayatımızın her yerinde.
+onerous|ağır;külfetli|adj|work|It's an onerous responsibility.|Ağır bir sorumluluk.
+opulent|şatafatlı;gösterişli;zengin|adj|finance|They stayed in an opulent hotel.|Şatafatlı bir otelde kaldılar.
+ostensibly|görünüşte;sözde|adv|general|He was ostensibly there to help.|Görünüşte yardım etmek için oradaydı.
+paramount|en önemli;son derece önemli|adj|general|Safety is of paramount importance.|Güvenlik son derece önemlidir.
+pejorative|aşağılayıcı;olumsuz anlamlı|adj|academic|The word is often used in a pejorative sense.|Kelime sık sık aşağılayıcı bir anlamda kullanılır.
+perfunctory|baştan savma;üstünkörü|adj|work|He gave a perfunctory nod.|Baştan savma başını salladı.
+pernicious|zararlı;sinsi|adj|society|Gossip can have a pernicious effect.|Dedikodunun sinsi bir etkisi olabilir.
+plethora|bolluk;aşırılık|n|general|There is a plethora of apps to choose from.|Seçilebilecek bir sürü uygulama var.
+precarious|güvencesiz;tehlikeli;belirsiz|adj|general|She is in a precarious financial position.|Mali durumu güvencesiz.
+proliferation|çoğalma;yayılma|n|society|The proliferation of fake news is a problem.|Sahte haberlerin çoğalması bir sorun.
+prudent|tedbirli;sağduyulu;ihtiyatlı|adj|character|It would be prudent to save some money.|Biraz para biriktirmek akıllıca olur.
+quintessential|en tipik;özünü temsil eden|adj|general|It is the quintessential English village.|Tam bir İngiliz köyü örneği.
+rampant|kontrolsüz;yaygın;azgın|adj|society|Corruption was rampant in the city.|Şehirde yolsuzluk kontrolsüzce yaygındı.
+reciprocate|karşılık vermek|v|people|She smiled, but he didn't reciprocate.|O gülümsedi ama adam karşılık vermedi.
+relentless|amansız;durmak bilmeyen|adj|general|The relentless rain caused floods.|Durmak bilmeyen yağmur sellere yol açtı.
+renowned|ünlü;tanınmış|adj|people|The city is renowned for its food.|Şehir yemekleriyle ünlü.
+replicate|tekrarlamak;kopyalamak|v|science|Other scientists couldn't replicate the results.|Diğer bilim insanları sonuçları tekrarlayamadı.
+resonate|yankı uyandırmak;karşılık bulmak|v|feelings|His words resonated with the audience.|Sözleri dinleyicilerde yankı uyandırdı.
+rhetoric|retorik;söylem|n|media|The politician's speech was full of empty rhetoric.|Politikacının konuşması boş söylemlerle doluydu.
+scrupulous|titiz;dürüst;vicdanlı|adj|character|He is scrupulous about paying his taxes.|Vergilerini ödeme konusunda çok titiz.
+serendipity|şans eseri güzel keşif;mutlu tesadüf|n|general|We met by pure serendipity.|Tamamen mutlu bir tesadüf sonucu tanıştık.
+spurious|sahte;yanlış;asılsız|adj|academic|The argument is based on spurious data.|Argüman asılsız verilere dayanıyor.
+stringent|sıkı;katı|adj|law|There are stringent rules about food safety.|Gıda güvenliğiyle ilgili sıkı kurallar var.
+superfluous|gereksiz;fazla|adj|general|Remove any superfluous words from your essay.|Kompozisyonundaki gereksiz kelimeleri çıkar.
+surreptitiously|gizlice;el altından|adv|general|He surreptitiously checked his phone.|Gizlice telefonuna baktı.
+tacit|örtülü;sessiz;zımni|adj|people|There was a tacit agreement between them.|Aralarında örtülü bir anlaşma vardı.
+tenacious|azimli;inatçı;yılmaz|adj|character|She is a tenacious negotiator.|Yılmaz bir müzakereci.
+tentative|geçici;deneme niteliğinde;çekingen|adj|general|We made tentative plans to meet.|Buluşmak için geçici planlar yaptık.
+trepidation|endişe;korku;tedirginlik|n|feelings|She started her new job with some trepidation.|Yeni işine biraz tedirginlikle başladı.
+trivial|önemsiz;basit|adj|general|Don't worry about such trivial matters.|Böyle önemsiz konular için endişelenme.
+ubiquitous|her yerde bulunan|adj|science|Smartphones are now ubiquitous.|Akıllı telefonlar artık her yerde.
+unequivocal|kesin;açık;net|adj|academic|The answer was an unequivocal no.|Cevap kesin bir hayırdı.
+untenable|savunulamaz;sürdürülemez|adj|academic|His position became untenable.|Pozisyonu savunulamaz hale geldi.
+vehemently|şiddetle;hararetle|adv|people|She vehemently denied the accusation.|Suçlamayı şiddetle reddetti.
+venerable|saygıdeğer;muhterem|adj|people|The venerable old professor gave a lecture.|Saygıdeğer yaşlı profesör bir ders verdi.
+verbose|laf kalabalığı yapan;uzun ve sözü dolandıran|adj|academic|His writing is too verbose.|Yazısı gereğinden fazla uzun ve dolambaçlı.
+vindicate|haklı çıkarmak;aklamak|v|law|The results vindicated his decision.|Sonuçlar kararını haklı çıkardı.
+volatile|değişken;uçucu;patlamaya hazır|adj|finance|The stock market is very volatile.|Borsa çok değişken.
+wary|temkinli;ihtiyatlı|adj|character|Be wary of strangers online.|İnternetteki yabancılara karşı temkinli ol.
+zealous|gayretli;ateşli;hevesli|adj|character|He is a zealous supporter of the cause.|Davanın hevesli bir destekçisi.

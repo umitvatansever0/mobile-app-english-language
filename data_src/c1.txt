@@ -1,0 +1,143 @@
+# C1 kelimeleri — biçim a1.txt ile aynı
+abolish|kaldırmak;yürürlükten kaldırmak|v|law|Many countries have abolished the death penalty.|Birçok ülke idam cezasını kaldırdı.
+abstract|soyut|adj|academic|Love is an abstract concept.|Aşk soyut bir kavramdır.
+accommodate|barındırmak;yer sağlamak;uyum sağlamak|v|travel|The hotel can accommodate 300 guests.|Otel 300 misafir ağırlayabilir.
+accumulate|biriktirmek;birikmek|v|finance|Dust accumulates quickly in this room.|Bu odada toz çabucak birikiyor.
+adverse|olumsuz;ters;zararlı|adj|health|The drug has no adverse effects.|İlacın olumsuz bir yan etkisi yok.
+advocate|savunmak;savunucu|v|society|She advocates equal rights for women.|Kadınlar için eşit hakları savunuyor.
+allegation|iddia;suçlama|n|law|He denied all the allegations.|Tüm iddiaları reddetti.
+allocate|tahsis etmek;ayırmak|v|finance|The government allocated more money to health.|Hükümet sağlığa daha fazla para ayırdı.
+ambiguous|belirsiz;muğlak;iki anlamlı|adj|academic|The instructions were ambiguous.|Talimatlar muğlaktı.
+anonymous|anonim;isimsiz|adj|general|The donor wishes to remain anonymous.|Bağışçı isminin gizli kalmasını istiyor.
+apparent|görünüşte;belli;açık|adj|general|For no apparent reason, he started shouting.|Görünür bir sebep yokken bağırmaya başladı.
+arbitrary|keyfi;rastgele|adj|law|The decision seemed completely arbitrary.|Karar tamamen keyfi görünüyordu.
+articulate|açık ve etkili ifade etmek;dili düzgün|v|people|He couldn't articulate his feelings.|Duygularını ifade edemedi.
+aspiration|özlem;emel;arzu|n|feelings|She has aspirations to become a writer.|Yazar olma emeli var.
+assert|ileri sürmek;iddia etmek|v|academic|He asserted that he was innocent.|Masum olduğunu ileri sürdü.
+attain|ulaşmak;elde etmek|v|general|She attained the highest grade in the class.|Sınıftaki en yüksek nota ulaştı.
+autonomy|özerklik;bağımsızlık|n|law|The region has a lot of autonomy.|Bölgenin büyük bir özerkliği var.
+bureaucracy|bürokrasi|n|law|There is too much bureaucracy in this country.|Bu ülkede çok fazla bürokrasi var.
+coherent|tutarlı;anlaşılır|adj|academic|Your essay needs a more coherent structure.|Kompozisyonunun daha tutarlı bir yapıya ihtiyacı var.
+coincidence|tesadüf|n|general|What a coincidence to meet you here!|Seninle burada karşılaşmak ne tesadüf!
+collapse|çökmek;yıkılmak;çöküş|v|general|The old bridge collapsed in the storm.|Eski köprü fırtınada çöktü.
+compelling|ikna edici;güçlü;sürükleyici|adj|academic|She made a compelling argument.|İkna edici bir argüman sundu.
+compile|derlemek;bir araya getirmek|v|academic|We compiled a list of useful words.|Faydalı kelimelerin bir listesini derledik.
+complement|tamamlamak|v|general|The wine complements the meal perfectly.|Şarap yemeği mükemmel tamamlıyor.
+comply|uymak;itaat etmek|v|law|All companies must comply with the new rules.|Tüm şirketler yeni kurallara uymalı.
+comprehensive|kapsamlı;geniş|adj|academic|We offer a comprehensive range of services.|Kapsamlı bir hizmet yelpazesi sunuyoruz.
+comprise|oluşmak;kapsamak|v|academic|The committee comprises ten members.|Komite on üyeden oluşuyor.
+compromise|uzlaşma;taviz vermek|n|people|We reached a compromise after long talks.|Uzun görüşmelerden sonra bir uzlaşmaya vardık.
+conceal|gizlemek;saklamak|v|general|He tried to conceal his anger.|Öfkesini gizlemeye çalıştı.
+concede|kabul etmek;teslim etmek|v|people|She conceded that she had made a mistake.|Hata yaptığını kabul etti.
+conceive|tasarlamak;hayal etmek;gebe kalmak|v|academic|I can't conceive of a world without music.|Müziksiz bir dünya düşünemiyorum.
+consensus|fikir birliği;mutabakat|n|society|There is a general consensus that change is needed.|Değişikliğe ihtiyaç olduğu konusunda genel bir fikir birliği var.
+consolidate|pekiştirmek;birleştirmek|v|business|The company consolidated its position in the market.|Şirket pazardaki konumunu pekiştirdi.
+constitute|oluşturmak;teşkil etmek|v|law|Women constitute half of the workforce.|Kadınlar iş gücünün yarısını oluşturuyor.
+constraint|kısıtlama;sınırlama|n|business|We are working under budget constraints.|Bütçe kısıtlamaları altında çalışıyoruz.
+contemplate|düşünmek;tasarlamak|v|general|She is contemplating a move abroad.|Yurt dışına taşınmayı düşünüyor.
+contemporary|çağdaş;günümüz|adj|media|I love contemporary art.|Çağdaş sanata bayılırım.
+contradict|çelişmek;yalanlamak|v|academic|His statement contradicts the evidence.|İfadesi kanıtlarla çelişiyor.
+conventional|geleneksel;alışılagelmiş|adj|general|She prefers conventional methods.|Geleneksel yöntemleri tercih ediyor.
+correspond|karşılık gelmek;yazışmak|v|academic|The numbers don't correspond.|Sayılar birbirini tutmuyor.
+credible|inandırıcı;güvenilir|adj|media|We need credible evidence.|İnandırıcı kanıta ihtiyacımız var.
+criteria|ölçütler;kriterler|n|academic|What are the criteria for selection?|Seçim kriterleri neler?
+cynical|kinik;alaycı;şüpheci|adj|character|He's very cynical about politicians.|Politikacılar konusunda çok şüpheci.
+deem|saymak;addetmek|v|law|The building was deemed unsafe.|Bina güvensiz sayıldı.
+deficit|açık;eksik|n|finance|The country has a large budget deficit.|Ülkenin büyük bir bütçe açığı var.
+degrade|aşağılamak;bozulmak;değerini düşürmek|v|nature|Plastic takes centuries to degrade.|Plastiğin bozunması yüzyıllar sürer.
+deteriorate|kötüleşmek;bozulmak|v|health|His health deteriorated quickly.|Sağlığı hızla kötüleşti.
+dilemma|ikilem|n|general|I'm facing a real dilemma.|Gerçek bir ikilemle karşı karşıyayım.
+diminish|azalmak;azaltmak|v|general|The pain will diminish over time.|Acı zamanla azalacak.
+discretion|takdir yetkisi;sağduyu;ketumluk|n|law|The decision is at the manager's discretion.|Karar müdürün takdirine kalmış.
+discrimination|ayrımcılık|n|society|Discrimination at work is illegal.|İş yerinde ayrımcılık yasa dışıdır.
+disrupt|aksatmak;bozmak|v|general|The strike disrupted train services.|Grev tren seferlerini aksattı.
+distinct|belirgin;farklı;ayrı|adj|academic|There are two distinct types.|İki ayrı tür var.
+distort|çarpıtmak;bozmak|v|media|The newspaper distorted the facts.|Gazete gerçekleri çarpıttı.
+dubious|şüpheli;kuşkulu|adj|general|I'm dubious about his claims.|İddiaları konusunda kuşkuluyum.
+elaborate|ayrıntılı;ayrıntılı anlatmak|adj|general|They made elaborate plans for the wedding.|Düğün için ayrıntılı planlar yaptılar.
+eloquent|belagatli;etkili konuşan|adj|people|She gave an eloquent speech.|Etkileyici bir konuşma yaptı.
+embrace|benimsemek;kucaklamak|v|general|The company embraced new technology.|Şirket yeni teknolojiyi benimsedi.
+empathy|empati|n|feelings|Good doctors show empathy for their patients.|İyi doktorlar hastalarına empati gösterir.
+empirical|deneysel;ampirik|adj|science|There is no empirical evidence for this.|Buna dair deneysel bir kanıt yok.
+endorse|desteklemek;onaylamak|v|media|Many celebrities endorsed the campaign.|Birçok ünlü kampanyayı destekledi.
+enhance|artırmak;geliştirmek|v|general|Good lighting can enhance a room.|İyi aydınlatma bir odayı güzelleştirebilir.
+entitle|hak vermek;yetki vermek|v|law|You are entitled to a refund.|Para iadesi almaya hakkınız var.
+equivalent|eşdeğer;karşılık|n|general|Is there a Turkish equivalent of this word?|Bu kelimenin Türkçe karşılığı var mı?
+erode|aşınmak;aşındırmak|v|nature|The sea is slowly eroding the cliffs.|Deniz kayalıkları yavaşça aşındırıyor.
+excessive|aşırı|adj|general|Excessive drinking is bad for your health.|Aşırı alkol sağlığa zararlıdır.
+explicit|açık;net;açık seçik|adj|academic|He gave explicit instructions.|Açık talimatlar verdi.
+exploit|sömürmek;istismar etmek;yararlanmak|v|society|The company exploited its workers.|Şirket işçilerini sömürdü.
+facilitate|kolaylaştırmak|v|work|The new software facilitates communication.|Yeni yazılım iletişimi kolaylaştırıyor.
+feasible|uygulanabilir;yapılabilir|adj|business|Is the plan feasible?|Plan uygulanabilir mi?
+fluctuate|dalgalanmak|v|finance|Prices fluctuate from day to day.|Fiyatlar günden güne dalgalanıyor.
+foster|teşvik etmek;geliştirmek;evlat edinmek|v|society|We want to foster a love of reading.|Okuma sevgisini geliştirmek istiyoruz.
+fragile|kırılgan;narin|adj|general|Be careful, the box is fragile.|Dikkat et, kutu kırılabilir.
+genuine|gerçek;samimi;hakiki|adj|character|Is this a genuine diamond?|Bu gerçek bir pırlanta mı?
+hierarchy|hiyerarşi|n|work|There is a strict hierarchy in the army.|Orduda katı bir hiyerarşi var.
+hypothesis|hipotez;varsayım|n|science|The experiment confirmed the hypothesis.|Deney hipotezi doğruladı.
+inclined|eğilimli;meyilli|adj|character|I'm inclined to agree with you.|Sana katılmaya meyilliyim.
+incentive|teşvik;özendirici|n|business|Workers get a bonus as an incentive.|Çalışanlar teşvik olarak prim alıyor.
+incidence|sıklık;görülme oranı|n|health|The incidence of the disease is increasing.|Hastalığın görülme sıklığı artıyor.
+inherent|doğal;doğasında olan|adj|academic|There are risks inherent in any investment.|Her yatırımın doğasında riskler vardır.
+inhibit|engellemek;bastırmak|v|science|Cold temperatures inhibit plant growth.|Soğuk hava bitki büyümesini engeller.
+integrity|dürüstlük;bütünlük|n|character|He is a man of great integrity.|O son derece dürüst bir adam.
+intervene|müdahale etmek|v|society|The police had to intervene.|Polis müdahale etmek zorunda kaldı.
+intriguing|ilgi çekici;merak uyandıran|adj|feelings|It's an intriguing idea.|İlgi çekici bir fikir.
+intuition|sezgi|n|character|Trust your intuition.|Sezgilerine güven.
+irrelevant|ilgisiz;alakasız|adj|academic|His age is irrelevant.|Yaşı önemsiz.
+legislation|mevzuat;yasama|n|law|New legislation will protect workers.|Yeni mevzuat çalışanları koruyacak.
+legitimate|meşru;yasal;haklı|adj|law|He had a legitimate reason to be absent.|Gelmemek için haklı bir sebebi vardı.
+manipulate|manipüle etmek;yönlendirmek|v|people|He knows how to manipulate people.|İnsanları nasıl yönlendireceğini biliyor.
+marginal|marjinal;küçük;sınırda|adj|general|There was only a marginal improvement.|Sadece küçük bir iyileşme oldu.
+mediate|arabuluculuk yapmak|v|law|A judge was asked to mediate the dispute.|Bir hakimden anlaşmazlıkta arabuluculuk yapması istendi.
+mitigate|hafifletmek;azaltmak|v|general|We must mitigate the effects of climate change.|İklim değişikliğinin etkilerini hafifletmeliyiz.
+notion|kavram;fikir;düşünce|n|academic|I have no notion of what he means.|Ne demek istediğine dair hiçbir fikrim yok.
+notorious|kötü şöhretli;adı çıkmış|adj|general|The city is notorious for its traffic.|Şehir trafiğiyle kötü şöhretli.
+novel|yeni;özgün;roman|adj|academic|They came up with a novel solution.|Özgün bir çözüm buldular.
+nuance|nüans;ince fark|n|academic|Translators must understand every nuance.|Çevirmenler her nüansı anlamalı.
+obscure|belirsiz;az bilinen;anlaşılmaz|adj|general|The meaning of the poem is obscure.|Şiirin anlamı belirsiz.
+offset|dengelemek;telafi etmek|v|finance|Higher prices offset the lower sales.|Yüksek fiyatlar düşük satışları dengeledi.
+outweigh|ağır basmak;daha önemli olmak|v|academic|The benefits outweigh the risks.|Faydalar risklerden ağır basıyor.
+paradox|paradoks;çelişki|n|academic|It's a paradox that the more we earn, the less we save.|Ne kadar çok kazanırsak o kadar az biriktirmemiz bir paradoks.
+perceive|algılamak;sezmek|v|academic|How do you perceive your own role?|Kendi rolünü nasıl algılıyorsun?
+persistent|ısrarcı;inatçı;kalıcı|adj|character|She has a persistent cough.|İnatçı bir öksürüğü var.
+plausible|akla yatkın;makul|adj|academic|That's a plausible explanation.|Bu akla yatkın bir açıklama.
+pragmatic|pragmatik;gerçekçi;faydacı|adj|character|We need a pragmatic approach.|Gerçekçi bir yaklaşıma ihtiyacımız var.
+precede|önce gelmek;öncesinde olmak|v|time|A long silence preceded his answer.|Cevabından önce uzun bir sessizlik oldu.
+predominantly|ağırlıklı olarak;çoğunlukla|adv|academic|The audience was predominantly young.|Seyirciler çoğunlukla gençti.
+prejudice|önyargı|n|society|We must fight against racial prejudice.|Irksal önyargıya karşı savaşmalıyız.
+premise|öncül;varsayım;bina|n|academic|The argument is based on a false premise.|Argüman yanlış bir öncüle dayanıyor.
+prevalent|yaygın;hakim|adj|society|The disease is prevalent in hot countries.|Hastalık sıcak ülkelerde yaygın.
+profound|derin;köklü|adj|feelings|The book had a profound effect on me.|Kitap üzerimde derin bir etki bıraktı.
+prohibit|yasaklamak|v|law|Smoking is prohibited in this building.|Bu binada sigara içmek yasaktır.
+prominent|önde gelen;belirgin;tanınmış|adj|society|He is a prominent lawyer.|O tanınmış bir avukat.
+provoke|kışkırtmak;neden olmak|v|people|His comments provoked a strong reaction.|Yorumları güçlü bir tepkiye yol açtı.
+radical|köklü;radikal|adj|society|The company needs radical changes.|Şirketin köklü değişikliklere ihtiyacı var.
+rational|mantıklı;akılcı|adj|character|There must be a rational explanation.|Mantıklı bir açıklaması olmalı.
+reconcile|uzlaştırmak;barıştırmak|v|people|It's hard to reconcile work and family life.|İş ve aile hayatını bağdaştırmak zor.
+redundant|gereksiz;işten çıkarılmış|adj|work|Two hundred workers were made redundant.|İki yüz işçi işten çıkarıldı.
+refine|arıtmak;inceltmek;geliştirmek|v|general|We need to refine our plan.|Planımızı geliştirmemiz gerek.
+reinforce|güçlendirmek;pekiştirmek|v|academic|Practice reinforces what you learn.|Pratik öğrendiklerini pekiştirir.
+reluctance|isteksizlik|n|feelings|He agreed with some reluctance.|Biraz isteksizce kabul etti.
+resilient|dayanıklı;çabuk toparlanan|adj|character|Children are often very resilient.|Çocuklar çoğu zaman çok dayanıklıdır.
+rigorous|titiz;sıkı;katı|adj|academic|The tests are very rigorous.|Testler çok titiz.
+scrutiny|dikkatli inceleme;denetim|n|media|The plan came under close scrutiny.|Plan sıkı bir incelemeye tabi tutuldu.
+skeptical|şüpheci;kuşkucu|adj|character|I'm skeptical about the new diet.|Yeni diyet konusunda şüpheliyim.
+speculate|spekülasyon yapmak;tahminde bulunmak|v|media|Newspapers speculated about the reason.|Gazeteler sebep hakkında spekülasyon yaptı.
+spontaneous|kendiliğinden;doğal;anlık|adj|character|The audience burst into spontaneous applause.|Seyirciler kendiliğinden alkışlamaya başladı.
+subsequent|sonraki;ardından gelen|adj|time|Subsequent tests confirmed the results.|Sonraki testler sonuçları doğruladı.
+subtle|ince;belli belirsiz;zarif|adj|general|There is a subtle difference between the two.|İkisi arasında ince bir fark var.
+supplement|takviye;ek;desteklemek|n|health|She takes vitamin supplements.|Vitamin takviyesi alıyor.
+suppress|bastırmak;engellemek|v|feelings|He tried to suppress a smile.|Gülümsemesini bastırmaya çalıştı.
+sustain|sürdürmek;desteklemek|v|general|The economy can't sustain this growth.|Ekonomi bu büyümeyi sürdüremez.
+tangible|somut;elle tutulur|adj|general|We need tangible results.|Somut sonuçlara ihtiyacımız var.
+tedious|sıkıcı;usandırıcı|adj|feelings|Filling in forms is tedious.|Form doldurmak sıkıcıdır.
+thorough|kapsamlı;titiz;eksiksiz|adj|work|The police carried out a thorough search.|Polis kapsamlı bir arama yaptı.
+transparent|şeffaf;saydam|adj|business|The process should be transparent.|Süreç şeffaf olmalı.
+undermine|baltalamak;zayıflatmak|v|society|His comments undermined my confidence.|Yorumları özgüvenimi zayıflattı.
+undertake|üstlenmek;girişmek|v|work|She undertook the project alone.|Projeyi tek başına üstlendi.
+unprecedented|eşi görülmemiş;benzeri olmayan|adj|general|The city saw unprecedented levels of rain.|Şehir eşi görülmemiş miktarda yağmur aldı.
+utilise|kullanmak;yararlanmak|v|academic|We must utilise all available resources.|Mevcut tüm kaynakları kullanmalıyız.
+viable|uygulanabilir;yaşayabilir|adj|business|Is this a viable business idea?|Bu uygulanabilir bir iş fikri mi?
+vulnerable|savunmasız;hassas;korunmasız|adj|society|Old people are vulnerable in cold weather.|Yaşlılar soğuk havada savunmasızdır.
+whereby|ki bununla;ki o sayede|conj|academic|They introduced a system whereby workers can share ideas.|Çalışanların fikir paylaşabildiği bir sistem getirdiler.

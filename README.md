@@ -23,7 +23,7 @@ Türkçe konuşanlar için İngilizce kelime kartları uygulaması (Flutter — 
   - Kota dolunca paywall açılır ve **"Reklam izle, +3 kelime"** seçeneği sunulur (günde en fazla 3 kez).
   - Ücretsiz sürümde banner reklam gösterilir, kart ekranında gösterilmez.
 - **Premium:** Sınırsız kelime, 50/100'lük seanslar, kategoriler ve konu desteleri, ek modlar, reklamsız deneyim
-- **Kelime verisi:** 637 kelime (A1: 402, A2: 235). Her kelimede Türkçe karşılıklar, kelime türü, konu ve Türkçe çevirili örnek cümle var.
+- **Kelime verisi:** 1386 kelime, 6 seviye (A1: 402, A2: 235, B1: 293, B2: 186, C1: 142, C2: 128). Her kelimede Türkçe karşılıklar, kelime türü, konu ve Türkçe çevirili örnek cümle var. Yeni kelimeler kullanıcının hedef seviyesinden gelir; hedef seviye bitince bir alt seviyeye geçilir.
 
 ## Yerelde çalıştırma
 
@@ -91,7 +91,7 @@ storeFile=/tam/yol/upload-keystore.jks
 
 ## Kelime eklemek / düzeltmek
 
-1. `data_src/a1.txt` veya `data_src/a2.txt` dosyasını düzenle. Satır biçimi:
+1. `data_src/` altındaki seviye dosyasını (`a1.txt` … `c2.txt`) düzenle. Satır biçimi:
 
 ```
 ingilizce|türkçe1;türkçe2|tür|konu|English example.|Türkçe örnek.

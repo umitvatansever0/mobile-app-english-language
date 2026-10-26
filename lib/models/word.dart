@@ -62,6 +62,14 @@ const topicLabels = <String, String>{
   'health': 'Sağlık',
   'feelings': 'Duygular',
   'general': 'Genel',
+  'character': 'Kişilik',
+  'society': 'Toplum',
+  'law': 'Hukuk ve siyaset',
+  'finance': 'Para ve ekonomi',
+  'business': 'İş dünyası',
+  'science': 'Bilim ve teknoloji',
+  'media': 'Medya',
+  'academic': 'Akademik',
   'custom': 'Kendi kelimelerim',
 };
 

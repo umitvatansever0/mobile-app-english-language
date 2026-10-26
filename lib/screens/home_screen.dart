@@ -92,7 +92,7 @@ class HomeScreen extends StatelessWidget {
             title: 'Hataları Çalış',
             subtitle: '${app.mistakesCount} hatalı kelime seni bekliyor',
             onTap: () => startSession(context,
-                SessionRequest(size: 20, level: 'C1', kind: SessionKind.mistakes)),
+                SessionRequest(size: 20, level: allLevels, kind: SessionKind.mistakes)),
           ),
           const SizedBox(height: 12),
         ],

@@ -162,6 +162,37 @@ void main() {
       expect(s.map((w) => w.id).toSet().length, 20);
     });
 
+    test('altı seviyenin hepsinde kelime var', () {
+      for (final l in levelOrder) {
+        expect(words.where((w) => w.level == l).length, greaterThan(100), reason: l);
+      }
+    });
+
+    test('yeni kelimeler hedef seviyeden gelir (C1 hedefi A1 kelimesi getirmez)', () {
+      for (final target in ['B2', 'C1', 'C2']) {
+        final s = buildSession(
+          words: words,
+          progress: {},
+          request: SessionRequest(size: 20, level: target),
+          now: DateTime(2026, 10, 26),
+          random: Random(3),
+        );
+        expect(s.length, 20);
+        expect(s.every((w) => w.level == target), isTrue, reason: target);
+      }
+    });
+
+    test('hedef seviye bitince bir alt seviyeye geçer', () {
+      final now = DateTime(2026, 10, 26);
+      final seenB1 = {
+        for (final w in words.where((w) => w.level == 'B1'))
+          w.id: WordProgress(wordId: w.id, timesSeen: 1, interval: 30, dueDate: now.add(const Duration(days: 30))),
+      };
+      final s = buildSession(
+          words: words, progress: seenB1, request: const SessionRequest(size: 20, level: 'B1'), now: now, random: Random(4));
+      expect(s.every((w) => w.level == 'A2'), isTrue);
+    });
+
     test('zamanı gelen tekrarlar önce gelir', () {
       final now = DateTime(2026, 10, 25, 12);
       final due = {
@@ -177,7 +208,7 @@ void main() {
       final s = buildSession(
         words: words,
         progress: m,
-        request: const SessionRequest(size: 20, level: 'C1', kind: SessionKind.mistakes),
+        request: const SessionRequest(size: 20, level: allLevels, kind: SessionKind.mistakes),
         now: DateTime(2026, 10, 25),
       );
       expect(s.map((w) => w.id), [words[3].id]);

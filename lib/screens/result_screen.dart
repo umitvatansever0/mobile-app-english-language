@@ -171,7 +171,7 @@ class _ResultScreenState extends State<ResultScreen> {
                 final nav = Navigator.of(context);
                 final navCtx = nav.context;
                 nav.pop();
-                startSession(navCtx, const SessionRequest(size: 20, level: 'C1', kind: SessionKind.mistakes));
+                startSession(navCtx, const SessionRequest(size: 20, level: allLevels, kind: SessionKind.mistakes));
               },
               label: Text('Hataları Çalış (${app.mistakesCount})'),
             ),

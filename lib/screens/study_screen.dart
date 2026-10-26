@@ -42,7 +42,7 @@ class _StudyScreenState extends State<StudyScreen> {
       body: ListView(padding: const EdgeInsets.fromLTRB(16, 8, 16, 24), children: [
         if (app.mistakesCount > 0)
           SectionCard(
-            onTap: () => startSession(context, const SessionRequest(size: 20, level: 'C1', kind: SessionKind.mistakes)),
+            onTap: () => startSession(context, const SessionRequest(size: 20, level: allLevels, kind: SessionKind.mistakes)),
             child: Row(children: [
               const Icon(Icons.replay_rounded, color: AppColors.warning, size: 32),
               const SizedBox(width: 16),
@@ -98,12 +98,12 @@ class _StudyScreenState extends State<StudyScreen> {
         const SizedBox(height: 16),
         _Header('SEVİYE'),
         Wrap(spacing: 8, children: [
-          for (final l in const ['A1', 'A2'])
+          for (final l in levelOrder)
             ChoiceChip(label: Text(l), selected: app.targetLevel == l, onSelected: (_) => app.setTargetLevel(l)),
         ]),
         Padding(
           padding: const EdgeInsets.only(top: 6),
-          child: Text('Seçtiğin seviye ve altındaki kelimeler karışık gelir. B1–C1 yakında.',
+          child: Text('Yeni kelimeler seçtiğin seviyeden gelir. Tekrarlar tüm seviyelerden.',
               style: TextStyle(color: cs.onSurfaceVariant, fontSize: 13)),
         ),
         const SizedBox(height: 20),

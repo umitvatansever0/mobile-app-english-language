@@ -27,6 +27,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   static const _levels = [
     ('A1', 'Yeni başlıyorum', 'Temel kelimeler, selamlaşma, sayılar'),
     ('A2', 'Biraz biliyorum', 'Günlük hayat, seyahat, alışveriş'),
+    ('B1', 'Orta seviye', 'İş, duygular, fikir belirtme'),
+    ('B2', 'İyi seviye', 'Toplum, medya, soyut konular'),
+    ('C1', 'İleri seviye', 'Akademik ve profesyonel dil'),
+    ('C2', 'Uzman', 'Nadir ve edebi kelimeler'),
   ];
 
   @override

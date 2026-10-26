@@ -37,7 +37,10 @@ class SessionRequest {
   final SessionKind kind;
 }
 
-const levelOrder = ['A1', 'A2', 'B1', 'B2', 'C1'];
+const levelOrder = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+
+/// Hata oturumları gibi tüm seviyeleri kapsayan istekler için.
+const allLevels = 'C2';
 
 bool _levelIncluded(String wordLevel, String target) {
   final w = levelOrder.indexOf(wordLevel);
@@ -49,7 +52,7 @@ bool _levelIncluded(String wordLevel, String target) {
 /// Oturum için kelime seçer. Öncelik sırası:
 /// 1) zamanı gelmiş tekrarlar (en gecikmiş önce)
 /// 2) hata listesindekiler
-/// 3) yeni kelimeler (seviye sırasıyla, hedef seviyenin kendisi en sona kalmasın diye karışık)
+/// 3) yeni kelimeler: önce hedef seviyeden, o bitince bir alt seviyeden (B2 -> B1 -> ...)
 List<Word> buildSession({
   required List<Word> words,
   required Map<String, WordProgress> progress,
@@ -75,13 +78,18 @@ List<Word> buildSession({
   final mistakes =
       pool.where((w) => (progress[w.id]?.inMistakes ?? false) && !due.contains(w)).toList()..shuffle(rnd);
   final fresh = pool.where((w) => !(progress[w.id]?.isStarted ?? false)).toList();
-  // Seviye seviye karıştır: önce düşük seviyedeki yeni kelimeler gelir.
-  fresh.sort((a, b) => levelOrder.indexOf(a.level).compareTo(levelOrder.indexOf(b.level)));
-  final byLevel = <String, List<Word>>{};
+  // Yeni kelimeler hedef seviyeden gelir; ileri seviyedeki biri A1 kelimeleriyle
+  // vakit kaybetmesin. Hedef seviye bitince alt seviyelerdeki eksikler gelir.
+  // Kendi kelimeleri (seviyesi listede olmayan) hedef seviyeyle birlikte gelir.
+  final target = levelOrder.indexOf(request.level);
+  final byLevel = <int, List<Word>>{};
   for (final w in fresh) {
-    byLevel.putIfAbsent(w.level, () => []).add(w);
+    final i = levelOrder.indexOf(w.level);
+    byLevel.putIfAbsent(i < 0 ? target : i, () => []).add(w);
   }
-  final freshOrdered = <Word>[for (final l in byLevel.values) ...(l..shuffle(rnd))];
+  final freshOrdered = <Word>[
+    for (var i = target; i >= 0; i--) ...((byLevel[i] ?? <Word>[])..shuffle(rnd)),
+  ];
 
   // Her oturumda en az ~%40 yeni kelime olsun ki ilerleme hissedilsin.
   final minFresh = math.min(freshOrdered.length, (request.size * 0.4).ceil());

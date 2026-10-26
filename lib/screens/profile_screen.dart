@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import '../config/app_config.dart';
 import '../logic/badges.dart';
 import '../logic/daily.dart';
+import '../logic/session_builder.dart';
 import '../state/app_state.dart';
 import '../theme/app_theme.dart';
 import '../widgets/common.dart';
@@ -111,11 +112,11 @@ class ProfileScreen extends StatelessWidget {
           child: Column(children: [
             ListTile(
               title: const Text('Hedef seviye'),
-              trailing: SegmentedButton<String>(
-                showSelectedIcon: false,
-                segments: const [ButtonSegment(value: 'A1', label: Text('A1')), ButtonSegment(value: 'A2', label: Text('A2'))],
-                selected: {app.targetLevel},
-                onSelectionChanged: (s) => app.setTargetLevel(s.first),
+              trailing: DropdownButton<String>(
+                value: app.targetLevel,
+                underline: const SizedBox.shrink(),
+                items: [for (final l in levelOrder) DropdownMenuItem(value: l, child: Text(l))],
+                onChanged: (v) => app.setTargetLevel(v ?? app.targetLevel),
               ),
             ),
             ListTile(

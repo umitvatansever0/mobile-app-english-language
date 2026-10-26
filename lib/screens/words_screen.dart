@@ -93,7 +93,7 @@ class _WordsScreenState extends State<WordsScreen> {
       ]),
       _chips('Seviye', [
         ('Hepsi ${started.length}', _level == null, () => setState(() => _level = null)),
-        for (final l in levelOrder.take(2)) ('$l ${lvlCount(l)}', _level == l, () => setState(() => _level = l)),
+        for (final l in levelOrder) ('$l ${lvlCount(l)}', _level == l, () => setState(() => _level = l)),
       ]),
       const Divider(height: 24),
       if (list.isEmpty)
