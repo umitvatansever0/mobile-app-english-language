@@ -200,7 +200,9 @@ class _SessionScreenState extends State<SessionScreen> {
               opacity: feedback ? 0.35 : 1,
               child: IgnorePointer(
                 ignoring: feedback,
-                child: ListView(padding: const EdgeInsets.fromLTRB(18, 6, 18, 24), children: [
+                child: Column(children: [
+                  Expanded(
+                    child: ListView(padding: const EdgeInsets.fromLTRB(18, 6, 18, 12), children: [
                   Row(children: [
                     IconButton(
                       icon: Icon(Icons.close_rounded, size: 30, color: pal.lockInk),
@@ -213,10 +215,16 @@ class _SessionScreenState extends State<SessionScreen> {
                     Text('${_i + 1}/${_words.length}',
                         style: TextStyle(fontWeight: FontWeight.w900, fontSize: 15, color: pal.lockInk)),
                   ]),
-                  const SizedBox(height: 16),
+                  SizedBox(height: _compact ? 8 : 16),
                   _questionCard(pal),
-                  const SizedBox(height: 22),
-                  ..._questionControls(pal),
+                  SizedBox(height: _compact ? 14 : 22),
+                  ..._questionInputs(pal),
+                    ]),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(18, 4, 18, 10),
+                    child: _questionButtons(),
+                  ),
                 ]),
               ),
             ),
@@ -234,34 +242,41 @@ class _SessionScreenState extends State<SessionScreen> {
   }
 
   // ------------------------------------------------------------------ soru
+  /// Klavye açıkken kartı küçült ki düğmeler ve cevap kutusu ekranda kalsın.
+  bool get _compact => MediaQuery.of(context).viewInsets.bottom > 0;
+
   Widget _questionCard(Pal pal) {
     final showWord = widget.mode != StudyMode.listen;
+    final compact = _compact;
     final prompt = widget.mode == StudyMode.typeEn ? _w.mainTr : _w.en;
     return ChunkyCard(
       key: ValueKey('q$_i'),
       lip: 7,
       radius: 30,
-      padding: const EdgeInsets.fromLTRB(20, 34, 20, 30),
+      padding: compact ? const EdgeInsets.fromLTRB(16, 16, 16, 16) : const EdgeInsets.fromLTRB(20, 34, 20, 30),
       child: Column(children: [
         Tag(_w.isCustom ? _w.pos.label : '${_w.pos.label} · ${_w.level}'),
-        const SizedBox(height: 18),
+        SizedBox(height: compact ? 8 : 18),
         if (showWord)
           FittedBox(
             fit: BoxFit.scaleDown,
             child: Text(prompt,
                 key: const ValueKey('prompt-word'),
-                style: TextStyle(fontSize: 50, fontWeight: FontWeight.w900, color: pal.ink, letterSpacing: -0.5)),
+                style: TextStyle(fontSize: compact ? 38 : 50, fontWeight: FontWeight.w900, color: pal.ink, letterSpacing: -0.5)),
           )
         else
           Text('Dinle ve yaz', style: TextStyle(fontSize: 28, fontWeight: FontWeight.w900, color: pal.muted)),
-        const SizedBox(height: 18),
+        SizedBox(height: compact ? 10 : 18),
         if (widget.mode != StudyMode.typeEn)
-          _SpeakButton(size: widget.mode == StudyMode.listen ? 76 : 60, onTap: () => _app.tts.speak(_w.en)),
+          _SpeakButton(
+            size: widget.mode == StudyMode.listen ? (compact ? 60 : 76) : (compact ? 46 : 60),
+            onTap: () => _app.tts.speak(_w.en),
+          ),
       ]),
     );
   }
 
-  List<Widget> _questionControls(Pal pal) {
+  List<Widget> _questionInputs(Pal pal) {
     if (widget.mode == StudyMode.choice) {
       return [
         for (final c in _choices)
@@ -269,8 +284,6 @@ class _SessionScreenState extends State<SessionScreen> {
             padding: const EdgeInsets.only(bottom: 10),
             child: ChunkyButton(label: c, style: ChunkyStyle.ghost, onPressed: () => _check(c)),
           ),
-        const SizedBox(height: 4),
-        TextButton(onPressed: _dontKnow, child: const Text('Bilmiyorum')),
       ];
     }
     return [
@@ -285,15 +298,20 @@ class _SessionScreenState extends State<SessionScreen> {
         style: TextStyle(fontSize: 21, fontWeight: FontWeight.w800, color: pal.ink),
         decoration: InputDecoration(labelText: _reverse ? 'İngilizcesi' : 'Türkçe karşılığı'),
       ),
-      const SizedBox(height: 16),
-      Row(children: [
-        Expanded(child: ChunkyButton(label: 'Bilmiyorum', style: ChunkyStyle.ghost, onPressed: _dontKnow)),
-        const SizedBox(width: 12),
-        Expanded(
-          child: ChunkyButton(label: 'Kontrol et', onPressed: _input.text.trim().isEmpty ? null : _check),
-        ),
-      ]),
     ];
+  }
+
+  Widget _questionButtons() {
+    if (widget.mode == StudyMode.choice) {
+      return ChunkyButton(label: 'Bilmiyorum', style: ChunkyStyle.ghost, onPressed: _dontKnow);
+    }
+    return Row(children: [
+      Expanded(child: ChunkyButton(label: 'Bilmiyorum', style: ChunkyStyle.ghost, onPressed: _dontKnow)),
+      const SizedBox(width: 12),
+      Expanded(
+        child: ChunkyButton(label: 'Kontrol et', onPressed: _input.text.trim().isEmpty ? null : _check),
+      ),
+    ]);
   }
 
   // ------------------------------------------------------------- geri bildirim

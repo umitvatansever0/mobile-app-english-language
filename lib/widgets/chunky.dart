@@ -150,8 +150,10 @@ class ChunkyProgress extends StatelessWidget {
       height: height,
       decoration: BoxDecoration(color: track ?? Pal.of(context).track, borderRadius: BorderRadius.circular(height)),
       alignment: Alignment.centerLeft,
-      child: FractionallySizedBox(
-        widthFactor: v == 0 ? 0.0001 : v,
+      child: v == 0
+          ? null
+          : FractionallySizedBox(
+        widthFactor: v,
         child: Container(
           decoration: BoxDecoration(
             color: color,
@@ -192,7 +194,7 @@ class SectionTitle extends StatelessWidget {
           Expanded(
             child: Text(text, style: TextStyle(fontSize: 19, fontWeight: FontWeight.w900, color: Pal.of(context).ink)),
           ),
-          if (trailing != null) trailing!,
+          ?trailing,
         ]),
       );
 }
