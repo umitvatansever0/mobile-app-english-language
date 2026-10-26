@@ -27,6 +27,10 @@ class PurchaseService {
 
   bool get isTestMode => !_configured;
 
+  /// Satın alma ekranı çalışır durumda mı? Mağaza sürümünde RevenueCat anahtarı
+  /// yoksa false olur ve paywall "yakında" mesajı gösterir (bozuk düğme yerine).
+  bool get available => _configured || kDebugMode;
+
   Future<void> init({required bool cachedPremium}) async {
     isPremium.value = cachedPremium;
     if (!AppConfig.purchasesConfigured) {

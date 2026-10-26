@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -157,7 +158,16 @@ class _PaywallScreenState extends State<PaywallScreen> {
           Padding(
             padding: const EdgeInsets.fromLTRB(20, 24, 20, 24),
             child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-              if (_plans == null)
+              if (!app.purchases.available)
+                ChunkyCard(
+                  child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                    Text('Premium çok yakında!', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900, color: pal.ink)),
+                    const SizedBox(height: 4),
+                    Text('Abonelik henüz açılmadı. Şimdilik reklam izleyerek ek kelime hakkı kazanabilirsin.',
+                        style: TextStyle(color: pal.muted, fontWeight: FontWeight.w700)),
+                  ]),
+                )
+              else if (_plans == null)
                 const Center(child: Padding(padding: EdgeInsets.all(24), child: CircularProgressIndicator()))
               else if (_plans!.isEmpty)
                 Text('Planlar şu an yüklenemedi. İnternet bağlantını kontrol et.',
@@ -168,11 +178,12 @@ class _PaywallScreenState extends State<PaywallScreen> {
                   const SizedBox(height: 12),
                 ],
               const SizedBox(height: 4),
-              ChunkyButton(
-                label: 'Seçimi onayla',
-                loading: _busy,
-                onPressed: (_plans?.isNotEmpty ?? false) ? _buy : null,
-              ),
+              if (app.purchases.available)
+                ChunkyButton(
+                  label: 'Seçimi onayla',
+                  loading: _busy,
+                  onPressed: (_plans?.isNotEmpty ?? false) ? _buy : null,
+                ),
               if (widget.reason == PaywallReason.quota && app.canWatchRewardedAd) ...[
                 const SizedBox(height: 12),
                 ChunkyButton(
@@ -193,19 +204,21 @@ class _PaywallScreenState extends State<PaywallScreen> {
                 ),
               ],
               const SizedBox(height: 16),
-              Text(
+              if (app.purchases.available)
+                Text(
                 'Deneme süresi sonunda aboneliğin otomatik olarak ücretli üyeliğe dönüşür. İptal edilmediği sürece otomatik yenilenir. '
                 'Aboneliğini Google Play veya App Store hesap ayarlarından istediğin zaman iptal edebilirsin.',
                 style: TextStyle(color: pal.muted, fontSize: 12.5, fontWeight: FontWeight.w600),
               ),
-              if (app.purchases.isTestMode)
+              if (app.purchases.isTestMode && kDebugMode)
                 Padding(
                   padding: const EdgeInsets.only(top: 8),
                   child: Text('Test modu: mağaza bağlantısı yapılandırılmadı, gerçek ödeme alınmaz.',
                       style: TextStyle(color: AppColors.rose, fontSize: 12.5, fontWeight: FontWeight.w800)),
                 ),
               const SizedBox(height: 8),
-              TextButton(onPressed: _restore, child: const Text('Satın alımı geri yükle')),
+              if (app.purchases.available)
+                TextButton(onPressed: _restore, child: const Text('Satın alımı geri yükle')),
               Wrap(alignment: WrapAlignment.center, children: [
                 TextButton(onPressed: () => openUrl(context, AppConfig.termsUrl), child: const Text('Kullanım koşulları')),
                 TextButton(onPressed: () => openUrl(context, AppConfig.privacyUrl), child: const Text('Gizlilik politikası')),

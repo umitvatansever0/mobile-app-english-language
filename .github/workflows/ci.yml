@@ -32,8 +32,37 @@ jobs:
         run: flutter analyze --no-fatal-infos 2>&1 | tee ci-out/analyze.txt; exit ${PIPESTATUS[0]}
       - name: Test
         run: flutter test 2>&1 | tee ci-out/test.txt; exit ${PIPESTATUS[0]}
-      - name: Android APK (test reklam kimlikleri, debug imzalı)
-        run: flutter build apk --release 2>&1 | tee ci-out/build-apk.txt; exit ${PIPESTATUS[0]}
+      - name: Yükleme anahtarını hazırla (GitHub Secrets varsa)
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          if [ -n "$ANDROID_KEYSTORE_BASE64" ]; then
+            echo "$ANDROID_KEYSTORE_BASE64" | base64 -d > android/app/upload-keystore.jks
+            printf 'storePassword=%s\nkeyPassword=%s\nkeyAlias=%s\nstoreFile=upload-keystore.jks\n' \
+              "$ANDROID_KEYSTORE_PASSWORD" "$ANDROID_KEY_PASSWORD" "$ANDROID_KEY_ALIAS" > android/key.properties
+            echo "Yükleme anahtarıyla imzalanacak." | tee ci-out/signing.txt
+          else
+            echo "Yükleme anahtarı yok: debug anahtarıyla imzalanacak (Play'e yüklenemez)." | tee ci-out/signing.txt
+          fi
+      - name: Android APK + AAB
+        env:
+          REVENUECAT_ANDROID_KEY: ${{ secrets.REVENUECAT_ANDROID_KEY }}
+          ADMOB_REWARDED_ANDROID: ${{ secrets.ADMOB_REWARDED_ANDROID }}
+          ADMOB_BANNER_ANDROID: ${{ secrets.ADMOB_BANNER_ANDROID }}
+          ADMOB_APP_ID_ANDROID: ${{ secrets.ADMOB_APP_ID_ANDROID }}
+        run: |
+          DEFINES=$(bash tool/dart_defines.sh)
+          if [ -n "$ADMOB_APP_ID_ANDROID" ]; then export ORG_GRADLE_PROJECT_ADMOB_APP_ID="$ADMOB_APP_ID_ANDROID"; fi
+          flutter build apk --release $DEFINES 2>&1 | tee ci-out/build-apk.txt; [ ${PIPESTATUS[0]} -eq 0 ] || exit 1
+          flutter build appbundle --release $DEFINES 2>&1 | tail -5 | tee ci-out/build-aab.txt; exit ${PIPESTATUS[0]}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ingilizce-kartlar-aab
+          path: build/app/outputs/bundle/release/app-release.aab
+          retention-days: 30
       - uses: actions/upload-artifact@v4
         with:
           name: ingilizce-kartlar-apk

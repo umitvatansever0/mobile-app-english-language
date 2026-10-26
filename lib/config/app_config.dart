@@ -56,14 +56,14 @@ class AppConfig {
   static String get bannerAdUnit => Platform.isIOS ? _bannerIos : _bannerAndroid;
 
   /// Kelime hatası bildirimi ve destek için e-posta. Boşsa "Bildir" bağlantısı gizlenir.
-  static const supportEmail = String.fromEnvironment('SUPPORT_EMAIL');
+  static const supportEmail = String.fromEnvironment('SUPPORT_EMAIL', defaultValue: 'umitvatansever0@gmail.com');
 
   /// Mağaza sayfaları ("Uygulamayı Puanla" için).
   static const androidPackage = 'com.umitvatansever.ingilizce_calisma_kartlari';
   static const iosAppId = String.fromEnvironment('IOS_APP_ID');
 
   static const privacyUrl = String.fromEnvironment('PRIVACY_URL',
-      defaultValue: 'https://github.com/umitvatansever0/mobile-app-english-language/blob/main/docs/privacy.md');
+      defaultValue: 'https://deutschstep.com/ingilizce-kartlar/gizlilik.html');
   static const termsUrl = String.fromEnvironment('TERMS_URL',
-      defaultValue: 'https://github.com/umitvatansever0/mobile-app-english-language/blob/main/docs/terms.md');
+      defaultValue: 'https://deutschstep.com/ingilizce-kartlar/kosullar.html');
 }
