@@ -81,3 +81,26 @@ jobs:
           git add screens
           git commit -m "screens ${{ github.event.workflow_run.head_sha || github.sha }}" || true
           git push origin ci-logs
+
+  # Başarısız adımların günlüğünü ci-logs dalına yazar (teşhis için).
+  collect-logs:
+    needs: [build, screens]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ci-logs
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p screens-joblog
+          gh run view ${{ github.run_id }} --repo ${{ github.repository }} --log-failed > screens-joblog/failed.txt 2>&1 || true
+          tail -c 300000 screens-joblog/failed.txt > screens-joblog/failed-tail.txt
+          rm screens-joblog/failed.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull -q origin ci-logs || true
+          git add screens-joblog
+          git commit -m "screens job log ${{ github.run_id }}" || true
+          git push origin HEAD:ci-logs
