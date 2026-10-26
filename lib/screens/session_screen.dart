@@ -10,6 +10,7 @@ import '../logic/srs.dart';
 import '../models/word.dart';
 import '../state/app_state.dart';
 import '../theme/app_theme.dart';
+import '../widgets/chunky.dart';
 import 'links.dart';
 import 'paywall_screen.dart';
 import 'result_screen.dart';
@@ -167,7 +168,7 @@ class _SessionScreenState extends State<SessionScreen> {
         content: Text('${_results.length} kelime çalıştın. İlerlemen kaydedildi.'),
         actions: [
           TextButton(onPressed: () => Navigator.pop(c, false), child: const Text('Devam et')),
-          FilledButton(onPressed: () => Navigator.pop(c, true), child: const Text('Bitir')),
+          TextButton(onPressed: () => Navigator.pop(c, true), child: const Text('Bitir')),
         ],
       ),
     );
@@ -176,7 +177,8 @@ class _SessionScreenState extends State<SessionScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
+    final pal = Pal.of(context);
+    final feedback = _phase == _Phase.feedback;
     return PopScope(
       canPop: false,
       onPopInvokedWithResult: (didPop, _) async {
@@ -190,30 +192,41 @@ class _SessionScreenState extends State<SessionScreen> {
         }
       },
       child: Scaffold(
-        appBar: AppBar(
-          leading: IconButton(
-            icon: const Icon(Icons.close_rounded, size: 30),
-            onPressed: () => Navigator.of(context).maybePop(),
-          ),
-          title: ClipRRect(
-            borderRadius: BorderRadius.circular(6),
-            child: LinearProgressIndicator(value: (_i + (_phase == _Phase.feedback ? 1 : 0)) / _words.length, minHeight: 8),
-          ),
-          actions: [
-            Padding(
-              padding: const EdgeInsets.only(right: 20),
-              child: Center(child: Text('${_i + 1} / ${_words.length}', style: TextStyle(fontSize: 17, color: cs.onSurfaceVariant))),
-            ),
-          ],
-        ),
         body: SafeArea(
-          child: ListView(padding: const EdgeInsets.fromLTRB(20, 12, 20, 24), children: [
-            AnimatedSwitcher(
-              duration: const Duration(milliseconds: 250),
-              child: _phase == _Phase.question ? _questionCard(cs) : _feedbackCard(cs),
+          child: Stack(children: [
+            // Soru alanı (geri bildirimde soluklaşır)
+            AnimatedOpacity(
+              duration: const Duration(milliseconds: 200),
+              opacity: feedback ? 0.35 : 1,
+              child: IgnorePointer(
+                ignoring: feedback,
+                child: ListView(padding: const EdgeInsets.fromLTRB(18, 6, 18, 24), children: [
+                  Row(children: [
+                    IconButton(
+                      icon: Icon(Icons.close_rounded, size: 30, color: pal.lockInk),
+                      onPressed: () => Navigator.of(context).maybePop(),
+                      tooltip: 'Kapat',
+                    ),
+                    const SizedBox(width: 4),
+                    Expanded(child: ChunkyProgress(value: (_i + (feedback ? 1 : 0)) / _words.length)),
+                    const SizedBox(width: 12),
+                    Text('${_i + 1}/${_words.length}',
+                        style: TextStyle(fontWeight: FontWeight.w900, fontSize: 15, color: pal.lockInk)),
+                  ]),
+                  const SizedBox(height: 16),
+                  _questionCard(pal),
+                  const SizedBox(height: 22),
+                  ..._questionControls(pal),
+                ]),
+              ),
             ),
-            const SizedBox(height: 20),
-            if (_phase == _Phase.question) ..._questionControls(cs) else ..._feedbackControls(cs),
+            // Cevap paneli
+            AnimatedSlide(
+              duration: const Duration(milliseconds: 260),
+              curve: Curves.easeOutCubic,
+              offset: feedback ? Offset.zero : const Offset(0, 1.1),
+              child: Align(alignment: Alignment.bottomCenter, child: feedback ? _feedbackSheet(pal) : const SizedBox.shrink()),
+            ),
           ]),
         ),
       ),
@@ -221,49 +234,42 @@ class _SessionScreenState extends State<SessionScreen> {
   }
 
   // ------------------------------------------------------------------ soru
-  Widget _questionCard(ColorScheme cs) {
+  Widget _questionCard(Pal pal) {
     final showWord = widget.mode != StudyMode.listen;
     final prompt = widget.mode == StudyMode.typeEn ? _w.mainTr : _w.en;
-    return Container(
+    return ChunkyCard(
       key: ValueKey('q$_i'),
-      height: 300,
-      decoration: BoxDecoration(color: cs.surface, borderRadius: BorderRadius.circular(28)),
-      child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-        Text(_w.pos.label.toUpperCase(), style: TextStyle(letterSpacing: 1.5, color: cs.onSurfaceVariant)),
-        const SizedBox(height: 16),
+      lip: 7,
+      radius: 30,
+      padding: const EdgeInsets.fromLTRB(20, 34, 20, 30),
+      child: Column(children: [
+        Tag(_w.isCustom ? _w.pos.label : '${_w.pos.label} · ${_w.level}'),
+        const SizedBox(height: 18),
         if (showWord)
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: FittedBox(
-              fit: BoxFit.scaleDown,
-              child: Text(prompt, style: const TextStyle(fontSize: 48, fontWeight: FontWeight.w800)),
-            ),
+          FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Text(prompt,
+                key: const ValueKey('prompt-word'),
+                style: TextStyle(fontSize: 50, fontWeight: FontWeight.w900, color: pal.ink, letterSpacing: -0.5)),
           )
         else
-          Text('Dinle ve yaz', style: TextStyle(fontSize: 28, fontWeight: FontWeight.w700, color: cs.onSurfaceVariant)),
-        const SizedBox(height: 12),
+          Text('Dinle ve yaz', style: TextStyle(fontSize: 28, fontWeight: FontWeight.w900, color: pal.muted)),
+        const SizedBox(height: 18),
         if (widget.mode != StudyMode.typeEn)
-          IconButton(
-            iconSize: widget.mode == StudyMode.listen ? 64 : 40,
-            color: cs.primary,
-            icon: const Icon(Icons.volume_up_rounded),
-            onPressed: () => _app.tts.speak(_w.en),
-          ),
+          _SpeakButton(size: widget.mode == StudyMode.listen ? 76 : 60, onTap: () => _app.tts.speak(_w.en)),
       ]),
     );
   }
 
-  List<Widget> _questionControls(ColorScheme cs) {
+  List<Widget> _questionControls(Pal pal) {
     if (widget.mode == StudyMode.choice) {
       return [
         for (final c in _choices)
           Padding(
-            padding: const EdgeInsets.only(bottom: 12),
-            child: OutlinedButton(
-              onPressed: () => _check(c),
-              child: Text(c, style: TextStyle(color: cs.onSurface, fontWeight: FontWeight.w600)),
-            ),
+            padding: const EdgeInsets.only(bottom: 10),
+            child: ChunkyButton(label: c, style: ChunkyStyle.ghost, onPressed: () => _check(c)),
           ),
+        const SizedBox(height: 4),
         TextButton(onPressed: _dontKnow, child: const Text('Bilmiyorum')),
       ];
     }
@@ -276,125 +282,195 @@ class _SessionScreenState extends State<SessionScreen> {
         textInputAction: TextInputAction.done,
         onChanged: (_) => setState(() {}),
         onSubmitted: (_) => _check(),
-        style: const TextStyle(fontSize: 22),
+        style: TextStyle(fontSize: 21, fontWeight: FontWeight.w800, color: pal.ink),
         decoration: InputDecoration(labelText: _reverse ? 'İngilizcesi' : 'Türkçe karşılığı'),
       ),
       const SizedBox(height: 16),
       Row(children: [
-        Expanded(child: OutlinedButton(onPressed: _dontKnow, child: const Text('Bilmiyorum'))),
+        Expanded(child: ChunkyButton(label: 'Bilmiyorum', style: ChunkyStyle.ghost, onPressed: _dontKnow)),
         const SizedBox(width: 12),
         Expanded(
-          child: FilledButton(onPressed: _input.text.trim().isEmpty ? null : _check, child: const Text('Kontrol Et')),
+          child: ChunkyButton(label: 'Kontrol et', onPressed: _input.text.trim().isEmpty ? null : _check),
         ),
       ]),
     ];
   }
 
   // ------------------------------------------------------------- geri bildirim
-  Widget _feedbackCard(ColorScheme cs) {
+  Widget _feedbackSheet(Pal pal) {
     final ok = _outcome == CardOutcome.correct;
     final almost = _answer?.verdict == AnswerVerdict.almost;
-    final color = ok ? AppColors.success : AppColors.danger;
+    final bg = ok ? pal.okBg : pal.badBg;
+    final ink = ok ? pal.okInk : pal.badInk;
+    final accent = ok ? AppColors.emerald : AppColors.rose;
     final title = switch (_outcome!) {
-      CardOutcome.correct => almost ? 'Neredeyse doğru!' : 'Doğru bildin!',
-      CardOutcome.wrong => 'Yanlış',
-      CardOutcome.dontKnow => 'Öğrenelim',
+      CardOutcome.correct => almost ? 'Neredeyse doğru!' : 'Harika, doğru!',
+      CardOutcome.wrong => 'Doğrusu şu',
+      CardOutcome.dontKnow => 'Birlikte öğrenelim',
     };
     final meaning = _reverse ? _w.en : _w.mainTr;
     final others = _reverse ? _w.tr : _w.tr.skip(1).toList();
 
     return Container(
-      key: ValueKey('f$_i'),
-      padding: const EdgeInsets.all(24),
-      decoration: BoxDecoration(color: cs.surface, borderRadius: BorderRadius.circular(28)),
-      child: Column(children: [
-        CircleAvatar(
-          radius: 30,
-          backgroundColor: color,
-          child: Icon(ok ? Icons.check_rounded : Icons.close_rounded, color: Colors.white, size: 38),
-        ),
-        const SizedBox(height: 12),
-        Text(title, style: TextStyle(fontSize: 26, fontWeight: FontWeight.w800, color: color)),
-        if (_outcome == CardOutcome.wrong && _given.isNotEmpty)
-          Padding(
-            padding: const EdgeInsets.only(top: 6),
-            child: Text('Senin cevabın: $_given',
-                style: TextStyle(color: cs.onSurfaceVariant, decoration: TextDecoration.lineThrough)),
-          ),
-        if (almost)
-          Padding(
-            padding: const EdgeInsets.only(top: 6),
-            child: Text('Doğru yazımı: ${_answer!.matched}', style: TextStyle(color: cs.onSurfaceVariant)),
-          ),
-        const SizedBox(height: 12),
-        Text(_reverse ? 'İNGİLİZCESİ' : 'ANLAMI', style: TextStyle(color: color, letterSpacing: 1.2)),
-        Text(meaning, textAlign: TextAlign.center, style: TextStyle(fontSize: 34, fontWeight: FontWeight.w800, color: color)),
-        if (!_reverse || widget.mode == StudyMode.listen)
-          Padding(
-            padding: const EdgeInsets.only(top: 4),
-            child: Text(_reverse ? _w.mainTr : _w.en, style: TextStyle(fontSize: 18, color: cs.onSurfaceVariant)),
-          ),
-        if (others.isNotEmpty)
-          Padding(
-            padding: const EdgeInsets.only(top: 6),
-            child: Text('Diğer anlamlar: ${others.join(', ')}',
-                textAlign: TextAlign.center, style: TextStyle(color: cs.onSurfaceVariant)),
-          ),
-        if (_w.exampleEn.isNotEmpty) ...[
-          const Divider(height: 32),
-          Text(_w.exampleEn,
-              textAlign: TextAlign.center, style: const TextStyle(fontSize: 19, fontStyle: FontStyle.italic)),
-          if (_w.exampleTr.isNotEmpty)
-            Padding(
-              padding: const EdgeInsets.only(top: 6),
-              child: Text(_w.exampleTr, textAlign: TextAlign.center, style: TextStyle(color: cs.onSurfaceVariant)),
+      width: double.infinity,
+      constraints: BoxConstraints(maxHeight: MediaQuery.of(context).size.height * 0.78),
+      decoration: BoxDecoration(
+        color: bg,
+        borderRadius: const BorderRadius.vertical(top: Radius.circular(30)),
+        border: Border(top: BorderSide(color: accent.withValues(alpha: 0.35), width: 3)),
+      ),
+      child: SingleChildScrollView(
+        padding: const EdgeInsets.fromLTRB(22, 22, 22, 18),
+        child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
+          Row(children: [
+            Container(
+              width: 40,
+              height: 40,
+              decoration: BoxDecoration(color: accent, shape: BoxShape.circle),
+              child: Icon(ok ? Icons.check_rounded : Icons.close_rounded, color: Colors.white, size: 26),
             ),
-          IconButton(
-            color: cs.primary,
-            iconSize: 36,
-            icon: const Icon(Icons.volume_up_rounded),
-            onPressed: () => _app.tts.speak(_w.exampleEn),
-          ),
-        ],
-      ]),
-    );
-  }
-
-  List<Widget> _feedbackControls(ColorScheme cs) => [
-        const Center(
-          child: Text('Bu kelimeyi ne kadar hatırlıyorsun?', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700)),
-        ),
-        const SizedBox(height: 12),
-        Row(children: [
-          for (final r in RecallRating.values) ...[
-            Expanded(
-              child: ChoiceChip(
-                showCheckmark: false,
-                padding: const EdgeInsets.symmetric(vertical: 12),
-                label: SizedBox(width: double.infinity, child: Text(r.label, textAlign: TextAlign.center)),
-                selected: _rating == r,
-                selectedColor: AppColors.lilac,
-                labelStyle: TextStyle(
-                  fontSize: 15,
-                  color: _rating == r ? Colors.black87 : cs.onSurface,
-                  fontWeight: _rating == r ? FontWeight.w700 : FontWeight.w500,
+            const SizedBox(width: 10),
+            Expanded(child: Text(title, style: TextStyle(color: ink, fontWeight: FontWeight.w900, fontSize: 23))),
+            IconButton(
+              tooltip: 'Dinle',
+              icon: Icon(Icons.volume_up_rounded, color: ink),
+              onPressed: () => _app.tts.speak(_w.en),
+            ),
+          ]),
+          if (_outcome == CardOutcome.wrong && _given.isNotEmpty)
+            Padding(
+              padding: const EdgeInsets.only(top: 8),
+              child: Text('Senin cevabın: $_given',
+                  style: TextStyle(color: ink, fontWeight: FontWeight.w700, decoration: TextDecoration.lineThrough)),
+            ),
+          if (almost)
+            Padding(
+              padding: const EdgeInsets.only(top: 8),
+              child: Text('Doğru yazımı: ${_answer!.matched}', style: TextStyle(color: ink, fontWeight: FontWeight.w800)),
+            ),
+          const SizedBox(height: 10),
+          Text(meaning, style: TextStyle(fontSize: 32, fontWeight: FontWeight.w900, color: pal.ink)),
+          Text(_reverse ? _w.mainTr : _w.en, style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800, color: pal.muted)),
+          if (others.isNotEmpty)
+            Padding(
+              padding: const EdgeInsets.only(top: 4),
+              child: Text('Diğer anlamları: ${others.join(', ')}',
+                  style: TextStyle(color: ink, fontWeight: FontWeight.w800, fontSize: 14.5)),
+            ),
+          if (_w.exampleEn.isNotEmpty) ...[
+            const SizedBox(height: 12),
+            Material(
+              color: pal.card,
+              borderRadius: BorderRadius.circular(18),
+              child: InkWell(
+                borderRadius: BorderRadius.circular(18),
+                onTap: () => _app.tts.speak(_w.exampleEn),
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(14, 12, 10, 12),
+                  child: Row(children: [
+                    Expanded(
+                      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                        Text(_w.exampleEn, style: TextStyle(fontSize: 15.5, fontWeight: FontWeight.w800, color: pal.ink, height: 1.3)),
+                        if (_w.exampleTr.isNotEmpty)
+                          Padding(
+                            padding: const EdgeInsets.only(top: 3),
+                            child: Text(_w.exampleTr, style: TextStyle(fontWeight: FontWeight.w700, color: pal.muted)),
+                          ),
+                      ]),
+                    ),
+                    Icon(Icons.volume_up_rounded, color: AppColors.teal.withValues(alpha: 0.9)),
+                  ]),
                 ),
-                onSelected: (_) => setState(() => _rating = r),
               ),
             ),
-            if (r != RecallRating.values.last) const SizedBox(width: 8),
           ],
-        ]),
-        const SizedBox(height: 20),
-        FilledButton(
-          onPressed: _next,
-          child: Text(_i + 1 >= _words.length ? 'Bitir' : 'Sıradaki kelime'),
-        ),
-        if (AppConfig.supportEmail.isNotEmpty)
-          TextButton.icon(
-            icon: const Icon(Icons.flag_rounded),
-            label: const Text('Bu kelimeyle ilgili bir sorun mu var? Bildir'),
-            onPressed: () => reportWord(context, _w),
+          const SizedBox(height: 14),
+          Text('Bu kelimeyi ne kadar hatırlıyorsun?', style: TextStyle(fontWeight: FontWeight.w900, color: pal.ink)),
+          const SizedBox(height: 8),
+          Row(children: [
+            for (final r in RecallRating.values) ...[
+              Expanded(child: _RatingChip(rating: r, selected: _rating == r, accent: accent, onTap: () => setState(() => _rating = r))),
+              if (r != RecallRating.values.last) const SizedBox(width: 8),
+            ],
+          ]),
+          const SizedBox(height: 14),
+          ChunkyButton(
+            label: _i + 1 >= _words.length ? 'Bitir' : 'Devam et',
+            style: ok ? ChunkyStyle.success : ChunkyStyle.danger,
+            onPressed: _next,
           ),
-      ];
+          if (AppConfig.supportEmail.isNotEmpty)
+            Center(
+              child: TextButton.icon(
+                icon: const Icon(Icons.flag_rounded, size: 18),
+                label: const Text('Bu kelimede hata mı var? Bildir'),
+                onPressed: () => reportWord(context, _w),
+              ),
+            ),
+        ]),
+      ),
+    );
+  }
+}
+
+class _SpeakButton extends StatelessWidget {
+  const _SpeakButton({required this.size, required this.onTap});
+  final double size;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) => Semantics(
+        button: true,
+        label: 'Telaffuzu dinle',
+        child: GestureDetector(
+          onTap: onTap,
+          child: Container(
+            width: size,
+            height: size,
+            decoration: BoxDecoration(
+              color: AppColors.teal,
+              borderRadius: BorderRadius.circular(size / 3),
+              boxShadow: const [BoxShadow(color: AppColors.tealDeep, offset: Offset(0, 5))],
+            ),
+            child: Icon(Icons.volume_up_rounded, color: Colors.white, size: size * 0.48),
+          ),
+        ),
+      );
+}
+
+class _RatingChip extends StatelessWidget {
+  const _RatingChip({required this.rating, required this.selected, required this.accent, required this.onTap});
+  final RecallRating rating;
+  final bool selected;
+  final Color accent;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final pal = Pal.of(context);
+    return Semantics(
+      selected: selected,
+      button: true,
+      child: GestureDetector(
+        onTap: onTap,
+        child: AnimatedContainer(
+          duration: const Duration(milliseconds: 120),
+          height: 46,
+          alignment: Alignment.center,
+          decoration: BoxDecoration(
+            color: selected ? accent.withValues(alpha: 0.16) : pal.card,
+            borderRadius: BorderRadius.circular(15),
+            border: Border.all(color: selected ? accent : pal.border, width: 3),
+          ),
+          child: FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 6),
+              child: Text(rating.label, style: TextStyle(fontWeight: FontWeight.w900, fontSize: 13.5, color: pal.ink)),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
 }

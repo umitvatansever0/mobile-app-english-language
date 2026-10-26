@@ -4,9 +4,6 @@ name: Emulator smoke test
 # logcat + ekran görüntüsünü ci-logs dalına yazar.
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: [CI]
-    types: [completed]
 
 permissions:
   contents: write

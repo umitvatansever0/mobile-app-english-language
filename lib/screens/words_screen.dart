@@ -5,6 +5,7 @@ import '../logic/session_builder.dart';
 import '../models/word.dart';
 import '../state/app_state.dart';
 import '../theme/app_theme.dart';
+import '../widgets/chunky.dart';
 import '../widgets/common.dart';
 import 'paywall_screen.dart';
 
@@ -299,7 +300,7 @@ class _AddWordSheetState extends State<_AddWordSheet> {
           const SizedBox(height: 12),
           TextField(controller: _ex, decoration: const InputDecoration(labelText: 'Örnek cümle (isteğe bağlı)')),
           const SizedBox(height: 20),
-          FilledButton(onPressed: _save, child: const Text('Kaydet')),
+          ChunkyButton(label: 'Kaydet', onPressed: _save),
         ]),
       );
 }

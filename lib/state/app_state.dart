@@ -127,6 +127,13 @@ class AppState extends ChangeNotifier {
     return (total: ws.length, mastered: mastered);
   }
 
+  /// Seviyede en az bir kez çalışılmış kelime sayısı (seviye yolu için).
+  ({int studied, int total}) levelStudied(String level) {
+    final ws = _builtIn.where((w) => w.level == level);
+    final studied = ws.where((w) => _progress[w.id]?.isStarted ?? false).length;
+    return (studied: studied, total: ws.length);
+  }
+
   Set<String> get earnedBadgeIds => Set.unmodifiable(_earned);
 
   /// Ücretsiz kullanıcının bugün çalışabileceği kalan kart sayısı (premium: sınırsız).

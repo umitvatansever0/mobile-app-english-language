@@ -5,204 +5,185 @@ import '../config/app_config.dart';
 import '../logic/session_builder.dart';
 import '../state/app_state.dart';
 import '../theme/app_theme.dart';
+import '../widgets/chunky.dart';
 import '../widgets/common.dart';
-import '../widgets/wave_progress.dart';
+import '../widgets/level_path.dart';
 import 'session_screen.dart';
-import 'shell_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
+  String _greeting() {
+    final h = DateTime.now().hour;
+    if (h < 11) return 'Günaydın!';
+    if (h < 18) return 'Merhaba!';
+    return 'İyi akşamlar!';
+  }
+
+  Future<void> _onLevelTap(BuildContext context, AppState app, String level) async {
+    if (level == app.targetLevel) {
+      startSession(context, SessionRequest(size: AppConfig.dailyFreeWords, level: level));
+      return;
+    }
+    final yes = await showDialog<bool>(
+      context: context,
+      builder: (c) => AlertDialog(
+        title: Text('Hedefin $level olsun mu?'),
+        content: Text('Yeni kelimeler $level (${levelNames[level]}) seviyesinden gelir. Tekrarların etkilenmez.'),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(c, false), child: const Text('Vazgeç')),
+          TextButton(onPressed: () => Navigator.pop(c, true), child: const Text('Hedefi değiştir')),
+        ],
+      ),
+    );
+    if (yes == true) app.setTargetLevel(level);
+  }
+
   @override
   Widget build(BuildContext context) {
     final app = context.watch<AppState>();
-    final cs = Theme.of(context).colorScheme;
-    final lp = app.levelProgress(app.targetLevel);
-    final pct = lp.total == 0 ? 0 : (lp.mastered * 100 / lp.total).floor();
+    final pal = Pal.of(context);
     final t = app.today;
     final goal = AppConfig.dailyFreeWords;
+    final done = t.studied.clamp(0, goal);
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Ana Sayfa'), actions: const [StreakChip(), SizedBox(width: 16)]),
-      body: ListView(padding: const EdgeInsets.fromLTRB(16, 8, 16, 24), children: [
-        // Hedef kartı
-        Container(
-          padding: const EdgeInsets.all(24),
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(24),
-            gradient: const LinearGradient(
-              colors: [AppColors.primary, AppColors.primaryDark],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-            ),
-          ),
-          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            const Text('Hedef Durumu', style: TextStyle(color: Colors.white70, fontSize: 15)),
-            const SizedBox(height: 12),
-            Row(crossAxisAlignment: CrossAxisAlignment.end, children: [
-              Expanded(
-                child: Text('${app.targetLevel} Hedefine İlerleme',
-                    style: const TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.w800)),
-              ),
-              Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
-                Text('${lp.mastered}', style: const TextStyle(color: Colors.white, fontSize: 36, fontWeight: FontWeight.w800)),
-                Text('/ ${lp.total} kelime', style: const TextStyle(color: Colors.white70)),
-              ]),
-            ]),
-            const SizedBox(height: 14),
-            ClipRRect(
-              borderRadius: BorderRadius.circular(8),
-              child: LinearProgressIndicator(
-                value: lp.total == 0 ? 0 : lp.mastered / lp.total,
-                minHeight: 10,
-                backgroundColor: Colors.white24,
-                color: Colors.white,
-              ),
-            ),
-            const SizedBox(height: 12),
-            Text(
-              pct == 0
-                  ? 'Ustalaştığın kelimeler burada birikecek. Hadi başlayalım!'
-                  : 'Harika gidiyorsun! ${app.targetLevel} seviyesinin %$pct\'ini tamamladın.',
-              style: const TextStyle(color: Colors.white, fontSize: 15),
-            ),
-            const SizedBox(height: 16),
-            FilledButton(
-              style: FilledButton.styleFrom(backgroundColor: Colors.white.withValues(alpha: 0.18), foregroundColor: Colors.white),
-              onPressed: () => ShellScreen.goToTab(context, 1),
-              child: const Text('Çalışmaya Başla'),
-            ),
-          ]),
-        ),
-        const SizedBox(height: 14),
-        if (app.dueCount > 0) ...[
-          _ActionTile(
-            icon: Icons.schedule_rounded,
-            color: AppColors.primary,
-            title: 'Tekrar zamanı',
-            subtitle: '${app.dueCount} kelimenin tekrar zamanı geldi',
-            onTap: () => ShellScreen.goToTab(context, 1),
-          ),
-          const SizedBox(height: 12),
-        ],
-        if (app.mistakesCount > 0) ...[
-          _ActionTile(
-            icon: Icons.replay_rounded,
-            color: AppColors.warning,
-            title: 'Hataları Çalış',
-            subtitle: '${app.mistakesCount} hatalı kelime seni bekliyor',
-            onTap: () => startSession(context,
-                SessionRequest(size: 20, level: allLevels, kind: SessionKind.mistakes)),
-          ),
-          const SizedBox(height: 12),
-        ],
-        if (!app.isPremium)
-          Padding(
-            padding: const EdgeInsets.symmetric(vertical: 6, horizontal: 4),
-            child: Text('Bugünkü ücretsiz hakkın: ${app.remainingToday} / ${t.freeAllowance} kelime',
-                style: TextStyle(color: cs.onSurfaceVariant, fontSize: 15)),
-          ),
-        const SizedBox(height: 6),
-        // Seri + günlük hedef
-        SectionCard(
-          child: Row(children: [
-            WaveProgress(percent: (t.studied * 100 / goal).clamp(0, 100).toDouble(), size: 96),
-            const SizedBox(width: 20),
+      body: SafeArea(
+        bottom: false,
+        child: ListView(padding: const EdgeInsets.fromLTRB(18, 12, 18, 28), children: [
+          Row(children: [
             Expanded(
-              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Row(children: [
-                  const Icon(Icons.local_fire_department_rounded, color: AppColors.warning),
-                  const SizedBox(width: 6),
-                  Text('${app.streak} günlük seri', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w800)),
-                ]),
-                const SizedBox(height: 6),
-                Text(
-                  app.studiedToday ? 'Bugün tamam, yarın devam et.' : 'Serini korumak için bugün çalış!',
-                  style: TextStyle(color: cs.onSurfaceVariant),
-                ),
-                const SizedBox(height: 6),
-                Text('Günlük hedef: ${t.studied.clamp(0, goal)} / $goal', style: TextStyle(color: cs.primary, fontWeight: FontWeight.w600)),
-                if (app.streakFreezes > 0)
-                  Padding(
-                    padding: const EdgeInsets.only(top: 4),
-                    child: Text('🧊 ${app.streakFreezes} seri dondurma hakkın var', style: TextStyle(color: cs.onSurfaceVariant)),
-                  ),
-              ]),
+              child: Text(_greeting(),
+                  style: TextStyle(fontSize: 28, fontWeight: FontWeight.w900, color: pal.dark ? AppColors.sun : AppColors.tealDeep)),
             ),
+            const StreakChip(),
           ]),
-        ),
-        const SizedBox(height: 20),
-        Text('BUGÜNKÜ PERFORMANSIN', style: TextStyle(color: cs.onSurfaceVariant, letterSpacing: 0.8, fontWeight: FontWeight.w600)),
-        const SizedBox(height: 10),
-        SectionCard(
-          child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: [
-            StatTile(value: '${t.studied}', label: 'Çalışılan', color: AppColors.primary),
-            StatTile(value: '${t.correct}', label: 'Doğru', color: AppColors.success),
-            StatTile(value: '${t.wrong + t.dontKnow}', label: 'Yanlış', color: AppColors.danger),
-          ]),
-        ),
-        const SizedBox(height: 12),
-        Row(children: [
-          Expanded(child: _MiniStat(icon: Icons.auto_stories_rounded, value: '${t.newWords}', label: 'Yeni Kelime')),
-          const SizedBox(width: 12),
-          Expanded(child: _MiniStat(icon: Icons.workspace_premium_rounded, value: '${app.masteredCount}', label: 'Ustalaşılan')),
+          const SizedBox(height: 14),
+
+          // Günlük hedef kartı
+          Container(
+            padding: const EdgeInsets.fromLTRB(18, 18, 18, 18),
+            decoration: BoxDecoration(
+              color: AppColors.teal,
+              borderRadius: BorderRadius.circular(26),
+              boxShadow: const [BoxShadow(color: AppColors.tealDeep, offset: Offset(0, 6))],
+            ),
+            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Row(children: [
+                const Expanded(
+                  child: Text('Bugünkü hedef',
+                      style: TextStyle(color: Colors.white70, fontWeight: FontWeight.w800, fontSize: 14.5)),
+                ),
+                if (!app.isPremium)
+                  Text('Kalan hak: ${app.remainingToday}',
+                      style: const TextStyle(color: Colors.white70, fontWeight: FontWeight.w800, fontSize: 13)),
+              ]),
+              const SizedBox(height: 2),
+              Text('$done / $goal kelime',
+                  style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w900, fontSize: 26)),
+              const SizedBox(height: 10),
+              ChunkyProgress(value: done / goal, color: AppColors.sun, track: Colors.white.withValues(alpha: 0.25)),
+              const SizedBox(height: 10),
+              Text(
+                done >= goal
+                    ? 'Hedefini tamamladın! İstersen devam edebilirsin.'
+                    : app.studiedToday
+                        ? 'Harika gidiyorsun, ${goal - done} kelime kaldı.'
+                        : 'Serini korumak için bugün çalış.',
+                style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w700),
+              ),
+              const SizedBox(height: 14),
+              ChunkyButton(
+                label: done == 0 ? 'Çalışmaya başla' : 'Devam et',
+                style: ChunkyStyle.white,
+                onPressed: () => startSession(context, SessionRequest(size: goal, level: app.targetLevel)),
+              ),
+            ]),
+          ),
+
+          // Tekrar / hata kısayolları
+          if (app.dueCount > 0 || app.mistakesCount > 0) const SizedBox(height: 14),
+          if (app.dueCount > 0 || app.mistakesCount > 0)
+            Row(children: [
+              if (app.dueCount > 0)
+                Expanded(
+                  child: _Shortcut(
+                    icon: Icons.schedule_rounded,
+                    color: AppColors.teal,
+                    value: '${app.dueCount}',
+                    label: 'Tekrar zamanı',
+                    onTap: () => startSession(context, SessionRequest(size: goal, level: app.targetLevel)),
+                  ),
+                ),
+              if (app.dueCount > 0 && app.mistakesCount > 0) const SizedBox(width: 12),
+              if (app.mistakesCount > 0)
+                Expanded(
+                  child: _Shortcut(
+                    icon: Icons.replay_rounded,
+                    color: AppColors.rose,
+                    value: '${app.mistakesCount}',
+                    label: 'Hataları çalış',
+                    onTap: () => startSession(context, const SessionRequest(size: 20, level: allLevels, kind: SessionKind.mistakes)),
+                  ),
+                ),
+            ]),
+
+          const SectionTitle('Seviye yolculuğun'),
+          LevelPath(
+            nodes: buildLevelNodes(app.targetLevel, app.levelStudied),
+            onTap: (l) => _onLevelTap(context, app, l),
+          ),
+
+          const SectionTitle('Bugün'),
+          SectionCard(
+            child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: [
+              StatTile(value: '${t.studied}', label: 'Çalışılan', color: AppColors.teal),
+              StatTile(value: '${t.correct}', label: 'Doğru', color: AppColors.emerald),
+              StatTile(value: '${t.wrong + t.dontKnow}', label: 'Yanlış', color: AppColors.rose),
+            ]),
+          ),
+          const SectionTitle('Son 7 gün'),
+          const SectionCard(child: _WeekChart()),
+          const SizedBox(height: 12),
+          const Center(child: BannerAdBox()),
         ]),
-        const SizedBox(height: 20),
-        Text('SON 7 GÜN', style: TextStyle(color: cs.onSurfaceVariant, letterSpacing: 0.8, fontWeight: FontWeight.w600)),
-        const SizedBox(height: 10),
-        const SectionCard(child: _WeekChart()),
-        const SizedBox(height: 16),
-        const Center(child: BannerAdBox()),
-      ]),
+      ),
     );
   }
 }
 
-class _ActionTile extends StatelessWidget {
-  const _ActionTile({required this.icon, required this.color, required this.title, required this.subtitle, required this.onTap});
+class _Shortcut extends StatelessWidget {
+  const _Shortcut({required this.icon, required this.color, required this.value, required this.label, required this.onTap});
   final IconData icon;
   final Color color;
-  final String title, subtitle;
+  final String value;
+  final String label;
   final VoidCallback onTap;
 
   @override
-  Widget build(BuildContext context) => SectionCard(
-        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 18),
-        onTap: onTap,
-        child: Row(children: [
-          Icon(icon, color: color, size: 32),
-          const SizedBox(width: 16),
-          Expanded(
-            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Text(title, style: const TextStyle(fontSize: 19, fontWeight: FontWeight.w700)),
-              Text(subtitle, style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant)),
-            ]),
-          ),
-          const Icon(Icons.chevron_right_rounded),
-        ]),
-      );
-}
-
-class _MiniStat extends StatelessWidget {
-  const _MiniStat({required this.icon, required this.value, required this.label});
-  final IconData icon;
-  final String value, label;
-
-  @override
-  Widget build(BuildContext context) => SectionCard(
-        child: Row(children: [
-          CircleAvatar(
-            radius: 24,
-            backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-            child: Icon(icon, color: Theme.of(context).colorScheme.primary),
-          ),
-          const SizedBox(width: 12),
-          Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            Text(value, style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w800)),
-            Text(label, style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant)),
+  Widget build(BuildContext context) {
+    final pal = Pal.of(context);
+    return ChunkyCard(
+      padding: const EdgeInsets.all(14),
+      onTap: onTap,
+      child: Row(children: [
+        Container(
+          width: 44,
+          height: 44,
+          decoration: BoxDecoration(color: color.withValues(alpha: 0.14), borderRadius: BorderRadius.circular(14)),
+          child: Icon(icon, color: color),
+        ),
+        const SizedBox(width: 10),
+        Expanded(
+          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Text(value, style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900, color: pal.ink)),
+            Text(label, maxLines: 1, overflow: TextOverflow.ellipsis,
+                style: TextStyle(fontSize: 13, fontWeight: FontWeight.w800, color: pal.muted)),
           ]),
-        ]),
-      );
+        ),
+      ]),
+    );
+  }
 }
 
 class _WeekChart extends StatelessWidget {
@@ -213,25 +194,27 @@ class _WeekChart extends StatelessWidget {
   Widget build(BuildContext context) {
     final days = context.watch<AppState>().lastDays(7);
     final maxV = days.fold<int>(1, (m, d) => d.studied > m ? d.studied : m);
-    final cs = Theme.of(context).colorScheme;
+    final pal = Pal.of(context);
     return SizedBox(
-      height: 140,
+      height: 130,
       child: Row(crossAxisAlignment: CrossAxisAlignment.end, children: [
-        for (final d in days)
+        for (var i = 0; i < days.length; i++)
           Expanded(
             child: Column(mainAxisAlignment: MainAxisAlignment.end, children: [
-              Text(d.studied == 0 ? '' : '${d.studied}', style: TextStyle(fontSize: 12, color: cs.onSurfaceVariant)),
+              Text(days[i].studied == 0 ? '' : '${days[i].studied}',
+                  style: TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: pal.muted)),
               const SizedBox(height: 4),
               Container(
-                height: 90 * d.studied / maxV + 4,
-                margin: const EdgeInsets.symmetric(horizontal: 8),
+                height: 80 * days[i].studied / maxV + 8,
+                margin: const EdgeInsets.symmetric(horizontal: 7),
                 decoration: BoxDecoration(
-                  color: d.studied == 0 ? cs.outlineVariant : cs.primary,
-                  borderRadius: BorderRadius.circular(6),
+                  color: days[i].studied == 0 ? pal.track : (i == days.length - 1 ? AppColors.sun : AppColors.teal),
+                  borderRadius: BorderRadius.circular(8),
                 ),
               ),
               const SizedBox(height: 6),
-              Text(_days[DateTime.parse(d.day).weekday - 1], style: TextStyle(fontSize: 12, color: cs.onSurfaceVariant)),
+              Text(_days[DateTime.parse(days[i].day).weekday - 1],
+                  style: TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: pal.muted)),
             ]),
           ),
       ]),

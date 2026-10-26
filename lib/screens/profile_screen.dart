@@ -7,7 +7,9 @@ import '../logic/daily.dart';
 import '../logic/session_builder.dart';
 import '../state/app_state.dart';
 import '../theme/app_theme.dart';
+import '../widgets/chunky.dart';
 import '../widgets/common.dart';
+import '../widgets/level_path.dart';
 import 'links.dart';
 import 'paywall_screen.dart';
 
@@ -24,22 +26,31 @@ class ProfileScreen extends StatelessWidget {
       appBar: AppBar(title: const Text('Profil'), actions: const [StreakChip(), SizedBox(width: 16)]),
       body: ListView(padding: const EdgeInsets.fromLTRB(16, 8, 16, 32), children: [
         // Premium durumu
-        SectionCard(
+        Container(
+          padding: const EdgeInsets.all(18),
+          decoration: BoxDecoration(
+            color: AppColors.teal,
+            borderRadius: BorderRadius.circular(26),
+            boxShadow: const [BoxShadow(color: AppColors.tealDeep, offset: Offset(0, 6))],
+          ),
           child: app.isPremium
               ? const Row(children: [
-                  Icon(Icons.workspace_premium_rounded, color: AppColors.accent, size: 36),
+                  Icon(Icons.workspace_premium_rounded, color: AppColors.sun, size: 38),
                   SizedBox(width: 12),
-                  Expanded(child: Text('Premium üyesin. Teşekkürler!', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700))),
+                  Expanded(
+                      child: Text('Premium üyesin. Teşekkürler!',
+                          style: TextStyle(fontSize: 19, fontWeight: FontWeight.w900, color: Colors.white))),
                 ])
               : Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                  const Text('Ücretsiz plan', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w800)),
-                  const SizedBox(height: 4),
-                  Text('Günde ${AppConfig.dailyFreeWords} kelime. Sınırsız çalışma ve tüm özellikler için Premium\'a geç.',
-                      style: TextStyle(color: cs.onSurfaceVariant, fontSize: 16)),
+                  const Tag('ÜCRETSİZ PLAN'),
+                  const SizedBox(height: 10),
+                  Text('Günde ${AppConfig.dailyFreeWords} kelime. Sınırsız çalışma, tüm modlar ve reklamsız deneyim için Premium\'a geç.',
+                      style: const TextStyle(color: Colors.white, fontSize: 15.5, fontWeight: FontWeight.w700)),
                   const SizedBox(height: 14),
-                  FilledButton(
+                  ChunkyButton(
+                    label: 'Premium\'a geç',
+                    style: ChunkyStyle.sun,
                     onPressed: () => PaywallScreen.open(context, reason: PaywallReason.manual),
-                    child: const Text('Premium\'a Geç'),
                   ),
                 ]),
         ),
@@ -49,7 +60,7 @@ class ProfileScreen extends StatelessWidget {
           child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: [
             StatTile(value: '${app.studiedWordCount}', label: 'Çalışılan'),
             StatTile(value: '${app.masteredCount}', label: 'Ustalaşılan', color: AppColors.success),
-            StatTile(value: '${app.bestStreak}', label: 'En uzun seri', color: AppColors.warning),
+            StatTile(value: '${app.bestStreak}', label: 'En uzun seri', color: AppColors.sunDeep),
           ]),
         ),
         const SizedBox(height: 12),
@@ -115,7 +126,7 @@ class ProfileScreen extends StatelessWidget {
               trailing: DropdownButton<String>(
                 value: app.targetLevel,
                 underline: const SizedBox.shrink(),
-                items: [for (final l in levelOrder) DropdownMenuItem(value: l, child: Text(l))],
+                items: [for (final l in levelOrder) DropdownMenuItem(value: l, child: Text('$l · ${levelNames[l]}'))],
                 onChanged: (v) => app.setTargetLevel(v ?? app.targetLevel),
               ),
             ),
@@ -205,8 +216,8 @@ class ProfileScreen extends StatelessWidget {
                         'Premium üyeliğin etkilenmez.'),
                     actions: [
                       TextButton(onPressed: () => Navigator.pop(c, false), child: const Text('Vazgeç')),
-                      FilledButton(
-                        style: FilledButton.styleFrom(backgroundColor: AppColors.danger, minimumSize: const Size(0, 44)),
+                      TextButton(
+                        style: TextButton.styleFrom(foregroundColor: AppColors.danger),
                         onPressed: () => Navigator.pop(c, true),
                         child: const Text('Sıfırla'),
                       ),

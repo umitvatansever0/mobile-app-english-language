@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../state/app_state.dart';
 import '../theme/app_theme.dart';
+import '../widgets/chunky.dart';
 
 /// Tanıtım: 3 sayfa + seviye seçimi.
 /// Sayfa geçişi ve "İleri" düğmesi akışı best-flutter-ui-templates'teki
@@ -19,9 +20,12 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   String _level = 'A1';
 
   static const _pages = [
-    (Icons.style_rounded, 'Kelime kartlarıyla İngilizce', 'Günde birkaç dakikayla en sık kullanılan İngilizce kelimeleri öğren.'),
-    (Icons.psychology_alt_rounded, 'Akıllı tekrar', 'Zorlandığın kelimeleri daha sık, bildiklerini daha seyrek gösteriyoruz. Unutmadan öğrenirsin.'),
-    (Icons.local_fire_department_rounded, 'Seri ve rozetler', 'Her gün çalış, serini büyüt, rozetleri topla.'),
+    (Icons.style_rounded, AppColors.teal, AppColors.tealDeep, 'Kelime kartlarıyla İngilizce',
+        'Günde birkaç dakikayla en çok kullanılan İngilizce kelimeleri öğren.'),
+    (Icons.psychology_alt_rounded, AppColors.sun, AppColors.sunDeep, 'Akıllı tekrar',
+        'Zorlandığın kelimeleri daha sık, bildiklerini daha seyrek gösteriyoruz. Unutmadan öğrenirsin.'),
+    (Icons.route_rounded, AppColors.emerald, AppColors.emeraldDeep, 'A1\'den C2\'ye yolculuk',
+        'Seviyeni seç, serini büyüt, rozetleri topla.'),
   ];
 
   static const _levels = [
@@ -49,19 +53,24 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
+    final pal = Pal.of(context);
     final total = _pages.length + 1;
+    final onLevelPage = _page >= _pages.length;
     return Scaffold(
       body: SafeArea(
         child: Column(children: [
-          Align(
-            alignment: Alignment.centerRight,
-            child: TextButton(
-              onPressed: _page < _pages.length
-                  ? () => _pc.animateToPage(_pages.length, duration: const Duration(milliseconds: 450), curve: Curves.easeOut)
-                  : null,
-              child: Text(_page < _pages.length ? 'Atla' : ''),
-            ),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(20, 8, 8, 0),
+            child: Row(children: [
+              Expanded(child: ChunkyProgress(value: (_page + 1) / total, height: 14)),
+              const SizedBox(width: 8),
+              TextButton(
+                onPressed: onLevelPage
+                    ? null
+                    : () => _pc.animateToPage(_pages.length, duration: const Duration(milliseconds: 450), curve: Curves.easeOut),
+                child: Text(onLevelPage ? '' : 'Atla'),
+              ),
+            ]),
           ),
           Expanded(
             child: PageView(
@@ -73,50 +82,43 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     padding: const EdgeInsets.symmetric(horizontal: 32),
                     child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                       Container(
-                        width: 180,
-                        height: 180,
-                        decoration: const BoxDecoration(
-                          shape: BoxShape.circle,
-                          gradient: LinearGradient(colors: [AppColors.primary, AppColors.accent]),
+                        width: 170,
+                        height: 170,
+                        decoration: BoxDecoration(
+                          color: p.$2,
+                          borderRadius: BorderRadius.circular(54),
+                          boxShadow: [BoxShadow(color: p.$3, offset: const Offset(0, 10))],
                         ),
-                        child: Icon(p.$1, size: 90, color: Colors.white),
+                        child: Icon(p.$1, size: 86, color: p.$2 == AppColors.sun ? AppColors.sunInk : Colors.white),
                       ),
-                      const SizedBox(height: 40),
-                      Text(p.$2, textAlign: TextAlign.center, style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w800)),
-                      const SizedBox(height: 16),
-                      Text(p.$3, textAlign: TextAlign.center, style: TextStyle(fontSize: 17, color: cs.onSurfaceVariant, height: 1.4)),
+                      const SizedBox(height: 44),
+                      Text(p.$4,
+                          textAlign: TextAlign.center,
+                          style: TextStyle(fontSize: 27, fontWeight: FontWeight.w900, color: pal.ink, height: 1.15)),
+                      const SizedBox(height: 14),
+                      Text(p.$5,
+                          textAlign: TextAlign.center,
+                          style: TextStyle(fontSize: 17, color: pal.muted, height: 1.4, fontWeight: FontWeight.w700)),
                     ]),
                   ),
-                ListView(padding: const EdgeInsets.all(24), children: [
-                  const SizedBox(height: 24),
-                  Text('İngilizcen ne seviyede?', style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w800)),
-                  const SizedBox(height: 8),
-                  Text('Sonra profilinden değiştirebilirsin.', style: TextStyle(color: cs.onSurfaceVariant)),
-                  const SizedBox(height: 24),
+                ListView(padding: const EdgeInsets.fromLTRB(20, 20, 20, 12), children: [
+                  Text('İngilizcen ne seviyede?', style: TextStyle(fontSize: 27, fontWeight: FontWeight.w900, color: pal.ink)),
+                  const SizedBox(height: 6),
+                  Text('Sonra istediğin zaman değiştirebilirsin.',
+                      style: TextStyle(color: pal.muted, fontWeight: FontWeight.w700)),
+                  const SizedBox(height: 18),
                   for (final l in _levels) ...[
-                    _LevelOption(code: l.$1, title: l.$2, subtitle: l.$3, selected: _level == l.$1, onTap: () => setState(() => _level = l.$1)),
-                    const SizedBox(height: 12),
+                    _LevelOption(
+                        code: l.$1, title: l.$2, subtitle: l.$3, selected: _level == l.$1, onTap: () => setState(() => _level = l.$1)),
+                    const SizedBox(height: 6),
                   ],
                 ]),
               ],
             ),
           ),
-          Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-            for (var i = 0; i < total; i++)
-              AnimatedContainer(
-                duration: const Duration(milliseconds: 300),
-                margin: const EdgeInsets.all(4),
-                width: i == _page ? 24 : 8,
-                height: 8,
-                decoration: BoxDecoration(
-                  color: i == _page ? cs.primary : cs.outlineVariant,
-                  borderRadius: BorderRadius.circular(4),
-                ),
-              ),
-          ]),
           Padding(
-            padding: const EdgeInsets.fromLTRB(24, 16, 24, 24),
-            child: FilledButton(onPressed: _next, child: Text(_page < _pages.length ? 'İleri' : 'Başlayalım')),
+            padding: const EdgeInsets.fromLTRB(20, 8, 20, 16),
+            child: ChunkyButton(label: onLevelPage ? 'Başlayalım' : 'İleri', onPressed: _next),
           ),
         ]),
       ),
@@ -132,32 +134,33 @@ class _LevelOption extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-    return Material(
-      color: selected ? cs.primaryContainer : cs.surface,
-      borderRadius: BorderRadius.circular(18),
-      child: InkWell(
-        borderRadius: BorderRadius.circular(18),
-        onTap: onTap,
-        child: Container(
-          padding: const EdgeInsets.all(18),
+    final pal = Pal.of(context);
+    return ChunkyCard(
+      onTap: onTap,
+      padding: const EdgeInsets.all(14),
+      borderColor: selected ? AppColors.teal : null,
+      color: selected ? (pal.dark ? const Color(0xFF123533) : AppColors.tealSoft) : null,
+      child: Row(children: [
+        Container(
+          width: 50,
+          height: 50,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(18),
-            border: Border.all(color: selected ? cs.primary : cs.outlineVariant, width: selected ? 2 : 1),
+            color: selected ? AppColors.teal : pal.lockBg,
+            shape: BoxShape.circle,
+            boxShadow: [BoxShadow(color: selected ? AppColors.tealDeep : pal.lockLip, offset: const Offset(0, 4))],
           ),
-          child: Row(children: [
-            CircleAvatar(radius: 24, backgroundColor: cs.primary, child: Text(code, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800))),
-            const SizedBox(width: 16),
-            Expanded(
-              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(title, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w700)),
-                Text(subtitle, style: TextStyle(color: cs.onSurfaceVariant)),
-              ]),
-            ),
-            if (selected) Icon(Icons.check_circle_rounded, color: cs.primary),
+          alignment: Alignment.center,
+          child: Text(code, style: TextStyle(color: selected ? Colors.white : pal.muted, fontWeight: FontWeight.w900, fontSize: 17)),
+        ),
+        const SizedBox(width: 14),
+        Expanded(
+          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Text(title, style: TextStyle(fontSize: 17, fontWeight: FontWeight.w900, color: pal.ink)),
+            Text(subtitle, style: TextStyle(color: pal.muted, fontWeight: FontWeight.w700, fontSize: 13.5)),
           ]),
         ),
-      ),
+        if (selected) const Icon(Icons.check_circle_rounded, color: AppColors.teal),
+      ]),
     );
   }
 }
