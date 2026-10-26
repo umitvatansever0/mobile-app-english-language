@@ -5,8 +5,8 @@ import '../models/word_progress.dart';
 
 /// Çalışma modu.
 enum StudyMode {
-  typeTr('Yazarak (EN → TR)', 'İngilizce kelimeyi gör, Türkçesini yaz'),
-  typeEn('Ters yön (TR → EN)', 'Türkçesini gör, İngilizcesini yaz'),
+  typeTr('Yazarak', 'EN → TR: İngilizceyi gör, Türkçesini yaz'),
+  typeEn('Ters yön', 'TR → EN: Türkçeyi gör, İngilizcesini yaz'),
   choice('Çoktan seçmeli', '4 seçenekten doğrusunu seç'),
   listen('Dinle ve yaz', 'Kelimeyi dinle, İngilizcesini yaz');
 
