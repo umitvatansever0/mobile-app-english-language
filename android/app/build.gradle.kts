@@ -38,7 +38,7 @@ android {
         versionName = flutter.versionName
         // Yayın için: ./gradlew ... -PADMOB_APP_ID=ca-app-pub-xxx~yyy  (ya da gradle.properties)
         manifestPlaceholders["admobAppId"] =
-            (project.findProperty("ADMOB_APP_ID") as String?) ?: "ca-app-pub-3940256099942544~3347511713"
+            (project.findProperty("ADMOB_APP_ID") as String?) ?: "ca-app-pub-1871274232514582~2189697913"
     }
 
     signingConfigs {

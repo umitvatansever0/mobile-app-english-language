@@ -42,18 +42,29 @@ class AppConfig {
 
   static bool get purchasesConfigured => revenueCatKey.isNotEmpty;
 
-  // --- AdMob (Google resmi test kimlikleri varsayılan) ---
+  // --- AdMob ---
+  // Gerçek kimlikler (AdMob › İngilizce Çalışma Kartları). Debug derlemede her zaman
+  // Google'ın TEST kimlikleri kullanılır; böylece geliştirirken kendi reklamına tıklanmaz.
   static const _rewardedAndroid = String.fromEnvironment('ADMOB_REWARDED_ANDROID',
-      defaultValue: 'ca-app-pub-3940256099942544/5224354917');
+      defaultValue: 'ca-app-pub-1871274232514582/8563534576');
   static const _rewardedIos = String.fromEnvironment('ADMOB_REWARDED_IOS',
       defaultValue: 'ca-app-pub-3940256099942544/1712485313');
   static const _bannerAndroid = String.fromEnvironment('ADMOB_BANNER_ANDROID',
-      defaultValue: 'ca-app-pub-3940256099942544/6300978111');
+      defaultValue: 'ca-app-pub-1871274232514582/1287679782');
   static const _bannerIos = String.fromEnvironment('ADMOB_BANNER_IOS',
       defaultValue: 'ca-app-pub-3940256099942544/2934735716');
 
-  static String get rewardedAdUnit => Platform.isIOS ? _rewardedIos : _rewardedAndroid;
-  static String get bannerAdUnit => Platform.isIOS ? _bannerIos : _bannerAndroid;
+  static const _testRewardedAndroid = 'ca-app-pub-3940256099942544/5224354917';
+  static const _testRewardedIos = 'ca-app-pub-3940256099942544/1712485313';
+  static const _testBannerAndroid = 'ca-app-pub-3940256099942544/6300978111';
+  static const _testBannerIos = 'ca-app-pub-3940256099942544/2934735716';
+
+  static String get rewardedAdUnit => kDebugMode
+      ? (Platform.isIOS ? _testRewardedIos : _testRewardedAndroid)
+      : (Platform.isIOS ? _rewardedIos : _rewardedAndroid);
+  static String get bannerAdUnit => kDebugMode
+      ? (Platform.isIOS ? _testBannerIos : _testBannerAndroid)
+      : (Platform.isIOS ? _bannerIos : _bannerAndroid);
 
   /// Kelime hatası bildirimi ve destek için e-posta. Boşsa "Bildir" bağlantısı gizlenir.
   static const supportEmail = String.fromEnvironment('SUPPORT_EMAIL', defaultValue: 'umitvatansever0@gmail.com');
