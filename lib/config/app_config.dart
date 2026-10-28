@@ -32,7 +32,8 @@ class AppConfig {
   static const premiumEntitlement = 'premium';
 
   // --- RevenueCat ---
-  static const _rcAndroid = String.fromEnvironment('REVENUECAT_ANDROID_KEY');
+  static const _rcAndroid = String.fromEnvironment('REVENUECAT_ANDROID_KEY',
+      defaultValue: 'goog_zcsXAtMvjeKgBKTASBBOlGwfnZh'); // RevenueCat herkese açık SDK anahtarı (gizli değil)
   static const _rcIos = String.fromEnvironment('REVENUECAT_IOS_KEY');
 
   static String get revenueCatKey {
