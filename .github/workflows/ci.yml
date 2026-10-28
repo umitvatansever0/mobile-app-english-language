@@ -102,6 +102,10 @@ jobs:
           git push -f origin ci-logs
 
   ios-build:
+    # Mac makineleri ücretsiz dakikaları ~10 kat hızlı tüketir.
+    # Bu yüzden iOS derlemesi sadece elle başlatılınca çalışır
+    # (Actions > CI > Run workflow).
+    if: github.event_name == 'workflow_dispatch'
     runs-on: macos-latest
     needs: test-and-android
     steps:
