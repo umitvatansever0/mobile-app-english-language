@@ -6,6 +6,11 @@ on:
   pull_request:
   workflow_dispatch:
 
+# Aynı dala art arda push yapılınca eski çalışmayı iptal et (dakika tasarrufu).
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: write
 

@@ -4,11 +4,10 @@ name: Screens (emulator screenshots)
 # 2) Temiz bir makinede emülatörü açar, APK'yı kurup ekran turunu çalıştırır.
 #    (Aynı makinede derleme + emülatör belleği yetirmiyor: ~7.8 GB RAM.)
 # Ekran görüntüleri ci-logs dalına (screens/) yazılır.
+# Sadece elle başlatılır (Actions > Screens > Run workflow).
+# Her CI'dan sonra otomatik çalışması aylık Actions dakikalarını tüketiyordu.
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: [CI]
-    types: [completed]
 
 permissions:
   contents: write
