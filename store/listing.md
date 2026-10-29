@@ -1,6 +1,6 @@
 # Google Play mağaza girişi (Türkçe)
 
-**Uygulama adı (en fazla 30):** İngilizce Çalışma Kartları
+**Uygulama adı (en fazla 30):** İngilizce Kartlar
 
 **Kısa açıklama (en fazla 80):** A1'den C2'ye 1386 İngilizce kelime. Aralıklı tekrar ile kalıcı öğren.
 
@@ -8,7 +8,7 @@
 
 İngilizce kelime öğrenmenin en kolay yolu: her gün birkaç dakika, akıllı kartlarla.
 
-İngilizce Çalışma Kartları, Türkçe konuşanlar için hazırlandı. A1'den C2'ye altı seviyede 1386 kelime, Türkçe karşılıkları ve örnek cümleleriyle seni bekliyor.
+İngilizce Kartlar, Türkçe konuşanlar için hazırlandı. A1'den C2'ye altı seviyede 1386 kelime, Türkçe karşılıkları ve örnek cümleleriyle seni bekliyor.
 
 NASIL ÇALIŞIR?
 • Kelimeyi gör, Türkçesini yaz. Uygulama cevabını kontrol eder.

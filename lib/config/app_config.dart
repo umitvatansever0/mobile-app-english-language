@@ -17,7 +17,7 @@ import 'package:flutter/foundation.dart';
 class AppConfig {
   AppConfig._();
 
-  static const appName = 'İngilizce Çalışma Kartları';
+  static const appName = 'İngilizce Kartlar';
 
   // --- Ücretsiz kullanım kuralları ---
   static const dailyFreeWords = 20;

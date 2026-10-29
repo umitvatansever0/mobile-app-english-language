@@ -1,4 +1,4 @@
-# İngilizce Çalışma Kartları
+# İngilizce Kartlar
 
 Türkçe konuşanlar için İngilizce kelime kartları uygulaması (Flutter — Android + iOS).
 
