@@ -1,0 +1,28 @@
+
+::group::✅ Passing tests
+✅ AnswerChecker birebir ve büyük/küçük harf
+✅ AnswerChecker Türkçe karakter olmadan yazılan cevap doğru sayılır
+✅ AnswerChecker küçük yazım hatası neredeyse doğru
+✅ AnswerChecker kısa kelimede yazım hatası kabul edilmez
+✅ AnswerChecker parantez içi açıklama yok sayılır
+✅ AnswerChecker İngilizcede "to" ve artikel yok sayılır
+✅ AnswerChecker yanlış ve boş cevap
+✅ SM-2 doğru + Biliyorum: 1 gün, sonra 6 gün
+✅ SM-2 yanlış cevap etiketten bağımsız olarak hata listesine girer
+✅ SM-2 ease 1.3 altına inmez
+✅ Kota günlük 20 + reklam başına 5, en fazla 3 reklam
+✅ Seri art arda günler seriyi artırır, gün atlanınca sıfırlanır
+✅ Seri seri dondurma bir kaçırılan günü kurtarır
+✅ Rozetler eşik aşılınca kazanılır, tekrar verilmez
+✅ Rozetler rozet kimlikleri benzersiz
+✅ Kelime verisi ve oturum veri geçerli
+✅ Kelime verisi ve oturum oturum yeni kelimelerle dolar, seviye filtresine uyar
+✅ Kelime verisi ve oturum altı seviyenin hepsinde kelime var
+✅ Kelime verisi ve oturum yeni kelimeler hedef seviyeden gelir (C1 hedefi A1 kelimesi getirmez)
+✅ Kelime verisi ve oturum hedef seviye bitince bir alt seviyeye geçer
+✅ Kelime verisi ve oturum zamanı gelen tekrarlar önce gelir
+✅ Kelime verisi ve oturum hata oturumu sadece hata listesindekileri içerir
+✅ Kelime verisi ve oturum çoktan seçmeli seçenekleri doğru cevabı içermez ve tekrarsız
+::endgroup::
+
+🎉 23 tests passed.

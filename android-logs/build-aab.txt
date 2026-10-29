@@ -1,0 +1,5 @@
+
+If you are a plugin author, please migrate your plugin to Built-in Kotlin using this guide: https://docs.flutter.dev/release/breaking-changes/migrate-to-built-in-kotlin/for-plugin-authors
+Caught exception: Already watching path: /home/runner/work/mobile-app-english-language/mobile-app-english-language/android
+Running Gradle task 'bundleRelease'...                             12.5s
+✓ Built build/app/outputs/bundle/release/app-release.aab (60.8MB)

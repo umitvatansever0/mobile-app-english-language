@@ -1,0 +1,5 @@
+Analyzing mobile-app-english-language...                        
+
+   info • Type could be non-nullable. Try changing the type to be non-nullable • lib/config/app_config.dart:28:21 • unnecessary_nullable_for_final_variable_declarations
+
+1 issue found. (ran in 5.5s)
