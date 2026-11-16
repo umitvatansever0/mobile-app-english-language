@@ -142,55 +142,58 @@ def flag_badge(img, center, r, flag_fn, u):
     img.alpha_composite(f, (int(center[0] - r), int(center[1] - r)))
 
 
+def flag_us(d):
+    """ABD bayrağı, d x d kare (kanton görünsün diye soldan kırpılır)."""
+    W, H = int(d * 1.9), d
+    img = Image.new('RGB', (W, H), WHITE)
+    g = ImageDraw.Draw(img)
+    sh = H / 13
+    for i in range(0, 13, 2):
+        g.rectangle([0, i * sh, W, (i + 1) * sh], fill=(178, 34, 52))
+    cw, ch = W * 0.4, sh * 7
+    g.rectangle([0, 0, cw, ch], fill=(60, 59, 110))
+    r = sh * 0.28
+    for row in range(5):
+        for col in range(6):
+            x = cw * (col + 0.5 + (0.5 if row % 2 else 0)) / 6.5
+            y = ch * (row + 0.5) / 5
+            g.ellipse([x - r, y - r, x + r, y + r], fill=WHITE)
+    x0 = int(W * 0.12)
+    return img.crop((x0, 0, x0 + d, d))
+
+
+def _bubble_shadow(size, box, radius, u):
+    sh = Image.new('RGBA', (size, size), (0, 0, 0, 0))
+    ImageDraw.Draw(sh).rounded_rectangle([box[0], box[1] + 24 * u, box[2], box[3] + 24 * u], radius, fill=(3, 30, 40, 90))
+    return sh.filter(ImageFilter.GaussianBlur(23 * u))
+
+
 def foreground(size):
-    """Şeffaf zeminde kart yığını + ses rozeti. İçerik merkez ~%62 alanda kalır."""
+    """Şeffaf zeminde iki konuşma balonu (Selam / Hello) ve TR-UK-US bayrakları."""
     img = Image.new('RGBA', (size, size), (0, 0, 0, 0))
-    u = size / 1000  # birim
+    u = size / 1000
 
-    cw, ch = int(400 * u), int(520 * u)
-    rad = int(64 * u)
-
-    # Arka kart (sarı) — "TR" tarafı
-    back = rounded_card(cw, ch, rad, SUN, SUN_DEEP, int(16 * u))
-    bd = ImageDraw.Draw(back)
-    # Arka kartta sadece yumuşak "satır" çizgileri (görünen sol kenarda)
-    for i in range(3):
-        y = ch * (0.30 + i * 0.16)
-        bd.rounded_rectangle([cw * 0.10, y, cw * 0.36, y + 30 * u], int(15 * u), fill=(244, 182, 40))
-    paste_rotated(img, back, (size * 0.415, size * 0.5), 13)
-
-    # Ön kart (beyaz) — "Ab" ve altında çizgi
-    front = rounded_card(cw, ch, rad, WHITE, CARD_EDGE, int(22 * u))
-    fd = ImageDraw.Draw(front)
-    f_big = ImageFont.truetype(FONT, int(225 * u))
-    text_center(fd, (cw * 0.5, ch * 0.43), 'Ab', f_big, INK)
-    y = ch * 0.74
-    fd.rounded_rectangle([cw * 0.26, y, cw * 0.74, y + 40 * u], int(20 * u), fill=TEAL)
-    paste_rotated(img, front, (size * 0.545, size * 0.505), -7)
-
-    # Ses rozeti (telaffuz) — sağ üst
-    bc = (size * 0.735, size * 0.30)
-    br = 92 * u
-    badge = Image.new('RGBA', (size, size), (0, 0, 0, 0))
-    bdr = ImageDraw.Draw(badge)
-    bdr.ellipse([bc[0] - br, bc[1] - br + 10 * u, bc[0] + br, bc[1] + br + 10 * u], fill=(4, 50, 48, 90))
-    badge = badge.filter(ImageFilter.GaussianBlur(14 * u))
-    img.alpha_composite(badge)
+    # Arka balon (sarı) "Selam"
+    b1 = [150 * u, 170 * u, 640 * u, 440 * u]
+    img.alpha_composite(_bubble_shadow(size, b1, 120 * u, u))
     d = ImageDraw.Draw(img)
-    d.ellipse([bc[0] - br - 12 * u, bc[1] - br - 12 * u, bc[0] + br + 12 * u, bc[1] + br + 12 * u], fill=WHITE)
-    d.ellipse([bc[0] - br, bc[1] - br, bc[0] + br, bc[1] + br], fill=ROSE)
-    # Hoparlör
-    sx, sy = bc[0] - 44 * u, bc[1]
-    d.rounded_rectangle([sx - 18 * u, sy - 20 * u, sx + 6 * u, sy + 20 * u], int(6 * u), fill=WHITE)
-    d.polygon([(sx, sy - 20 * u), (sx + 34 * u, sy - 46 * u), (sx + 34 * u, sy + 46 * u), (sx, sy + 20 * u)], fill=WHITE)
-    # Ses dalgaları
-    for i, rr in enumerate([30, 56]):
-        r_ = rr * u
-        ox = sx + 40 * u
-        d.arc([ox - r_, sy - r_, ox + r_, sy + r_], -50, 50, fill=WHITE, width=int(13 * u))
-    # Küçük bayrak rozetleri: TR (sarı kart, sol alt) ve UK (beyaz kart, sağ alt)
-    flag_badge(img, (size * 0.305, size * 0.735), 58 * u, flag_tr, u)
-    flag_badge(img, (size * 0.715, size * 0.745), 58 * u, flag_uk, u)
+    d.rounded_rectangle(b1, 120 * u, fill=SUN)
+    d.polygon([(250 * u, 430 * u), (330 * u, 430 * u), (220 * u, 520 * u)], fill=SUN)
+    text_center(d, ((b1[0] + b1[2]) / 2, (b1[1] + b1[3]) / 2 - 6 * u), 'Selam',
+                ImageFont.truetype(FONT, int(120 * u)), (120, 74, 0))
+
+    # Ön balon (beyaz) "Hello"
+    b2 = [330 * u, 430 * u, 860 * u, 720 * u]
+    img.alpha_composite(_bubble_shadow(size, b2, 130 * u, u))
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle(b2, 130 * u, fill=WHITE)
+    d.polygon([(700 * u, 710 * u), (780 * u, 710 * u), (810 * u, 810 * u)], fill=WHITE)
+    text_center(d, ((b2[0] + b2[2]) / 2, (b2[1] + b2[3]) / 2 - 6 * u), 'Hello',
+                ImageFont.truetype(FONT, int(150 * u)), INK)
+
+    # Bayraklar: TR, UK, US
+    for i, fn in enumerate([flag_tr, flag_uk, flag_us]):
+        flag_badge(img, ((330 + (i - 1) * 125) * u, 820 * u), 52 * u, fn, u)
     return img
 
 
