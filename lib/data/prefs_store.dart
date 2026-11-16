@@ -24,10 +24,6 @@ class PrefsStore {
   bool get autoPlayAudio => _p.getBool('autoPlayAudio') ?? true;
   set autoPlayAudio(bool v) => _p.setBool('autoPlayAudio', v);
 
-  /// 'en-US' veya 'en-GB'
-  String get accent => _p.getString('accent') ?? 'en-US';
-  set accent(String v) => _p.setString('accent', v);
-
   /// 'system' | 'light' | 'dark'
   String get themeMode => _p.getString('themeMode') ?? 'system';
   set themeMode(String v) => _p.setString('themeMode', v);

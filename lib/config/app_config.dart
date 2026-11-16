@@ -20,13 +20,13 @@ class AppConfig {
   static const appName = 'İngilizce Kartlar';
 
   // --- Ücretsiz kullanım kuralları ---
-  static const dailyFreeWords = 20;
+  static const dailyFreeWords = 35;
   /// Bir ödüllü reklam izlenince kazanılan ek kelime hakkı.
   static const rewardedBonusWords = 5;
 
   /// Günlük ödüllü reklam sınırı. null = sınırsız.
   static const int? maxRewardedAdsPerDay = 3;
-  static const premiumSessionSizes = [20, 50, 100];
+  static const premiumSessionSizes = [35, 50, 100];
 
   /// RevenueCat'te oluşturulacak entitlement kimliği.
   static const premiumEntitlement = 'premium';

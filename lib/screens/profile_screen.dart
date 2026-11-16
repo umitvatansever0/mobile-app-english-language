@@ -130,17 +130,9 @@ class ProfileScreen extends StatelessWidget {
                 onChanged: (v) => app.setTargetLevel(v ?? app.targetLevel),
               ),
             ),
-            ListTile(
-              title: const Text('Telaffuz'),
-              trailing: SegmentedButton<String>(
-                showSelectedIcon: false,
-                segments: const [
-                  ButtonSegment(value: 'en-US', label: Text('🇺🇸 US')),
-                  ButtonSegment(value: 'en-GB', label: Text('🇬🇧 UK')),
-                ],
-                selected: {app.accent},
-                onSelectionChanged: (s) => app.setAccent(s.first),
-              ),
+            const ListTile(
+              title: Text('Telaffuz'),
+              trailing: Text('🇺🇸 Amerikan İngilizcesi', style: TextStyle(fontWeight: FontWeight.w700)),
             ),
             SwitchListTile(
               title: const Text('Otomatik seslendirme'),

@@ -63,7 +63,7 @@ class AppState extends ChangeNotifier {
     state._streak = prefs.loadStreak();
     state._earned = prefs.earnedBadges;
     // Ses ve abonelik başlatma açılışı asla bekletmesin.
-    unawaited(state.tts.init(prefs.accent).timeout(const Duration(seconds: 5), onTimeout: () {}).catchError((Object e) {
+    unawaited(state.tts.init().timeout(const Duration(seconds: 5), onTimeout: () {}).catchError((Object e) {
       debugPrint('TTS init hata: $e');
     }));
     unawaited(state.purchases.init(cachedPremium: prefs.cachedPremium).timeout(const Duration(seconds: 8), onTimeout: () {}).catchError((Object e) {
@@ -87,7 +87,6 @@ class AppState extends ChangeNotifier {
   String get targetLevel => _prefs.targetLevel;
   bool get vibration => _prefs.vibration;
   bool get autoPlayAudio => _prefs.autoPlayAudio;
-  String get accent => _prefs.accent;
   StudyMode get studyMode =>
       StudyMode.values.firstWhere((m) => m.name == _prefs.studyMode, orElse: () => StudyMode.typeTr);
   ThemeMode get themeMode => switch (_prefs.themeMode) {
@@ -160,12 +159,6 @@ class AppState extends ChangeNotifier {
 
   void setAutoPlay(bool v) {
     _prefs.autoPlayAudio = v;
-    notifyListeners();
-  }
-
-  Future<void> setAccent(String a) async {
-    _prefs.accent = a;
-    await tts.setAccent(a);
     notifyListeners();
   }
 

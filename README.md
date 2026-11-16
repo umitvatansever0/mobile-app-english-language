@@ -10,16 +10,16 @@ Türkçe konuşanlar için İngilizce kelime kartları uygulaması (Flutter — 
   - Eş anlamlılar kabul edilir.
   - Uzun kelimelerde 1–2 harflik yazım hatası "neredeyse doğru" sayılır.
 - **Aralıklı tekrar (SM-2):** Unuttum / Öğreniyorum / Biliyorum etiketleri. Zamanı gelen tekrarlar oturuma önce eklenir.
-- **Hataları Çalış:** Yanlış yapılan kelimeler ayrı bir listede toplanır.
+- **Hataları Çalış:** Yanlış yapılan kelimeler ayrı bir listede toplanır ve art arda 3 oturumda doğru bilinene kadar her oturuma eklenir.
 - **Seri ve dondurma:** Seri tutulur. Ödüllü reklamla seri dondurma hakkı kazanılır (en fazla 2).
 - **35 rozet:** Bronz, gümüş, altın ve elmas seviyeleri. Rozet kartları kodla çizilir, görsel dosyası gerekmez.
 - **İstatistikler:** Ana sayfa, günlük hedef (dalga göstergesi), son 7 gün grafiği
 - **Kelimeler ekranı:** Arama, durum ve seviye filtreleri, kelime detayı
 - **Kendi kelimelerim:** Premium özelliği
-- **Seslendirme:** Kelime ve örnek cümle, cihazın kendi TTS motoruyla. US/UK aksan seçilebilir.
+- **Seslendirme:** Kelime ve örnek cümle, cihazın kendi TTS motoruyla, Amerikan İngilizcesi (en-US) sesiyle.
 - **Diğer:** Koyu tema, titreşim ve otomatik seslendirme ayarları
 - **Ücretsiz model:**
-  - Günde 20 kelime.
+  - Günde 35 kelime.
   - Kota dolunca paywall açılır ve **"Reklam izle, +5 kelime"** seçeneği sunulur (günde en fazla 3 reklam; `AppConfig` içinden değiştirilebilir).
   - Ücretsiz sürümde banner reklam gösterilir, kart ekranında gösterilmez.
 - **Premium:** Sınırsız kelime, 50/100'lük seanslar, kategoriler ve konu desteleri, ek modlar, reklamsız deneyim

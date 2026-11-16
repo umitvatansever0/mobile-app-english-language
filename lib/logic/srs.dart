@@ -65,6 +65,20 @@ WordProgress applySm2(WordProgress p, Sm2Grade grade, DateTime now, {required bo
       ? now.add(const Duration(minutes: 10))
       : DateTime(now.year, now.month, now.day).add(Duration(days: interval));
 
+  // Yanlış/unutulan kelime hata listesine girer ve art arda
+  // WordProgress.mistakeSessions oturum doğru bilinene kadar orada kalır.
+  // Arada bir kez daha yanlış yapılırsa sayaç baştan başlar.
+  final int mistakeLeft;
+  if (grade == Sm2Grade.again) {
+    mistakeLeft = WordProgress.mistakeSessions;
+  } else if (p.inMistakes) {
+    // Eski sürümden kalan (sayaçsız) hata kaydı: tam sayaçla başlamış say.
+    final left = p.mistakeSessionsLeft > 0 ? p.mistakeSessionsLeft : WordProgress.mistakeSessions;
+    mistakeLeft = left - 1;
+  } else {
+    mistakeLeft = 0;
+  }
+
   return p.copyWith(
     repetitions: reps,
     interval: interval,
@@ -73,7 +87,7 @@ WordProgress applySm2(WordProgress p, Sm2Grade grade, DateTime now, {required bo
     lastReviewed: now,
     timesSeen: p.timesSeen + 1,
     timesCorrect: p.timesCorrect + (correct ? 1 : 0),
-    // Yanlış/unutulan kelime hata listesine girer, doğru bilinince çıkar.
-    inMistakes: grade == Sm2Grade.again,
+    inMistakes: mistakeLeft > 0,
+    mistakeSessionsLeft: mistakeLeft,
   );
 }

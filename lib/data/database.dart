@@ -15,7 +15,13 @@ class AppDatabase {
     final dir = await getDatabasesPath();
     final db = await openDatabase(
       p.join(dir, 'kartlar.db'),
-      version: 1,
+      version: 2,
+      onUpgrade: (db, oldV, _) async {
+        if (oldV < 2) {
+          await db.execute('ALTER TABLE progress ADD COLUMN mistake_left INTEGER NOT NULL DEFAULT 0');
+          await db.execute('UPDATE progress SET mistake_left = 3 WHERE in_mistakes = 1');
+        }
+      },
       onCreate: (db, _) async {
         await db.execute('''
           CREATE TABLE progress(
@@ -27,7 +33,8 @@ class AppDatabase {
             last_reviewed INTEGER,
             seen INTEGER NOT NULL,
             correct INTEGER NOT NULL,
-            in_mistakes INTEGER NOT NULL
+            in_mistakes INTEGER NOT NULL,
+            mistake_left INTEGER NOT NULL DEFAULT 0
           )''');
         await db.execute('CREATE TABLE custom_words(id TEXT PRIMARY KEY, json TEXT NOT NULL, created INTEGER NOT NULL)');
       },

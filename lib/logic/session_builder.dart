@@ -50,8 +50,8 @@ bool _levelIncluded(String wordLevel, String target) {
 }
 
 /// Oturum için kelime seçer. Öncelik sırası:
-/// 1) zamanı gelmiş tekrarlar (en gecikmiş önce)
-/// 2) hata listesindekiler
+/// 1) hata listesindekiler (art arda 3 oturum doğru bilinene kadar)
+/// 2) zamanı gelmiş tekrarlar (en gecikmiş önce)
 /// 3) yeni kelimeler: önce hedef seviyeden, o bitince bir alt seviyeden (B2 -> B1 -> ...)
 List<Word> buildSession({
   required List<Word> words,
@@ -73,10 +73,11 @@ List<Word> buildSession({
     return m.take(request.size).toList();
   }
 
-  final due = pool.where((w) => progress[w.id]?.isDue(now) ?? false).toList()
+  // Hata listesindekiler her oturumda (zamanı gelmemiş olsa bile) ilk sırada:
+  // art arda 3 oturum doğru bilinene kadar tekrar tekrar sorulur.
+  final mistakes = pool.where((w) => progress[w.id]?.inMistakes ?? false).toList()..shuffle(rnd);
+  final due = pool.where((w) => (progress[w.id]?.isDue(now) ?? false) && !mistakes.contains(w)).toList()
     ..sort((a, b) => progress[a.id]!.dueDate!.compareTo(progress[b.id]!.dueDate!));
-  final mistakes =
-      pool.where((w) => (progress[w.id]?.inMistakes ?? false) && !due.contains(w)).toList()..shuffle(rnd);
   final fresh = pool.where((w) => !(progress[w.id]?.isStarted ?? false)).toList();
   // Yeni kelimeler hedef seviyeden gelir; ileri seviyedeki biri A1 kelimeleriyle
   // vakit kaybetmesin. Hedef seviye bitince alt seviyelerdeki eksikler gelir.
@@ -94,7 +95,7 @@ List<Word> buildSession({
   // Her oturumda en az ~%40 yeni kelime olsun ki ilerleme hissedilsin.
   final minFresh = math.min(freshOrdered.length, (request.size * 0.4).ceil());
   final reviewSlots = request.size - minFresh;
-  final reviews = [...due, ...mistakes].take(reviewSlots).toList();
+  final reviews = [...mistakes, ...due].take(reviewSlots).toList();
   final out = <Word>[...reviews, ...freshOrdered.take(request.size - reviews.length)];
 
   // Hâlâ boşluk varsa (yeni kelime bittiyse) tekrar edilmiş kelimelerle doldur.

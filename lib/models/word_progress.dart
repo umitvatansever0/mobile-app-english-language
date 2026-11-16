@@ -10,6 +10,7 @@ class WordProgress {
     this.timesSeen = 0,
     this.timesCorrect = 0,
     this.inMistakes = false,
+    this.mistakeSessionsLeft = 0,
   });
 
   final String wordId;
@@ -23,6 +24,13 @@ class WordProgress {
 
   /// "Hataları Çalış" listesinde mi?
   final bool inMistakes;
+
+  /// Hata listesindeki kelimenin listeden çıkması için kaç oturum daha
+  /// doğru bilinmesi gerekiyor. Yanlışta [mistakeSessions]'a sıfırlanır.
+  final int mistakeSessionsLeft;
+
+  /// Yanlış yapılan kelime art arda bu kadar oturumda doğru bilinene kadar sorulur.
+  static const mistakeSessions = 3;
 
   /// Aralık bu kadar güne ulaşınca kelime "ustalaşıldı" sayılır.
   static const masteredIntervalDays = 21;
@@ -41,6 +49,7 @@ class WordProgress {
     int? timesSeen,
     int? timesCorrect,
     bool? inMistakes,
+    int? mistakeSessionsLeft,
   }) =>
       WordProgress(
         wordId: wordId,
@@ -52,6 +61,7 @@ class WordProgress {
         timesSeen: timesSeen ?? this.timesSeen,
         timesCorrect: timesCorrect ?? this.timesCorrect,
         inMistakes: inMistakes ?? this.inMistakes,
+        mistakeSessionsLeft: mistakeSessionsLeft ?? this.mistakeSessionsLeft,
       );
 
   Map<String, Object?> toMap() => {
@@ -64,6 +74,7 @@ class WordProgress {
         'seen': timesSeen,
         'correct': timesCorrect,
         'in_mistakes': inMistakes ? 1 : 0,
+        'mistake_left': mistakeSessionsLeft,
       };
 
   factory WordProgress.fromMap(Map<String, Object?> m) {
@@ -78,6 +89,7 @@ class WordProgress {
       timesSeen: m['seen'] as int,
       timesCorrect: m['correct'] as int,
       inMistakes: (m['in_mistakes'] as int) == 1,
+      mistakeSessionsLeft: m['mistake_left'] as int? ?? 0,
     );
   }
 }

@@ -10,6 +10,7 @@ import 'package:ingilizce_calisma_kartlari/logic/session_builder.dart';
 import 'package:ingilizce_calisma_kartlari/logic/srs.dart';
 import 'package:ingilizce_calisma_kartlari/models/word.dart';
 import 'package:ingilizce_calisma_kartlari/models/word_progress.dart';
+import 'package:ingilizce_calisma_kartlari/services/tts_service.dart';
 
 void main() {
   group('AnswerChecker', () {
@@ -72,6 +73,32 @@ void main() {
       expect(a.isDue(now.add(const Duration(minutes: 11))), isTrue);
     });
 
+    test('yanlış kelime art arda 3 oturum doğru bilinene kadar hata listesinde kalır', () {
+      var p = applySm2(fresh, Sm2Grade.again, now, correct: false);
+      expect(p.mistakeSessionsLeft, 3);
+      p = applySm2(p, Sm2Grade.good, now, correct: true);
+      expect(p.inMistakes, isTrue);
+      p = applySm2(p, Sm2Grade.good, now, correct: true);
+      expect(p.inMistakes, isTrue);
+      // Arada yanlış: sayaç baştan başlar.
+      p = applySm2(p, Sm2Grade.again, now, correct: false);
+      expect(p.mistakeSessionsLeft, 3);
+      for (var i = 0; i < 2; i++) {
+        p = applySm2(p, Sm2Grade.hard, now, correct: true);
+        expect(p.inMistakes, isTrue);
+      }
+      p = applySm2(p, Sm2Grade.good, now, correct: true);
+      expect(p.inMistakes, isFalse);
+      expect(p.mistakeSessionsLeft, 0);
+    });
+
+    test('eski sürümden kalan sayaçsız hata kaydı da 3 oturum sürer', () {
+      var p = const WordProgress(wordId: 'x', timesSeen: 1, inMistakes: true);
+      p = applySm2(p, Sm2Grade.good, now, correct: true);
+      expect(p.inMistakes, isTrue);
+      expect(p.mistakeSessionsLeft, 2);
+    });
+
     test('ease 1.3 altına inmez', () {
       var p = fresh;
       for (var i = 0; i < 20; i++) {
@@ -82,10 +109,10 @@ void main() {
   });
 
   group('Kota', () {
-    test('günlük 20 + reklam başına 5, en fazla 3 reklam', () {
+    test('günlük 35 + reklam başına 5, en fazla 3 reklam', () {
       var d = DailyStats.empty(DateTime(2026, 10, 25));
-      expect(d.remainingFree(), 20);
-      d = d.copyWith(studied: 20);
+      expect(d.remainingFree(), 35);
+      d = d.copyWith(studied: 35);
       expect(d.remainingFree(), 0);
       d = d.copyWith(adsWatched: 1);
       expect(d.remainingFree(), 5);
@@ -204,6 +231,18 @@ void main() {
       expect(s.where((w) => due.containsKey(w.id)).length, 5);
     });
 
+    test('hata listesindekiler zamanı gelmese de normal oturuma girer', () {
+      final now = DateTime(2026, 10, 25, 12);
+      final m = {
+        for (final w in words.take(4))
+          w.id: WordProgress(
+              wordId: w.id, timesSeen: 2, interval: 1, inMistakes: true, mistakeSessionsLeft: 2,
+              dueDate: now.add(const Duration(days: 1))),
+      };
+      final s = buildSession(words: words, progress: m, request: const SessionRequest(size: 20, level: 'A2'), now: now);
+      expect(s.where((w) => m.containsKey(w.id)).length, 4);
+    });
+
     test('hata oturumu sadece hata listesindekileri içerir', () {
       final m = {words[3].id: WordProgress(wordId: words[3].id, timesSeen: 1, inMistakes: true)};
       final s = buildSession(
@@ -221,6 +260,21 @@ void main() {
       expect(d.length, 3);
       expect(d.toSet().length, 3);
       expect(d.any(target.tr.contains), isFalse);
+    });
+  });
+
+  group('Seslendirme', () {
+    test('sadece en-US sesleri seçilir, çevrimdışı kaliteli ses öne geçer', () {
+      final voices = [
+        {'name': 'tr-tr-x-cfs-local', 'locale': 'tr-TR'},
+        {'name': 'en-gb-x-gba-local', 'locale': 'en-GB'},
+        {'name': 'en-us-x-iol-network', 'locale': 'en-US', 'quality': 'very high', 'network_required': '1'},
+        {'name': 'en-us-x-tpf-local', 'locale': 'en_US', 'quality': 'very high', 'network_required': '0'},
+        {'name': 'en-us-x-sfg-local', 'locale': 'en-US', 'quality': 'normal', 'network_required': '0'},
+      ];
+      final us = voices.where(pickableUsVoice).toList()..sort((a, b) => voiceScore(b) - voiceScore(a));
+      expect(us.length, 3);
+      expect(us.first['name'], 'en-us-x-tpf-local');
     });
   });
 }
