@@ -82,6 +82,66 @@ def text_center(d, box_center, txt, font, fill):
     d.text((box_center[0] - (l + r) / 2, box_center[1] - (t + b) / 2), txt, font=font, fill=fill)
 
 
+def _star(cx, cy, r_out, r_in, rot_deg=0):
+    pts = []
+    for i in range(10):
+        r = r_out if i % 2 == 0 else r_in
+        a = math.radians(rot_deg + i * 36)
+        pts.append((cx + r * math.cos(a), cy + r * math.sin(a)))
+    return pts
+
+
+def flag_tr(d):
+    """Türk bayrağı, d x d kare (daireye kırpılacak). Hilal + yıldız ortalanmış."""
+    img = Image.new('RGB', (d, d), (227, 10, 23))
+    g = ImageDraw.Draw(img)
+    h = d * 0.95  # bayrak yüksekliği ölçeği
+    ox = d * 0.5 - h * 0.13  # hilal+yıldız grubunu ortala
+    oy = d * 0.5
+    r1, r2 = h * 0.25, h * 0.20
+    g.ellipse([ox - r1, oy - r1, ox + r1, oy + r1], fill=WHITE)
+    c2 = ox + h * 0.0625
+    g.ellipse([c2 - r2, oy - r2, c2 + r2, oy + r2], fill=(227, 10, 23))
+    sx = c2 + r2 + h * 0.03 + h * 0.125 * 0.6
+    g.polygon(_star(sx, oy, h * 0.125, h * 0.125 * 0.382, 180), fill=WHITE)
+    return img
+
+
+def flag_uk(d):
+    """Birleşik Krallık bayrağı (Union Jack), d x d kare."""
+    W, H = d * 2, d  # 2:1 bayrak, ortası kırpılacak
+    img = Image.new('RGB', (W, H), (1, 33, 105))
+    g = ImageDraw.Draw(img)
+    u = H / 30
+    g.line([(0, 0), (W, H)], fill=WHITE, width=int(6 * u))
+    g.line([(0, H), (W, 0)], fill=WHITE, width=int(6 * u))
+    g.line([(0, 0), (W, H)], fill=(200, 16, 46), width=int(2 * u))
+    g.line([(0, H), (W, 0)], fill=(200, 16, 46), width=int(2 * u))
+    g.rectangle([W / 2 - 5 * u, 0, W / 2 + 5 * u, H], fill=WHITE)
+    g.rectangle([0, H / 2 - 5 * u, W, H / 2 + 5 * u], fill=WHITE)
+    g.rectangle([W / 2 - 3 * u, 0, W / 2 + 3 * u, H], fill=(200, 16, 46))
+    g.rectangle([0, H / 2 - 3 * u, W, H / 2 + 3 * u], fill=(200, 16, 46))
+    return img.crop((int(W / 2 - d / 2), 0, int(W / 2 + d / 2), d))
+
+
+def flag_badge(img, center, r, flag_fn, u):
+    """Beyaz çerçeveli, gölgeli yuvarlak bayrak rozeti."""
+    size = img.width
+    sh = Image.new('RGBA', (size, size), (0, 0, 0, 0))
+    ImageDraw.Draw(sh).ellipse([center[0] - r, center[1] - r + 8 * u, center[0] + r, center[1] + r + 8 * u],
+                               fill=(4, 50, 48, 80))
+    img.alpha_composite(sh.filter(ImageFilter.GaussianBlur(10 * u)))
+    d = ImageDraw.Draw(img)
+    ring = 10 * u
+    d.ellipse([center[0] - r - ring, center[1] - r - ring, center[0] + r + ring, center[1] + r + ring], fill=WHITE)
+    dd = int(2 * r)
+    f = flag_fn(dd).convert('RGBA')
+    m = Image.new('L', (dd, dd), 0)
+    ImageDraw.Draw(m).ellipse([0, 0, dd - 1, dd - 1], fill=255)
+    f.putalpha(m)
+    img.alpha_composite(f, (int(center[0] - r), int(center[1] - r)))
+
+
 def foreground(size):
     """Şeffaf zeminde kart yığını + ses rozeti. İçerik merkez ~%62 alanda kalır."""
     img = Image.new('RGBA', (size, size), (0, 0, 0, 0))
@@ -128,6 +188,9 @@ def foreground(size):
         r_ = rr * u
         ox = sx + 40 * u
         d.arc([ox - r_, sy - r_, ox + r_, sy + r_], -50, 50, fill=WHITE, width=int(13 * u))
+    # Küçük bayrak rozetleri: TR (sarı kart, sol alt) ve UK (beyaz kart, sağ alt)
+    flag_badge(img, (size * 0.305, size * 0.735), 58 * u, flag_tr, u)
+    flag_badge(img, (size * 0.715, size * 0.745), 58 * u, flag_uk, u)
     return img
 
 
