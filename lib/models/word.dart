@@ -83,6 +83,8 @@ class Word {
     required this.topic,
     required this.exampleEn,
     required this.exampleTr,
+    this.synonyms = const [],
+    this.antonyms = const [],
     this.isCustom = false,
   });
 
@@ -96,6 +98,10 @@ class Word {
   final String topic;
   final String exampleEn;
   final String exampleTr;
+
+  /// İngilizce eş anlamlılar ve zıt anlamlılar (boş olabilir).
+  final List<String> synonyms;
+  final List<String> antonyms;
   final bool isCustom;
 
   String get mainTr => tr.first;
@@ -109,6 +115,8 @@ class Word {
         topic: j['topic'] as String,
         exampleEn: j['exEn'] as String? ?? '',
         exampleTr: j['exTr'] as String? ?? '',
+        synonyms: (j['syn'] as List?)?.cast<String>() ?? const [],
+        antonyms: (j['ant'] as List?)?.cast<String>() ?? const [],
         isCustom: j['custom'] as bool? ?? false,
       );
 
@@ -121,6 +129,8 @@ class Word {
         'topic': topic,
         'exEn': exampleEn,
         'exTr': exampleTr,
+        if (synonyms.isNotEmpty) 'syn': synonyms,
+        if (antonyms.isNotEmpty) 'ant': antonyms,
         'custom': isCustom,
       };
 }

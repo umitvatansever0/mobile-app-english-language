@@ -225,6 +225,12 @@ class _WordDetail extends StatelessWidget {
           Text('${word.pos.label} · ${word.level} · ${topicLabels[word.topic] ?? word.topic}', style: TextStyle(color: cs.onSurfaceVariant)),
           const SizedBox(height: 12),
           Text(word.tr.join(', '), style: TextStyle(fontSize: 20, color: cs.primary, fontWeight: FontWeight.w700)),
+          if (word.synonyms.isNotEmpty) ...[
+            const SizedBox(height: 6),
+            Text('Eş anlamlı: ${word.synonyms.join(', ')}', style: TextStyle(color: cs.onSurfaceVariant, fontWeight: FontWeight.w600)),
+          ],
+          if (word.antonyms.isNotEmpty)
+            Text('Zıt anlamlı: ${word.antonyms.join(', ')}', style: TextStyle(color: cs.onSurfaceVariant, fontWeight: FontWeight.w600)),
           if (word.exampleEn.isNotEmpty) ...[
             const SizedBox(height: 16),
             Text(word.exampleEn, style: const TextStyle(fontSize: 17, fontStyle: FontStyle.italic)),

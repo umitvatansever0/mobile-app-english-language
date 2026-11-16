@@ -1,0 +1,237 @@
+# A2 ek anlamlar
+# Biçim: ingilizce|tür|ek türkçe anlamlar|eş anlamlılar (EN)|zıt anlamlılar (EN)
+accident|n|kaza olayı;tesadüf;rastlantı;felaket|crash;collision;mishap|
+address|n|adres bilgisi;konuşma;hitap;nutuk|location;speech|
+adult|n|büyük;reşit;olgun kişi;erişkin|grown-up;grown man|child
+advice|n|öneri;nasihat;fikir;danışmanlık|tip;suggestion;guidance|
+afraid|adj|korkak;ürkmüş;çekinen;endişeli|scared;frightened;fearful|brave;fearless
+agree|v|kabul etmek;onaylamak;uzlaşmak;mutabık olmak|accept;consent;approve|disagree;refuse
+air|n|hava akımı;gökyüzü;atmosfer;tavır|atmosphere;sky|
+alone|adj|tek başına;kimsesiz;yalnız başına;tek|lonely;solo;single|together
+already|adv|önceden;bile;evvelce;daha şimdiden|previously;before;by now|yet
+arrive|v|gelip çatmak;erişmek;vasıl olmak;gelmek fiili|come;reach;get to|leave;depart
+art|n|sanat eseri;beceri;hüner;zanaat|craft;skill;painting|
+believe|v|güvenmek;sanmak;iman etmek;kabul etmek|trust;think;accept|doubt;disbelieve
+belong|v|-e ait olmak;mensup olmak;yeri olmak;sahibi olmak|be owned by;fit|
+borrow|v|borç almak;ödünç alıp kullanmak;emanet almak;almak|take;loan|lend
+boring|adj|bıktırıcı;usandırıcı;tekdüze;yavan|dull;tedious;dreary|interesting;exciting
+bored|adj|bıkmış;usanmış;canı sıkılmış;sıkkın|uninterested;weary|excited;interested
+born|adj|dünyaya gelmiş;doğuştan;yaratılmış;doğan|native;natural|dead
+boss|n|amir;müdür;yönetici;işveren|manager;chief;employer|employee;worker
+bottle|n|şişecik;sürahi;biberon;matara|flask;jar|
+bridge|n|köprü yapısı;geçit;bağlantı;briç|crossing;link|
+build|v|kurmak;yapmak;oluşturmak;inşa etmek fiili|construct;erect;create|destroy;demolish
+building|n|yapı;bina yapısı;inşaat;konut|structure;construction;edifice|
+burn|v|tutuşmak;yakıp yıkmak;alev almak;kavurmak|blaze;scorch;set fire|extinguish
+business|n|ticaret;şirket;firma;mesele|trade;commerce;company|
+careful|adj|özenli;titiz;tedbirli;dikkatli olan|cautious;attentive;thorough|careless
+carry|v|götürmek;taşıyıp götürmek;yüklenmek;getirmek|transport;bring;hold|drop
+catch|v|tutmak;yetişmek;kapmak;enselemek|grab;capture;seize|miss;drop;release
+celebrate|v|kutlamak fiili;anmak;bayram yapmak;eğlenmek|commemorate;honour;mark|mourn
+centre|n|orta;merkez yeri;göbek;çekirdek|middle;core;heart|edge
+change|v|farklılaştırmak;dönüştürmek;bozdurmak;üstünü değiştirmek|alter;modify;switch|keep;remain
+choose|v|tercih etmek;seçim yapmak;belirlemek;ayıklamak|pick;select;opt|reject
+cloud|n|bulut kümesi;sis;gölge;duman|mist;haze|
+cloudy|adj|kapalı;bulutlu hava;bulanık;puslu|overcast;grey;dull|sunny;clear
+coast|n|sahil şeridi;deniz kıyısı;kıyı bölgesi;yalı|shore;seaside;beach|inland
+comfortable|adj|konforlu;rahat edilen;huzurlu;hoş|cosy;relaxed;comfy|uncomfortable
+company|n|şirket;firma;arkadaşlık;eşlik|firm;business;corporation|
+compare|v|kıyaslamak;mukayese etmek;benzetmek;oranlamak|contrast;weigh;liken|
+competition|n|müsabaka;yarış;turnuva;çekişme|contest;rivalry;tournament|cooperation
+complete|v|bitirmek;tamamlamak fiili;doldurmak;sonuçlandırmak|finish;end;conclude|start;begin
+continue|v|sürdürmek;devam ettirmek;sürmek;ilerlemek|carry on;go on;proceed|stop;quit
+cost|v|tutmak;fiyatı olmak;masraf;bedel|price;charge;expense|
+countryside|n|kırlar;köy yeri;kır;doğa|country;rural area|city
+cross|v|aşmak;kesişmek;geçmek fiili;üzerinden geçmek|pass;traverse|
+crowded|adj|kalabalık olan;dolu;tıklım tıklım;izdihamlı|packed;busy;full|empty;deserted
+culture|n|kültür birikimi;medeniyet;uygarlık;gelenek|civilisation;tradition;customs|
+customer|n|alıcı;müşteri kişi;tüketici;yolcu|client;buyer;shopper|seller
+dangerous|adj|riskli;tehlike yaratan;zararlı;tehlikeli olan|risky;unsafe;hazardous|safe
+dark|adj|karanlık olan;esmer;kara;loş|dim;black;gloomy|light;bright
+decide|v|kararlaştırmak;karara varmak;belirlemek;seçmek|determine;choose;resolve|
+describe|v|tanımlamak;açıklamak;tasvir etmek;anlatmak fiili|explain;portray;depict|
+die|v|vefat etmek;hayatını kaybetmek;can vermek;ölüp gitmek|pass away;perish|live;be born
+different|adj|başka;değişik;ayrı;çeşitli|distinct;unlike;various|same;similar
+dirty|adj|pis;kirlenmiş;lekeli;ayıp|filthy;muddy;unclean|clean
+discover|v|bulmak;ortaya çıkarmak;öğrenmek;fark etmek|find;uncover;detect|hide
+dream|n|düş;arzu;rüya görme;ümit|vision;fantasy;wish|reality
+earn|v|para kazanmak;hak etmek;elde etmek;edinmek|make;gain;deserve|spend;lose
+east|n|doğu yönü;şark;gündoğusu;doğu bölgesi|orient|west
+education|n|öğrenim;öğretim;tahsil;eğitim sistemi|schooling;teaching;learning|
+enjoy|v|eğlenmek;hoşlanmak;beğenmek;sevmek|like;love;relish|dislike;hate
+enough|adj|yeter;kafi;yeterince;yetecek kadar|sufficient;adequate;plenty|insufficient;too little
+environment|n|ortam;doğa;muhit;çevre koşulları|surroundings;nature;setting|
+exam|n|imtihan;test;sınav kağıdı;muayene|test;examination;quiz|
+excited|adj|heyecanlanmış;coşkulu;sabırsız;istekli|thrilled;eager;enthusiastic|bored;calm
+exciting|adj|heyecanlı;sürükleyici;coşturucu;ilgi çekici|thrilling;exhilarating|boring;dull
+expect|v|beklemek fiili;ummak;sanmak;tahmin etmek|anticipate;await;suppose|
+experience|n|yaşantı;birikim;görgü;tecrübe birikimi|knowledge;practice;skill|inexperience
+explain|v|açıklamak fiili;anlatmak;izah etmek;tarif etmek|describe;clarify;illustrate|confuse
+fail|v|kaybetmek;yenilmek;sınıfta kalmak;bozulmak|flunk;lose;collapse|succeed;pass
+fall|v|yıkılmak;azalmak;dökülmek;inmek|drop;collapse;tumble|rise;climb
+famous|adj|tanınmış;şöhretli;bilinen;nam salmış|well-known;celebrated;renowned|unknown
+far|adj|uzaktaki;ırak;uzun;uzak mesafeli|distant;remote|near;close
+farm|n|çiftlik evi;tarla;ağıl;ekili alan|ranch;homestead|
+fight|v|çatışmak;dövüşmek;mücadele etmek;tartışmak|battle;struggle;argue|make peace
+fill|v|doldurmak fiili;dolmak;tıka basa doldurmak;kapatmak|load;stuff;pack|empty
+fix|v|düzeltmek;sabitlemek;ayarlamak;belirlemek|repair;mend;fasten|break
+follow|v|ardından gitmek;izlemek;uymak;anlamak|pursue;chase;obey|lead;ignore
+foreign|adj|yabancı ülke;dış;ecnebi;elin|overseas;alien;external|native;local
+forest|n|koru;ağaçlık;orman alanı;cangıl|wood;woods;jungle|
+free|adj|serbest;bağımsız;müsait;parasız|independent;available;gratis|busy;expensive
+fresh|adj|yeni;körpe;serin;dinç|new;cool;crisp|stale;old
+funny|adj|gülünç;eğlendirici;tuhaf;garip|amusing;hilarious;odd|serious;sad
+future|n|istikbal;ileride;yarın;ati|tomorrow;prospect|past
+gift|n|armağan;bağış;yetenek;hediyelik|present;talent;donation|
+grow|v|yetişmek;artmak;gelişmek;büyütmek|develop;increase;expand|shrink
+guess|v|tahmin yürütmek;kestirmek;sanmak;bilmek|estimate;suppose;predict|
+guest|n|misafir kişi;davetli;konuk kişi;müşteri|visitor;caller|host
+happen|v|gerçekleşmek;olmak fiili;vuku bulmak;başa gelmek|occur;take place|
+hate|v|tiksinmek;sevmemek;iğrenmek;kin beslemek|detest;loathe;dislike|love;like
+healthy|adj|sağlıklı olan;zinde;dinç;besleyici|fit;well;wholesome|unhealthy;ill
+heavy|adj|ağır olan;yoğun;şiddetli;kilolu|weighty;hefty;dense|light
+hill|n|tepecik;yokuş;bayır;yamaç|slope;mound;hillock|valley
+hire|v|tutmak;kiraya tutmak;istihdam etmek;çalıştırmak|rent;employ;engage|fire
+hope|v|dilemek;beklemek;ümit etmek;umut beslemek|wish;expect;trust|despair
+hurt|v|yaralamak;zarar vermek;kırmak;sızlamak|injure;harm;ache|heal
+important|adj|mühim;önem taşıyan;değerli;ciddi|significant;crucial;major|unimportant;minor
+improve|v|ilerletmek;düzelmek;geliştirmek fiili;güzelleştirmek|enhance;better;develop|worsen
+information|n|haber;veri;bilgilendirme;malumat|data;facts;details|
+interested|adj|meraklı;ilgili olan;istekli;alakalı|curious;keen|uninterested;bored
+interesting|adj|ilgi çekici;dikkat çekici;merak uyandıran;enteresan|fascinating;intriguing|boring;dull
+invite|v|çağırmak;davet etmek fiili;buyur etmek;teşvik etmek|ask;welcome;summon|
+island|n|adacık;ada ülkesi;yalıtılmış yer;adalar|isle;islet|mainland
+journey|n|yol;sefer;gezi;yolculuk süresi|trip;voyage;travel|
+kind|adj|iyi kalpli;sevecen;şefkatli;cömert|nice;gentle;caring|unkind;cruel
+kill|v|katletmek;canına kıymak;öldürmek fiili;yok etmek|murder;slay;destroy|
+land|n|toprak;yer;ülke;kara parçası|ground;earth;territory|sea
+laugh|v|kahkaha atmak;gülüp geçmek;eğlenmek;alay etmek|giggle;chuckle|cry
+lazy|adj|üşengeç;aylak;miskin;tembel olan|idle;sluggish|hard-working;active
+leave|v|gitmek;çıkmak;yola koyulmak;vazgeçmek|depart;go;abandon|arrive;stay
+lend|v|borç vermek;ödünç verip;emanet etmek;sağlamak|loan;give|borrow
+light|n|aydınlık;lamba;ateş;nur|brightness;lamp;glow|dark;darkness
+lose|v|yitirmek;yenilmek;kaybetmek fiili;geri kalmak|misplace;mislay|win;find
+loud|adj|gürültülü olan;sesli;yüksek;cırtlak|noisy;booming|quiet
+lucky|adj|talihli;şanslı olan;bahtiyar;uğurlu|fortunate;blessed|unlucky
+married|adj|evli olan;evlenmiş;evli barklı;eşli|wed;spoused|single;unmarried
+meal|n|yemek öğünü;sofra;aş;yemek vakti|dish;feast;food|
+message|n|haber;ileti;not;mesaj içeriği|note;text;memo|
+miss|v|özlem duymak;ıskalamak;kaçırmak fiili;atlamak|long for;skip|catch;hit
+mistake|n|yanılgı;kusur;yanlışlık;falso|error;fault;blunder|
+modern|adj|yeni;güncel;çağcıl;yenilikçi|contemporary;up-to-date;current|old-fashioned;ancient
+move|v|yer değiştirmek;kımıldamak;göç etmek;duygulandırmak|shift;relocate;stir|stay
+museum|n|müze binası;sergi salonu;galeri;müzeler|gallery|
+nature|n|tabiat;karakter;yaradılış;huy|environment;character|
+near|adj|yakın olan;yakınlarda;civarında;bitişik|close;nearby|far
+neighbour|n|komşu kişi;yakın;mahalleli;hemşehri|resident|
+nervous|adj|tedirgin;heyecanlı;kaygılı;huzursuz|anxious;tense;edgy|calm;relaxed
+noise|n|patırtı;şamata;gürültü patırtı;ses kirliliği|sound;din;racket|silence
+north|n|kuzey yönü;şimal;kuzey bölgesi;poyraz||south
+offer|v|sunmak;ikram etmek;teklif vermek;önermek|propose;present;suggest|refuse
+order|v|ısmarlamak;emretmek;sıralamak;düzenlemek|request;command;arrange|
+pain|n|sızı;dert;keder;ıstırap|ache;hurt;suffering|pleasure;comfort
+passenger|n|yolcu kişi;seyyah;binici;müşteri|traveller;rider|driver
+passport|n|pasaport belgesi;kimlik;geçiş belgesi;vize|travel document;ID|
+past|n|geçmiş zaman;mazi;eski günler;dünü|history;yesterday|future;present
+plan|n|tasarı;proje;program;niyet|scheme;project;idea|
+plant|n|bitki türü;fabrika;tesis;ekmek|vegetation;factory;sow|
+polite|adj|terbiyeli;saygılı;efendi;ince|courteous;respectful;civil|rude;impolite
+poor|adj|zayıf;kötü;yetersiz;muhtaç|needy;broke;weak|rich;wealthy
+popular|adj|tutulan;ünlü;rağbet gören;halk arasında|well-liked;famous;trendy|unpopular
+possible|adj|olabilir;muhtemel;olanaklı;yapılabilir|feasible;likely;potential|impossible
+prefer|v|yeğlemek;tercih etmek fiili;üstün tutmak;seçmek|favour;choose;pick|
+prepare|v|hazır etmek;düzenlemek;hazırlık yapmak;donatmak|arrange;plan;ready|
+present|n|armağan;şimdi;şu an;günümüz|gift;now;today|past;future
+pretty|adj|sevimli;alımlı;çekici;epeyce|lovely;attractive;quite|ugly;plain
+promise|v|vaat etmek;söz vermek fiili;ahdetmek;garanti etmek|pledge;vow;swear|break
+protect|v|muhafaza etmek;savunmak;himaye etmek;esirgemek|guard;defend;shield|attack;harm
+quiet|adj|sakin olan;sessiz sakin;huzurlu;suskun|silent;calm;peaceful|loud;noisy
+quickly|adv|süratle;çabuk;hemen;acele ile|fast;rapidly;swiftly|slowly
+rain|v|yağmak;sağanak yağmak;çiselemek;boşalmak|pour;drizzle;shower|
+ready|adj|hazır olan;hazırlıklı;istekli;tamam|prepared;set;willing|unprepared
+receive|v|kabul etmek;almak fiili;eline geçmek;karşılamak|get;obtain;accept|send;give
+recommend|v|öğütlemek;salık vermek;önermek fiili;tavsiyede bulunmak|suggest;advise;propose|
+relax|v|gevşemek;rahatlamak fiili;sakinleşmek;dinlenmek fiili|rest;unwind;calm down|tense;stress
+rent|n|kira bedeli;kiralık;kiraya vermek;icar|hire;lease;payment|
+repair|v|onarmak fiili;düzeltmek;yamamak;tamir|fix;mend;restore|break;damage
+repeat|v|yinelemek;tekrar etmek;tekrar söylemek;yeniden yapmak|redo;restate;echo|
+rich|adj|varlıklı;zengin olan;bol;verimli|wealthy;well-off;affluent|poor
+safe|adj|emniyetli;korunaklı;sağlam;zararsız|secure;protected;harmless|dangerous;unsafe
+save|v|kurtarmak fiili;saklamak;tasarruf etmek;korumak|rescue;keep;store|spend;waste
+search|v|araştırmak;aramak fiili;taramak;yoklamak|look for;seek;hunt|find
+send|v|göndermek fiili;postalamak;iletmek;yollamak fiili|mail;dispatch;transmit|receive
+serious|adj|ağır;ciddi olan;önemli;vahim|grave;severe;solemn|funny;minor
+share|v|bölüşmek;paylaşmak fiili;ortak olmak;pay|split;divide;distribute|keep
+shout|v|haykırmak;bağırmak fiili;çağırmak;seslenmek|yell;scream;cry|whisper
+show|v|sergilemek;göstermek fiili;kanıtlamak;belirtmek|display;present;reveal|hide
+shy|adj|çekingen olan;sıkılgan;mahcup;ürkek|timid;bashful;reserved|confident;outgoing
+silly|adj|aptal;budala;gülünç;anlamsız|foolish;stupid;daft|sensible;wise
+smell|v|kokuyu almak;koku yaymak;sezmek;kokusunu almak|sniff;scent|
+smile|v|tebessüm etmek;gülümsemek fiili;sırıtmak;gülmek|grin;beam|frown
+south|n|güney yönü;cenup;güney bölgesi;lodos||north
+spend|v|para harcamak;tüketmek;vakit geçirmek;sarf etmek|use;pay;pass|save;earn
+steal|v|çalmak fiili;aşırmak;hırsızlık yapmak;yürütmek|rob;thieve;take|
+strange|adj|acayip;yabancı;alışılmadık;tuhaf olan|odd;weird;unusual|normal;familiar
+stranger|n|yabancı kişi;tanımadık;el;ecnebi|outsider;newcomer|friend
+strong|adj|kuvvetli olan;dayanıklı;sağlam;etkili|powerful;tough;sturdy|weak
+succeed|v|başarıya ulaşmak;başarılı olmak fiili;muvaffak olmak;yerine geçmek|achieve;win;manage|fail
+suddenly|adv|ansızın;birden;apansız;beklenmedik şekilde|abruptly;unexpectedly|gradually
+suitcase|n|valiz çanta;seyahat çantası;bagaj;çanta|luggage;case;bag|
+sure|adj|emin olan;kesin;şüphesiz;güvenilir|certain;positive;confident|unsure;uncertain
+surprise|n|şaşkınlık;hayret;beklenmedik olay;sürpriz yapmak|shock;astonishment|
+surprised|adj|hayret içinde;şaşırmış olan;hayrete düşmüş;afallamış|amazed;astonished;shocked|
+taste|v|tadına bakmak;tat almak;tadımlamak;zevk|savour;sample;flavour|
+terrible|adj|dehşet verici;feci;berbat olan;rezil|awful;horrible;dreadful|wonderful;great
+thin|adj|ince olan;cılız;sıska;seyrek|slim;slender;skinny|thick;fat
+throw|v|fırlatmak fiili;atmak fiili;savurmak;fırlatıp atmak|toss;hurl;fling|catch
+tidy|adj|toplu;tertipli;intizamlı;düzgün|neat;orderly;organised|messy;untidy
+tired of|phr|usanmış;bezmiş;-den sıkılmış;bıkkın|fed up with;sick of;bored with|
+tourist|n|turist kişi;gezgin;ziyaretçi;yolcu|traveller;visitor;sightseer|local
+traffic|n|trafik sıkışıklığı;araç akışı;taşıt trafiği;yoğunluk|congestion;vehicles|
+trip|n|tur;gezinti;sefer;yolculuk kısa|journey;tour;excursion|
+true|adj|gerçek olan;hakiki;sadık;doğru olan|real;correct;genuine|false;untrue
+trust|v|güven duymak;inanmak;itimat etmek;emanet etmek|believe;rely on;depend on|distrust;doubt
+try|v|çabalamak;girişmek;tadına bakmak;sınamak|attempt;test;strive|give up
+turn|v|dönüş;dönüştürmek;döndürmek;sapmak|rotate;spin;twist|
+ugly|adj|çirkin olan;kötü görünüşlü;tatsız;biçimsiz|unattractive;hideous|beautiful;pretty
+umbrella|n|güneş şemsiyesi;şemsiye örtüsü;koruma;çatı|parasol;sunshade|
+unfortunately|adv|yazık ki;heyhat;talihsizlikle;üzülerek|sadly;regrettably|fortunately;luckily
+university|n|yüksekokul;fakülte;üniversite eğitimi;akademi|college;academy|
+use|v|faydalanmak;yararlanmak;harcamak;işletmek|utilise;employ;apply|waste
+useful|adj|işe yarar;kullanışlı olan;pratik;elverişli|helpful;handy;practical|useless
+usually|adv|ekseriya;çoğu zaman;olağan olarak;normalde|normally;generally;typically|rarely
+view|n|görünüm;bakış;fikir;görüş açısı|scenery;opinion;sight|
+wake|v|uyandırmak fiili;uyanmak fiili;ayılmak;canlanmak|awaken;rouse|sleep
+wallet|n|para cüzdanı;cüzdancık;kese;portföy|purse;billfold|
+war|n|harp;muharebe;çatışma;savaşma|conflict;battle;combat|peace
+waste|v|ziyan etmek;çarçur etmek;harcamak;çöp|squander;misuse|save
+west|n|batı yönü;garp;batı bölgesi;günbatısı|occident|east
+wet|adj|ıslanmış;nemli;yağışlı;rutubetli|damp;soaked;moist|dry
+win|v|galip gelmek;kazanmak fiili;yenmek;elde etmek|triumph;gain;earn|lose
+wish|v|istemek;arzu etmek;temenni etmek;dilemek fiili|want;desire;hope|
+worried|adj|tasalı;kaygılı olan;telaşlı;huzursuz|anxious;concerned;nervous|calm;relaxed
+worry|v|kaygılanmak;tasalanmak;üzülmek;dert etmek|fret;be anxious|relax
+worse|adj|beter;daha fena;daha kötü durumda;daha berbat|poorer;inferior|better
+worst|adj|en fena;en berbat;en beter;en kötü durum|poorest|best
+better|adj|daha güzel;daha üstün;daha uygun;iyileşmiş|superior;finer;improved|worse
+best|adj|en güzel;en üstün;en uygun;birinci|finest;greatest;top|worst
+almost|adv|az kalsın;nerdeyse;yaklaşık;handiyse|nearly;practically;about|
+anything|pron|ne olursa;her şey;herhangi bir;bir nesne|something;whatever|nothing
+everything|pron|her bir şey;tamamı;bütün şeyler;tümü|all;the whole lot|nothing
+nothing|pron|hiç bir şey;sıfır;yokluk;boşluk|zero;nil;none|everything;something
+someone|pron|bir kişi;birileri;kimse;biri birisi|somebody;a person|no one
+everyone|pron|her bir kişi;cümle alem;herkesler;bütün insanlar|everybody;all|no one;nobody
+somewhere|adv|bir yerlerde;bir tarafa;bir yerlere;herhangi bir yer|someplace|nowhere
+abroad|adv|dışarıda;gurbette;yabancı ülkede;dış ülkede|overseas;away|home
+ago|adv|evvel;önce olmuş;geçmişte;önceden|before;earlier;back|later
+during|prep|esnasında;süresince;zarfında;içinde|throughout;in;while|
+until|prep|-e değin;-e dek;-inceye kadar;hatta|till;up to|since
+without|prep|-meden;-maksızın;yoksun;-den başka|lacking;minus|with
+between|prep|ortasında;arasına;arası;aralarında|among;amid|
+behind|prep|arkasına;gerisinde;ardında;geride|after;at the back of|in front of
+in front of|prep|önüne;karşısında;önünde olan;huzurunda|before;ahead of|behind
+opposite|prep|karşı tarafta;karşıt;aksi;tersi|facing;across from|
+although|conj|-se de;karşın;-diği halde;mamafih|though;even though;while|
+if|conj|şayet;ise;-ırsa;olursa|provided;in case;whether|
+so|conj|dolayısıyla;bu nedenle;öyle;o kadar|therefore;thus;hence|
+while|conj|-dığı sürece;-iken;oysa;süre|whereas;as;whilst|

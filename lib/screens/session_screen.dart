@@ -377,6 +377,18 @@ class _SessionScreenState extends State<SessionScreen> {
               child: Text('Diğer anlamları: ${others.join(', ')}',
                   style: TextStyle(color: ink, fontWeight: FontWeight.w800, fontSize: 14.5)),
             ),
+          if (_w.synonyms.isNotEmpty)
+            Padding(
+              padding: const EdgeInsets.only(top: 3),
+              child: Text('Eş anlamlı: ${_w.synonyms.join(', ')}',
+                  style: TextStyle(color: pal.muted, fontWeight: FontWeight.w700, fontSize: 14)),
+            ),
+          if (_w.antonyms.isNotEmpty)
+            Padding(
+              padding: const EdgeInsets.only(top: 2),
+              child: Text('Zıt anlamlı: ${_w.antonyms.join(', ')}',
+                  style: TextStyle(color: pal.muted, fontWeight: FontWeight.w700, fontSize: 14)),
+            ),
           if (_w.exampleEn.isNotEmpty) ...[
             const SizedBox(height: 12),
             Material(

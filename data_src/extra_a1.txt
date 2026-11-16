@@ -1,0 +1,383 @@
+# A1 ek anlamlar
+# Biçim: ingilizce|tür|ek türkçe anlamlar (; ile)|eş anlamlılar (İngilizce, ; ile)|zıt anlamlılar (İngilizce, ; ile)
+hello|int|iyi günler;alo;hey|hi;hey;greetings|goodbye;bye
+goodbye|int|hoşça kalın;güle güle kal;bay bay|bye;farewell;see you|hello;hi
+please|adv|rica ederim;lütfen efendim;n'olur|kindly|
+thank you|phr|eyvallah;minnettarım;çok teşekkürler|thanks;cheers|
+sorry|adj|kusura bakma;affedersiniz;üzgün;pişman|apologetic;regretful|glad;happy
+yes|adv|tamam;olur;peki;he|yeah;sure;okay|no
+no|adv|yok;olmaz;hayır efendim|nope|yes
+name|n|isim soyisim;nam;adı|title|
+man|n|bay;beyefendi;insan;er|gentleman;guy;male|woman
+woman|n|bayan;hanım;hanımefendi;kadın kişi|lady;female|man
+child|n|çocuk evlat;yavru;küçük;evlat|kid;youngster|adult
+boy|n|delikanlı;genç;erkek evlat|lad;kid|girl
+girl|n|genç kız;kızcağız;kız evlat|lass;young woman|boy
+baby|n|bebe;yavru;sevgilim|infant;newborn;baby|adult
+friend|n|ahbap;dostum;yoldaş;arkadaşım|pal;buddy;mate|enemy
+people|n|halk;kişiler;millet;ahali|persons;folk;public|
+person|n|birey;şahıs;kimse;fert|individual;human|
+family|n|hane;soy;sülale;ev halkı|relatives;household;kin|
+mother|n|ana;anneciğim;valide|mom;mum;mama|father
+father|n|peder;babacığım;ata|dad;daddy;papa|mother
+parents|n|ana baba;veliler;anne ve baba|mother and father|children
+brother|n|kardeş;birader;erkek kardeşim|sibling;bro|sister
+sister|n|bacı;kardeş;kız kardeşim|sibling;sis|brother
+son|n|evlat;erkek evlat;oğlum|boy;child|daughter
+daughter|n|kız;evlat;kızım|girl;child|son
+husband|n|bey;eş;hayat arkadaşı|spouse;partner|wife
+wife|n|hanım;eş;hayat arkadaşı;zevce|spouse;partner|husband
+grandmother|n|nene;büyük anne|grandma;granny;gran|grandfather
+grandfather|n|büyük baba;ata;dedecik|grandpa;granddad|grandmother
+uncle|n|dayı;amca;enişte;amcam||aunt
+aunt|n|hala;teyze;yenge;teyzem||uncle
+cousin|n|amca çocuğu;dayı çocuğu;teyze çocuğu;hala çocuğu|relative|
+one|num|tek;bir tane;biri|single|
+first|adj|baştaki;ilk olan;en önce gelen;birinci sıradaki|initial;earliest|last
+second|adj|ikinci sıradaki;diğer;öteki|next;other|first
+last|adj|son olan;en sondaki;geçen;önceki|final;latest|first
+number|n|rakam;sayı;adet;numara|figure;digit;amount|
+time|n|zaman dilimi;defa;kez;sefer|hour;moment;period|
+day|n|gündüz;gün boyu;zaman|daytime|night
+week|n|yedi gün;haftalık süre;hafta boyu|seven days|
+month|n|otuz gün;aylık süre;ay boyu|thirty days|
+year|n|yıl boyu;yaş;on iki ay|twelve months|
+hour|n|saat dilimi;vakit;altmış dakika|sixty minutes|
+minute|n|an;kısa süre;altmış saniye|moment;instant|
+morning|n|sabah vakti;öğleden önce;sabahleyin|dawn;daybreak|evening
+afternoon|n|öğle sonrası;ikindi;öğleden sonra vakti|p.m.|morning
+evening|n|akşam vakti;akşamüstü;akşamleyin|dusk;sunset|morning
+night|n|gece vakti;akşam;geceleyin|nighttime;dark|day
+today|adv|bugünlerde;şimdi;günümüzde|this day;nowadays|yesterday;tomorrow
+tomorrow|adv|ertesi gün;yarın sabah;gelecek|the next day|yesterday
+yesterday|adv|geçen gün;dün akşam;dünkü|the day before|tomorrow
+now|adv|derhal;hemen;artık;şimdilik|right now;at present|then;later
+always|adv|hep;her daim;sürekli;devamlı|forever;constantly|never
+often|adv|sıklıkla;çoğu kez;sık;genellikle|frequently;regularly|rarely;seldom
+sometimes|adv|ara sıra;arada bir;zaman zaman;kimi zaman|occasionally;at times|always;never
+never|adv|katiyen;asla ve asla;hiçbir surette|not ever;at no time|always
+early|adv|erkenden;vaktinden önce;önceden;sabah erken|soon;ahead of time|late
+late|adv|geç kalmış;gecikmeli;rötarlı;vakitsiz|behind;overdue|early
+weekend|n|cumartesi pazar;tatil günleri;hafta tatili||weekday
+birthday|n|yaş günü;doğum yıldönümü;doğum günü kutlaması|anniversary|
+summer|n|yaz mevsimi;yazın;sıcak mevsim|summertime|winter
+winter|n|kış mevsimi;kışın;soğuk mevsim|wintertime|summer
+spring|n|bahar mevsimi;kaynak;yay;pınar|springtime|autumn
+autumn|n|güz;sonbahar mevsimi;hazan|fall|spring
+weather|n|iklim;hava şartları;atmosfer|climate;conditions|
+sun|n|güneş ışığı;gün;güneşli hava|sunshine;sunlight|moon
+rain|n|yağış;yağmur yağışı;sağanak|shower;downpour;drizzle|sunshine
+snow|n|kar yağışı;kar tanesi;karlı hava|snowfall;sleet|
+wind|n|yel;esinti;fırtına;hava akımı|breeze;gale;gust|
+hot|adj|sıcacık;kızgın;acı;ateşli|warm;boiling;spicy|cold
+cold|adj|soğuk hava;serin;üşümüş;soğuk kanlı|chilly;cool;freezing|hot
+warm|adj|sıcacık;samimi;ılıman;cana yakın|mild;cosy;friendly|cool;cold
+red|adj|al;kızıl;kırmızı renkli|scarlet;crimson|
+blue|adj|lacivert;gök mavisi;mavi renkli;hüzünlü|navy;azure|
+green|adj|yeşil renkli;ham;çevreci;toy|eco-friendly|
+yellow|adj|sarı renkli;sarımsı;limon sarısı|golden|
+black|adj|kapkara;karanlık;siyah renkli|dark;jet|white
+white|adj|ak;bembeyaz;beyaz renkli|snowy;pale|black
+brown|adj|kahve rengi;esmer;kahverengimsi|chocolate;tan|
+orange|adj|turuncu renkli;portakal rengi;turuncumsu||
+pink|adj|pembe renkli;pembemsi;gül rengi|rosy|
+grey|adj|kül rengi;boz;kurşuni;gri renkli|gray;silver|
+color|n|renk tonu;boya;ton;renklilik|colour;shade;hue|
+food|n|yiyecekler;besin;gıda;aş|meal;dish;cuisine|
+water|n|su içeceği;içme suyu;sular|H2O|
+bread|n|somun;ekmekçik;rızık|loaf|
+milk|n|süt içeceği;sütlü;inek sütü|dairy|
+coffee|n|kahve içeceği;kahvecik;kahve molası|espresso|
+tea|n|çay içeceği;çaycık;çay saati||
+egg|n|yumurtacık;haşlanmış yumurta;yumurta akı||
+cheese|n|kaşar;beyaz peynir;peynircik||
+meat|n|kırmızı et;kıyma;et yemeği|beef;flesh|
+chicken|n|piliç;tavuk eti;tavukçuk|hen;poultry|
+fish|n|balık eti;balıklar;deniz ürünü|seafood|
+rice|n|pirinç tanesi;çeltik;pilavlık pirinç||
+apple|n|elma meyvesi;elmacık;elma ağacı||
+banana|n|muz meyvesi;muzlar;muz ağacı||
+fruit|n|meyveler;yemiş;ürün;sonuç|produce;result|
+vegetable|n|sebzeler;yeşillik;zerzevat|greens|
+potato|n|patatesler;yer elması;patates püresi||
+tomato|n|domatesler;domates sosu;kırmızı domates||
+salt|n|tuzlu;sofra tuzu;tuz tanesi||sugar
+sugar|n|şekerli;toz şeker;tatlılık|sweetener|salt
+soup|n|çorba yemeği;et suyu;sıcak çorba|broth;stew|
+cake|n|tatlı;turta;keklik hamur|pastry;dessert|
+juice|n|özsu;sıvı;taze sıkım|drink|
+breakfast|n|sabah kahvaltısı;sabah yemeği;kahvaltılık|morning meal;brunch|dinner
+lunch|n|öğlen yemeği;öğle arası;öğün|midday meal|
+dinner|n|ziyafet;yemek;sofra;akşam öğünü|supper;evening meal|breakfast
+restaurant|n|yemekhane;aşevi;kafe;lokal|eatery;diner;bistro|
+menu|n|yemek listesi;liste;mönü|list;bill of fare|
+hungry|adj|aç kalmış;karnı aç;açlık çeken;istekli|starving;famished|full
+thirsty|adj|susuzluk çeken;susamış olan;kurumuş|parched;dry|
+delicious|adj|enfes;leziz;tadı güzel;çok güzel|tasty;yummy|disgusting;tasteless
+house|n|konut;hane;bina;mesken|home;building;residence|
+home|n|ev bark;konut;memleket;yurt|house;residence|
+flat|n|daire;konut;apartman;kat|apartment|
+room|n|yer;alan;mekan;bölme|chamber;space|
+kitchen|n|aşhane;mutfak bölümü;yemek pişirme yeri|cookhouse|
+bathroom|n|tuvalet;lavabo;banyo odası|toilet;restroom|
+bedroom|n|uyku odası;yatak odası bölümü;oda|chamber|
+door|n|giriş;kapı girişi;kapak|entrance;gate|
+window|n|cam;camekan;vitrin|pane|
+table|n|sofra;tablo;çizelge|desk;chart|
+chair|n|iskemle;oturak;koltuk;başkan|seat;stool|
+bed|n|döşek;karyola;yatak takımı|bunk;cot|
+sofa|n|divan;çekyat;kanepe koltuk|couch;settee|
+key|n|anahtar kelime;kilit;çözüm;tuş|answer;solution|
+garden|n|bostan;park;yeşil alan;bağ|yard;backyard|
+floor|n|döşeme;yer;taban;zemin kat|ground;level;storey|ceiling
+wall|n|sur;bölme;engel;duvar yüzeyi|barrier;fence|
+television|n|tv;televizyon kanalı;ekran|TV;telly|
+phone|n|cep telefonu;ahize;mobil telefon|telephone;mobile;cellphone|
+computer|n|pc;dizüstü;hesap makinesi|PC;laptop|
+book|n|eser;cilt;defter;yapıt|volume;novel;publication|
+pen|n|dolma kalem;mürekkepli kalem;yazı kalemi|ballpoint;biro|
+pencil|n|kalem;yazı kalemi;çizim kalemi|crayon|
+paper|n|kağıt parçası;gazete;makale;belge|sheet;document|
+bag|n|çuval;torba;poşet;valiz|sack;handbag;purse|
+school|n|mektep;okul binası;ekol;eğitim kurumu|academy;college|
+teacher|n|hoca;eğitmen;öğretici;muallim|instructor;tutor;educator|student
+student|n|talebe;öğrenci kişi;okuyan;öğrenen|pupil;learner|teacher
+class|n|derslik;sınıf;kategori|lesson;course;grade|
+lesson|n|ders saati;eğitim;öğüt;ibret|class;lecture|
+question|n|sual;sorun;mesele;konu|query;inquiry|answer
+answer|n|karşılık;yanıt;çözüm;cevap verme|reply;response;solution|question
+word|n|söz;laf;terim;kelam|term;expression|
+language|n|lisan;dil bilgisi;konuşma dili;anlatım|tongue;speech|
+English|n|İngiliz dili;İngilizce dili;İngiliz||
+homework|n|ev ödevi;ders ödevi;görev;çalışma|assignment;task|
+work|n|iş yeri;emek;eser;görev|job;labour;task|rest;play
+job|n|görev;vazife;meslek;iş yeri|work;occupation;position|
+office|n|daire;makam;yazıhane;işyeri|bureau;workplace|
+doctor|n|hekim;tabip;doktor bey;doktor hanım|physician;GP;medic|patient
+nurse|n|hasta bakıcı;sağlık personeli;bakıcı|caregiver|
+driver|n|şoför;kullanan;sürücü kişi|chauffeur;motorist|passenger
+waiter|n|servis elemanı;komi;hizmetli|server;steward|customer
+police|n|emniyet;polis teşkilatı;güvenlik güçleri;zabıta|officers;cops|
+money|n|nakit;servet;mal;parasal|cash;currency;funds|
+shop|n|dükkan;satış yeri;mağaza;atölye|store;boutique|
+supermarket|n|bakkal;market;mağaza;hipermarket|grocery;store|
+price|n|ücret;bedel;değer;eder|cost;fee;charge|
+cheap|adj|ucuza;hesaplı;ekonomik;değersiz|inexpensive;low-cost|expensive
+expensive|adj|pahalıya;değerli;masraflı;tuzlu|costly;pricey|cheap
+clothes|n|elbise;giyim;kıyafet;üst baş|clothing;garments;outfit|
+shirt|n|üst;bluz;gömlekçik|blouse;top|
+T-shirt|n|kısa kollu;üst;penye;tişört gömlek||
+dress|n|kıyafet;giysi;entari;tuvalet|gown;frock|
+trousers|n|pantalon;pantolonlar;şalvar|pants;slacks|
+shoes|n|pabuç;ayakkabılar;kundura;terlik|footwear;boots;sneakers|
+jacket|n|mont;kaban;ceketçik;hırka|coat;blazer|
+hat|n|şapka;başlık;kasket;bere|cap;helmet|
+city|n|büyükşehir;şehir merkezi;metropol;belde|metropolis;town|village;countryside
+town|n|kasaba;ilçe;belde;kent|city;borough|village
+village|n|köy yeri;kır;kasaba;köycük|hamlet;settlement|city
+country|n|ülke;memleket;devlet;kırsal|nation;state;land|city
+street|n|sokak;cadde;yol;bulvar|road;avenue;lane|
+road|n|cadde;yol güzergahı;şose;yolculuk|street;route;highway|
+park|n|bahçe;yeşil alan;mesire yeri;otopark|garden;green|
+hospital|n|şifahane;klinik;sağlık merkezi;hastahane|clinic;infirmary|
+bank|n|banka şubesi;kıyı;kenar;sahil|riverbank;shore|
+station|n|gar;durak;karakol;merkez|terminal;stop;depot|
+airport|n|hava limanı;terminal;uçak limanı|airfield;aerodrome|
+hotel|n|konaklama yeri;han;pansiyon;motel|inn;motel;hostel|
+car|n|otomobil;oto;taşıt;araç|automobile;vehicle|
+bus|n|otobüs aracı;minibüs;servis;toplu taşıma|coach;minibus|
+train|n|demir yolu;katar;banliyö;tren aracı|railway;subway|
+plane|n|tayyare;uçak aracı;düzlem;rende|aircraft;airplane;jet|
+bike|n|bisiklet aracı;motosiklet;velespit|bicycle;cycle|
+taxi|n|taksi aracı;ticari taksi;dolmuş|cab|
+ticket|n|bilet kağıdı;fiş;ceza makbuzu;etiket|pass;fare|
+holiday|n|bayram;izin;tatil günü;resmi tatil|vacation;break;leave|work
+sea|n|derya;okyanus;deniz suyu;engin|ocean|land
+beach|n|kıyı;kumsal;sahil;plaj alanı|seaside;shore;coast|
+mountain|n|dağ zirvesi;tepe;yükselti;dağlık|peak;hill|valley
+river|n|çay;dere;akarsu;ırmak|stream;creek|
+tree|n|ağaççık;fidan;ağaçlık;soy ağacı|oak;plant|
+flower|n|çiçekçik;gül;bitki;çiçek açmak|bloom;blossom|
+animal|n|hayvancık;canlı;yaratık;mahluk|creature;beast|human
+dog|n|köpekçik;it;enik;köpek yavrusu|puppy;hound|cat
+cat|n|kedicik;pisi;kedi yavrusu;mırnav|kitten;kitty|dog
+bird|n|kuşçuk;kuş türü;tüylü;serçe|fowl|
+horse|n|beygir;at binmek;atlar;küheylan|pony;mare;stallion|
+body|n|ten;gövde;cisim;kurum|figure;physique|mind;soul
+head|n|kafa;baş;başkan;lider|skull;chief;leader|tail
+face|n|surat;çehre;sima;yüzey|visage;surface|back
+eye|n|göz bebeği;bakış;göz deliği|vision;sight|
+ear|n|kulakçık;duyma;işitme;başak|hearing|
+nose|n|burun deliği;koku alma;koku|snout;nostril|
+mouth|n|ağızcık;dudaklar;ağız kenarı;nehir ağzı|lips|
+hair|n|kıl;tüy;saç teli;perçem|locks|
+hand|n|el ayası;yardım;avuç;akrep|palm;fist|foot
+arm|n|kolu;silah;dal;kol kemiği|limb|leg
+leg|n|bacak kısmı;ayak;etap;but|limb|arm
+foot|n|ayak tabanı;dip;etek;kadem|sole;paw|hand;head
+tooth|n|diş;dişçik;çark dişi;azı dişi|fang;molar|
+be|v|bulunmak;var olmak;olmak fiili;durmak|exist;live|
+have|v|olmak;elinde bulunmak;malik olmak;-meli|own;possess;hold|lack
+do|v|etmek;yerine getirmek;eylemek;işlemek|perform;carry out|undo
+go|v|gitmek fiili;yola çıkmak;ayrılmak;yürümek|leave;travel;move|come;stay
+come|v|varmak;ulaşmak;gelip çatmak;yaklaşmak|arrive;approach|go;leave
+get|v|kazanmak;varmak;olmak;anlamak|obtain;receive;gain|give;lose
+make|v|etmek;oluşturmak;imal etmek;kazanmak|create;build;produce|destroy
+say|v|belirtmek;dile getirmek;ifade etmek;bildirmek|state;tell;mention|
+tell|v|bildirmek;aktarmak;haber vermek;ayırt etmek|inform;explain;narrate|ask
+speak|v|söylemek;konuşma yapmak;dil konuşmak;hitap etmek|talk;say|listen
+talk|v|söyleşmek;muhabbet etmek;görüşmek;laflamak|chat;speak;discuss|listen
+know|v|tanımak;haberdar olmak;farkında olmak;anlamak|understand;realise|
+think|v|düşünmek fiili;inanmak;kanısında olmak;tasarlamak|believe;consider;suppose|
+want|v|dilemek;arzu etmek;arzulamak;talep etmek|wish;desire|
+like|v|beğenmek;hoşuna gitmek;sevmek;istemek|enjoy;love|dislike;hate
+love|v|çok sevmek;bayılmak;tapmak;aşkla sevmek|adore;like;cherish|hate
+need|v|gereksinim duymak;muhtaç olmak;lazım olmak;-meli|require;want|
+see|v|görüşmek;anlamak;fark etmek;izlemek|notice;watch;understand|
+look|v|göz atmak;görünmek;aramak;dikkat etmek|glance;gaze;seem|
+watch|v|bakmak;gözlemek;dikkat etmek;göz kulak olmak|view;observe;look at|ignore
+hear|v|haber almak;işitmek fiili;dinlemek;öğrenmek|listen;catch|
+listen|v|kulak vermek;söz dinlemek;dinlemek fiili;dikkat etmek|hear;pay attention|ignore
+eat|v|yiyip bitirmek;atıştırmak;karın doyurmak;tüketmek|consume;dine|
+drink|v|içki içmek;yudumlamak;içip bitirmek;içmek fiili|sip;swallow|
+cook|v|pişirmek;hazırlamak;yemek pişirmek;aşçılık yapmak|bake;prepare;fry|
+sleep|v|uyku uyumak;yatmak;dinlenmek;kestirmek|rest;nap;doze|wake
+wake up|v|kalkmak;ayılmak;uyanıp kalkmak;uyandırmak|awaken;get up|fall asleep
+get up|v|ayağa kalkmak;doğrulmak;uyanmak;kalkmak fiili|rise;stand up|lie down
+live|v|yaşamak;hayatta olmak;oturmak;ikamet etmek|reside;exist;dwell|die
+work|v|iş yapmak;emek vermek;çalışmak fiili;işe yaramak|labour;operate;function|rest
+study|v|öğrenim görmek;tahsil yapmak;incelemek;araştırmak|learn;examine;research|
+learn|v|öğrenmek fiili;bilgi edinmek;haber almak;ezberlemek|study;master;discover|teach
+teach|v|öğretmek fiili;ders vermek;eğitmek;yetiştirmek|educate;instruct;train|learn
+read|v|okumak fiili;anlamak;göz gezdirmek;okuyup anlamak|scan;browse|write
+write|v|yazmak fiili;kaleme almak;not etmek;yazıya dökmek|note;record;compose|read
+open|v|açılmak;başlatmak;açık tutmak;kapısını açmak|unlock;start|close;shut
+close|v|kapamak;kapanmak;örtmek;bitirmek|shut;lock;end|open
+buy|v|almak;satın almak fiili;edinmek;alışveriş yapmak|purchase;get|sell
+sell|v|satış yapmak;elden çıkarmak;pazarlamak;satmak fiili|trade;market|buy
+pay|v|ödeme yapmak;para vermek;karşılamak;bedel ödemek|settle;spend|earn
+give|v|sunmak;bağışlamak;hediye etmek;teslim etmek|provide;offer;donate|take;receive
+take|v|tutmak;kabul etmek;götürmek;sürmek|grab;carry;accept|give
+bring|v|getirmek fiili;yanında getirmek;taşımak;sağlamak|carry;fetch|take
+put|v|yerleştirmek;bırakmak;koymak fiili;takmak|place;set;lay|remove
+find|v|keşfetmek;rastlamak;ortaya çıkarmak;bulmak fiili|discover;locate|lose
+help|v|destek olmak;yardımcı olmak;el uzatmak;kolaylaştırmak|assist;support;aid|hinder
+call|v|telefon etmek;seslenmek;ad vermek;adlandırmak|phone;ring;name|
+ask|v|soru sormak;rica etmek;davet etmek;talep etmek|question;inquire;request|answer;tell
+play|v|çalmak;oyun oynamak;rol oynamak;eğlenmek|perform;compete|work
+run|v|koşmak fiili;işletmek;yönetmek;çalışmak|jog;sprint;manage|walk
+walk|v|yürümek fiili;gezmek;dolaşmak;yürüyüş yapmak|stroll;wander;hike|run
+swim|v|yüzmek fiili;yüzüş yapmak;suda yüzmek;yüzme yapmak|bathe;paddle|sink
+sit|v|oturmak fiili;yerleşmek;çökmek;yer almak|be seated;rest|stand
+stand|v|ayağa kalkmak;dayanmak;katlanmak;bulunmak|rise;bear;tolerate|sit
+wait|v|beklemek fiili;durmak;sabretmek;bekleyip durmak|stay;remain;hold on|leave
+stop|v|kesmek;bırakmak;son vermek;engellemek|halt;end;quit|start;continue
+start|v|başlamak fiili;girişmek;açmak;kurmak|begin;launch;commence|finish;stop
+finish|v|tamamlamak;sonlandırmak;sona ermek;bitirmek fiili|complete;end|start;begin
+wear|v|giyinmek;üzerinde taşımak;aşınmak;kullanmak|put on;dress in|take off
+wash|v|yıkamak fiili;temizlemek;yıkanmak;durulamak|clean;rinse;scrub|
+clean|v|temizlik yapmak;arındırmak;silmek;süpürmek|wash;tidy;wipe|dirty
+drive|v|sürmek fiili;götürmek;itmek;yönlendirmek|steer;ride|
+travel|v|gezmek;dolaşmak;yol almak;yolculuk yapmak|journey;tour;trip|stay
+visit|v|uğramak;görmeye gitmek;gezmek;misafir olmak|call on;see;stop by|
+meet|v|karşılaşmak;görüşmek;karşılamak;toplanmak|encounter;see;gather|
+dance|v|oynamak;dans yapmak;raks etmek;göbek atmak|move;sway|
+sing|v|şarkı söylemek fiili;ötmek;terennüm etmek;söylemek|chant;hum|
+understand|v|kavramak;idrak etmek;çözmek;anlayış göstermek|comprehend;get;grasp|misunderstand
+remember|v|anımsamak;aklında tutmak;hatırlamak fiili;anmak|recall;recollect|forget
+forget|v|unutmak fiili;aklından çıkmak;ihmal etmek;boş vermek|overlook;neglect|remember
+feel|v|duymak;sezmek;dokunmak;algılamak|sense;experience;touch|
+can|v|-abilmek;muktedir olmak;mümkün olmak;izinli olmak|be able to;may|cannot
+good|adj|güzel;hoş;uygun;yararlı|fine;great;nice|bad
+bad|adj|fena;kötü durumda;zararlı;bozuk|poor;awful;terrible|good
+big|adj|iri;geniş;kocaman;önemli|large;huge;great|small;little
+small|adj|ufak;küçücük;az;önemsiz|little;tiny;mini|big;large
+long|adj|uzun süreli;boylu;uzunca;upuzun|lengthy;extended|short
+short|adj|kısa boylu;az;eksik;kısacık|brief;little|long;tall
+tall|adj|yüksek;boylu;uzun boylu kişi;upuzun|high;lofty|short
+old|adj|eskimiş;yaşlı başlı;önceki;köhne|elderly;aged;ancient|young;new
+young|adj|genç yaşta;taze;küçük;körpe|youthful;junior|old
+new|adj|yepyeni;taze;modern;son|fresh;modern;recent|old
+happy|adj|sevinçli;memnun;neşeli;mutlu olan|glad;cheerful;joyful|sad;unhappy
+sad|adj|kederli;hüzünlü;üzüntülü;bedbaht|unhappy;upset;down|happy
+tired|adj|bitkin;yorulmuş;bıkmış;argın|exhausted;sleepy;weary|energetic
+angry|adj|öfkeli;kızmış;hiddetli;dargın|mad;furious;annoyed|calm
+busy|adj|işi olan;meşgul olan;hareketli;telaşlı|occupied;engaged;hectic|free;idle
+easy|adj|basit;rahat;zahmetsiz;kolayca|simple;effortless|difficult;hard
+difficult|adj|güç;zorlu;çetin;karmaşık|hard;tough;challenging|easy
+beautiful|adj|güzel olan;hoş;alımlı;harika|pretty;lovely;gorgeous|ugly
+nice|adj|sevimli;tatlı;kibar;hoş|pleasant;kind;lovely|nasty;unpleasant
+fast|adj|çabuk;süratli;seri;tez|quick;rapid;speedy|slow
+slow|adj|ağır;yavaş yavaş;geç;tembel|sluggish;unhurried|fast;quick
+right|adj|haklı;uygun;doğru olan;sağdaki|correct;true;proper|wrong;left
+wrong|adj|hatalı;yanlış olan;yersiz;haksız|incorrect;false;mistaken|right;correct
+open|adj|açık olan;aleni;serbest;açılmış|unlocked;public|closed;shut
+closed|adj|kapanmış;kapalı olan;kilitli;örtülü|shut;locked|open
+favourite|adj|sevilen;gözde;tercih edilen;en beğenilen|preferred;beloved|
+ill|adj|rahatsız;keyifsiz;sağlıksız;kötü|sick;unwell|healthy;well
+sick|adj|rahatsız;midesi bulanmış;bıkmış;sağlıksız|ill;unwell|healthy;well
+fine|adj|ince;hoş;güzel;sağlıklı|well;okay;good|ill;bad
+full|adj|dolmuş;ağzına kadar dolu;tam;kalabalık|filled;complete|empty;hungry
+empty|adj|boş olan;ıssız;anlamsız;tenha|vacant;bare|full
+here|adv|bu tarafa;bu tarafta;buraya doğru;şurada|in this place|there
+there|adv|o tarafta;orası;şurada;o yerde|in that place|here
+very|adv|pek;oldukça;fazlasıyla;gayet|really;extremely;so|slightly
+also|adv|dahi;üstelik;bir de;hem de|too;as well;besides|
+again|adv|bir daha;gene;tekrardan;yeni baştan|once more;anew|
+together|adv|bir arada;topluca;el ele;aynı anda|jointly;as one|alone;apart
+I|pron|bendeniz;kendim;ben kendim|me;myself|
+you|pron|sana;size;sizler;siz kendiniz|yourself|
+he|pron|o adam;erkek olan;o kişi|him|she
+she|pron|o kadın;kadın olan;o kişi|her|he
+we|pron|bizler;biz kendimiz;bizi|us;ourselves|they
+they|pron|onları;onlar kendileri;o kişiler|them|we
+what|pron|hangi;ne şey;neyi;nasıl bir|which|
+who|pron|kimler;kimi;hangi kişi;kim ki|whom|
+where|adv|neresi;hangi yerde;nereden;nerde|whereabouts|
+when|adv|ne vakit;hangi zaman;-dığında;-ince|at what time|
+why|adv|ne için;ne diye;ne sebeple;niçin|how come;for what reason|
+how|adv|ne şekilde;ne biçimde;ne kadar;nice|in what way|
+how much|phr|ne kadar para;kaça;fiyatı ne;miktarı ne|what price;what amount|
+how many|phr|kaç adet;ne kadar;kaç kişi;kaç kez|what number|
+and|conj|ile;de;hem;sonra|plus;also;as well as|
+but|conj|lakin;ne var ki;yalnız;oysa|however;yet;though|
+or|conj|yahut;ya;veyahut;veya da|otherwise;alternatively|and
+because|conj|zira;-dığı için;sebebiyle;yüzünden|since;as;due to|
+in|prep|içine;-te;-ta;içerisinde|inside;within|out;outside
+on|prep|üstüne;-da;-te;hakkında|upon;onto;atop|off;under
+under|prep|altına;altında olan;aşağısında;-den az|below;beneath|over;above
+next to|prep|yanına;bitişik;yakınında;dibinde|beside;by;near|far from
+with|prep|beraber;-le;-la;ile birlikte|alongside;together with|without
+from|prep|-ten;-tan;-den itibaren;kaynaklı|out of;since|to
+before|prep|evvel;öncesinde;önünde;-meden önce|prior to;earlier than|after
+after|prep|ardından;sonrasında;arkasından;peşinden|following;later than|before
+every|det|her bir;tüm;bütün;her türlü|each;all|none
+all|det|tamamı;herkes;her şey;bütünü|every;whole;entire|none
+some|det|bazıları;kimi;bir miktar;birtakım|a few;several;a little|none;all
+many|det|birçok;pek çok;bir sürü;sayısız|lots of;numerous;plenty|few
+this|det|bu şey;işte bu;şunu;bunu||that
+that|det|o şey;şunu;onu;ki||this
+music|n|müzik eseri;ezgi;melodi;nağme|tune;melody;song|silence
+film|n|sinema filmi;sinema;film şeridi;tabaka|movie;picture;cinema|
+game|n|maç;oyun oynama;karşılaşma;av|match;contest;sport|
+sport|n|spor dalı;oyun;idman;sporlar|game;exercise;athletics|
+football|n|futbol topu;top;futbol maçı;ayak topu|soccer|
+party|n|eğlence;kutlama;parti grubu;taraf|celebration;gathering;festivity|
+photo|n|fotoğraf karesi;resim;fotoğraf kağıdı;kare|picture;snapshot;image|
+picture|n|tablo;görüntü;imge;film|image;painting;photo|
+newspaper|n|gazete kağıdı;günlük gazete;basın;yayın|paper;journal;daily|
+email|n|e-mail;elektronik posta;ileti;mesaj|e-mail;message|
+idea|n|düşünce;görüş;fikir sahibi olmak;plan|thought;notion;concept|
+thing|n|nesne;şey parçası;eşya;olay|object;item;matter|
+way|n|yol;metot;usul;tarz|method;path;manner|
+place|n|yer;mekan;konum;mevki|spot;location;site|
+world|n|dünya;alem;yeryüzü;evren|earth;globe;planet|
+life|n|hayat;ömür;yaşam;can|existence;living|death
+problem|n|sorun;mesele;dert;güçlük|issue;trouble;difficulty|solution
+glass|n|bardak;cam;kadeh;gözlük|cup;tumbler;pane|
+cup|n|fincan;bardak;kupa;kadeh|mug;trophy|
+plate|n|tabak;plaka;levha;servis tabağı|dish;platter|
+fridge|n|buzluk;soğutucu;dolap;derin dondurucu|refrigerator;freezer|oven
+health|n|sağlık durumu;sıhhat;esenlik;afiyet|wellness;fitness|illness;sickness
+medicine|n|ilaç;tıp;tedavi;deva|drug;remedy;medication|poison
+headache|n|baş ağrısı;dert;sorun;migren|migraine;pain|

@@ -1,0 +1,144 @@
+# C1 ek anlamlar
+# Biçim: ingilizce|tür|ek türkçe anlamlar|eş anlamlılar (EN)|zıt anlamlılar (EN)
+abolish|v|ilga etmek;son vermek;feshetmek;ortadan kaldırmak|eliminate;end;cancel|establish
+abstract|adj|kuramsal;mücerret;soyut sanat;özet|theoretical;conceptual|concrete
+accommodate|v|yerleştirmek;ağırlamak;sığdırmak;konaklatmak|house;fit;adapt|
+accumulate|v|toplamak;yığmak;birikim yapmak;çoğalmak|gather;collect;amass|disperse;spend
+adverse|adj|aleyhte;elverişsiz;karşıt;kötü|harmful;negative;unfavourable|favourable;beneficial
+advocate|v|desteklemek;arka çıkmak;öğütlemek;avukat|support;champion;promote|oppose
+allegation|n|itham;sav;suçlama iddiası;ileri sürülen|claim;accusation;charge|
+allocate|v|paylaştırmak;dağıtmak;bölüştürmek;ayırmak fiili|assign;distribute;allot|
+ambiguous|adj|iki anlamlı;bulanık;açık olmayan;kapalı|unclear;vague;equivocal|clear;explicit
+anonymous|adj|adsız;kimliği belirsiz;imzasız;bilinmeyen|unnamed;unknown;nameless|named;identified
+apparent|adj|açıkça görülen;görünür;bariz;sözde|obvious;evident;seeming|hidden;unclear
+arbitrary|adj|gelişigüzel;keyfi olarak;nedensiz;despotça|random;capricious;unreasoned|reasoned;systematic
+articulate|v|dile getirmek;açıkça anlatmak;telaffuz etmek;eklemlemek|express;voice;state|
+aspiration|n|hedef;arzu;ideal;istek|ambition;goal;dream|
+assert|v|iddia etmek fiili;savunmak;hak talep etmek;vurgulamak|claim;declare;insist|deny
+attain|v|kazanmak;erişmek;varmak;başarmak|achieve;reach;obtain|fail
+autonomy|n|muhtariyet;özgürlük;kendi kendini yönetme;serbestlik|independence;self-rule;freedom|dependence
+bureaucracy|n|kırtasiyecilik;memurlar;devlet aygıtı;idari yapı|red tape;administration|
+coherent|adj|mantıklı;bağdaşık;düzenli;uyumlu|logical;consistent;clear|incoherent;confused
+coincidence|n|rastlantı;denk gelme;çakışma;rastlantısallık|chance;accident;fluke|
+collapse|v|yığılmak;çöküp gitmek;iflas etmek;bayılmak|fall;crumble;fail|rise
+compelling|adj|inandırıcı;karşı konulamaz;zorlayıcı;etkileyici|convincing;persuasive;gripping|weak;unconvincing
+compile|v|toplamak;derleme yapmak;hazırlamak;kod derlemek|collect;assemble;gather|
+complement|v|bütünlemek;uyum sağlamak;tamamlayıcı olmak;eşlik etmek|complete;enhance;accompany|
+comply|v|riayet etmek;boyun eğmek;kurallara uymak;razı olmak|obey;conform;follow|disobey;defy
+comprehensive|adj|ayrıntılı;her şeyi içeren;geniş kapsamlı;tam|complete;thorough;extensive|limited;partial
+comprise|v|içermek;oluşturmak;meydana gelmek;ibaret olmak|consist of;include;contain|
+compromise|n|orta yol;anlaşma;ödün;taviz|agreement;deal;concession|
+conceal|v|örtmek;gizli tutmak;saklamak fiili;maskelemek|hide;cover;mask|reveal;show
+concede|v|itiraf etmek;yenilgiyi kabul etmek;vermek;bırakmak|admit;acknowledge;yield|deny;resist
+conceive|v|düşünmek;kavramak;planlamak;hamile kalmak|imagine;devise;envisage|
+consensus|n|oy birliği;anlaşma;ortak görüş;uzlaşı|agreement;unanimity;accord|disagreement
+consolidate|v|sağlamlaştırmak;güçlendirmek;bütünleştirmek;birleşmek|strengthen;unite;combine|weaken
+constitute|v|meydana getirmek;kurmak;teşkil etmek fiili;sayılmak|form;make up;compose|
+constraint|n|engel;baskı;zorlama;sınır|limitation;restriction;restraint|freedom
+contemplate|v|tefekkür etmek;üzerinde durmak;niyet etmek;seyretmek|consider;ponder;think about|
+contemporary|adj|modern;çağdaş olan;güncel;aynı dönemde yaşamış|modern;current;present-day|ancient;old-fashioned
+contradict|v|aksini söylemek;ters düşmek;karşı çıkmak;yalanlamak fiili|deny;oppose;dispute|confirm;agree
+conventional|adj|alışılmış;geleneksel olan;klasik;sıradan|traditional;standard;customary|unconventional;unusual
+correspond|v|uymak;denk düşmek;mektuplaşmak;eşleşmek|match;agree;write|differ
+credible|adj|inanılır;akla yatkın;güvenilir olan;itimat edilir|believable;plausible;reliable|incredible;implausible
+criteria|n|ölçüt;standartlar;kıstaslar;ölçüler|standards;measures;benchmarks|
+cynical|adj|kuşkucu;alaycı tavırlı;sinik;güvensiz|sceptical;distrustful;sarcastic|trusting;optimistic
+deem|v|kabul etmek;görmek;düşünmek;itibar etmek|consider;regard;judge|
+deficit|n|bütçe açığı;eksiklik;yetersizlik;zarar|shortfall;deficiency;loss|surplus
+degrade|v|alçaltmak;küçük düşürmek;bozmak;indirgemek|humiliate;demean;deteriorate|improve;upgrade
+deteriorate|v|kötüye gitmek;çürümek;gerilemek;bozulup gitmek|worsen;decline;decay|improve
+dilemma|n|açmaz;ikilem durumu;çıkmaz;zor seçim|predicament;quandary;problem|
+diminish|v|eksilmek;küçülmek;düşürmek;zayıflatmak|decrease;reduce;lessen|increase
+discretion|n|ihtiyat;basiret;gizlilik;tedbir|judgement;prudence;tact|
+discrimination|n|ayrım;ayırt etme;fark gözetme;taraf tutma|prejudice;bias;inequality|equality
+disrupt|v|engellemek;kesintiye uğratmak;sekteye uğratmak;bölmek|interrupt;disturb;upset|
+distinct|adj|açık;ayrı olan;bambaşka;belirli|separate;different;clear|similar;vague
+distort|v|saptırmak;eğip bükmek;değiştirmek;biçimini bozmak|twist;misrepresent;deform|
+dubious|adj|kuşkulu;belirsiz;güvenilmez;tereddütlü|doubtful;questionable;suspicious|certain;reliable
+elaborate|adj|karmaşık;özenli;süslü;detaylı|detailed;intricate;complex|simple
+eloquent|adj|güzel konuşan;etkileyici;dokunaklı;fasih|articulate;expressive;fluent|inarticulate
+embrace|v|sarılmak;kabullenmek;kapsamak;bağrına basmak|hug;accept;adopt|reject
+empathy|n|duygudaşlık;anlayış;kendini yerine koyma;eşduyum|understanding;compassion;sympathy|indifference
+empirical|adj|gözleme dayalı;deneyimsel;tecrübi;görgül|experimental;observed;practical|theoretical
+endorse|v|onaylamak fiili;tasdik etmek;arka çıkmak;ciro etmek|support;approve;back|oppose
+enhance|v|güçlendirmek;yükseltmek;iyileştirmek;zenginleştirmek|improve;boost;increase|reduce;weaken
+entitle|v|yetkilendirmek;ad vermek;başlık koymak;hak tanımak|allow;authorise;name|
+equivalent|n|denk;eş;karşılığı;muadil|equal;counterpart;match|
+erode|v|yıpratmak;kemirmek;zayıflatmak;aşınıp gitmek|wear away;weaken;corrode|
+excessive|adj|fazla;haddinden fazla;ölçüsüz;abartılı|extreme;too much;undue|moderate
+explicit|adj|açık seçik;belirgin;kesin;dolaysız|clear;direct;specific|implicit;vague
+exploit|v|kullanmak;faydalanmak;suistimal etmek;işletmek|use;abuse;take advantage of|
+facilitate|v|kolaylık sağlamak;yardım etmek;hızlandırmak;olanak sağlamak|ease;help;enable|hinder
+feasible|adj|mümkün;olanaklı;gerçekleştirilebilir;pratik|possible;practicable;workable|impossible
+fluctuate|v|inip çıkmak;değişmek;oynamak;sallanmak|vary;change;swing|stabilise
+foster|v|beslemek;bakmak;desteklemek;koruyucu aile olmak|encourage;nurture;promote|discourage
+fragile|adj|nazik;hassas;zayıf;dayanıksız|delicate;breakable;frail|sturdy;strong
+genuine|adj|içten;gerçek olan;sahici;katıksız|real;authentic;sincere|fake;false
+hierarchy|n|aşama sırası;sıradüzen;rütbe sırası;kademe|ranking;order;chain of command|
+hypothesis|n|varsayım;sanı;faraziye;tez|theory;assumption;premise|
+inclined|adj|eğik;yatkın;istekli;meyilli olan|disposed;prone;willing|disinclined
+incentive|n|teşvik edici;özendirme;güdü;prim|motivation;encouragement;bonus|deterrent
+incidence|n|oran;rastlanma sıklığı;yaygınlık;vaka sayısı|frequency;rate;occurrence|
+inherent|adj|yapısında olan;özünde var olan;içkin;fıtri|intrinsic;innate;built-in|external
+inhibit|v|önlemek;sınırlamak;frenlemek;menetmek|hinder;restrain;prevent|encourage
+integrity|n|doğruluk;namus;tamlık;bütünlük|honesty;honour;wholeness|dishonesty
+intervene|v|araya girmek;karışmak;müdahale etmek fiili;arabuluculuk etmek|interfere;step in;mediate|
+intriguing|adj|merak uyandırıcı;büyüleyici;enteresan;ilginç|fascinating;interesting;curious|boring
+intuition|n|önsezi;içgüdü;sezi;his|instinct;hunch;insight|reason
+irrelevant|adj|alakasız olan;konu dışı;önemsiz;yersiz|unrelated;immaterial|relevant
+legislation|n|yasalar;kanun yapma;yasama işi;hukuk|law;statute;regulation|
+legitimate|adj|kanuni;meşru olan;geçerli;yerinde|lawful;legal;valid|illegitimate;illegal
+manipulate|v|elinde oynatmak;kandırmak;idare etmek;çarpıtmak|control;exploit;influence|
+marginal|adj|önemsiz;kenardaki;sınırda olan;ufak|minor;slight;peripheral|significant;central
+mediate|v|aracı olmak;arabulucu olmak;uzlaştırmak;aracılık etmek|negotiate;arbitrate;reconcile|
+mitigate|v|yatıştırmak;yumuşatmak;hafifletmek fiili;ılımlaştırmak|reduce;ease;lessen|aggravate;worsen
+notion|n|görüş;sanı;anlayış;inanış|idea;concept;belief|
+notorious|adj|namı çıkmış;ünlü;rezil;kötü tanınmış|infamous;disreputable|unknown
+novel|adj|alışılmamış;yenilikçi;orijinal;roman kitabı|new;original;innovative|old;familiar
+nuance|n|ayrıntı;ton farkı;incelik;nüans farkı|subtlety;shade;distinction|
+obscure|adj|karanlık;kapalı;meçhul;örtmek|unclear;unknown;vague|clear;famous
+offset|v|karşılamak;denkleştirmek;dengesini sağlamak;ofset|counterbalance;compensate;balance|
+outweigh|v|baskın çıkmak;ağır gelmek;aşmak;önce gelmek|exceed;surpass;override|
+paradox|n|çelişkili durum;tutarsızlık;ikilik;aykırılık|contradiction;inconsistency;anomaly|
+perceive|v|anlamak;görmek;fark etmek;idrak etmek|notice;see;recognise|
+persistent|adj|direnen;ısrarlı;sürekli;devamlı|determined;constant;stubborn|occasional
+plausible|adj|inanılabilir;mantıklı;olası;muhtemel|believable;credible;reasonable|implausible
+pragmatic|adj|pratik;uygulamacı;işini bilen;yararcı|practical;realistic;sensible|idealistic
+precede|v|önden gitmek;önüne geçmek;-den önce olmak;öncül olmak|come before;go before;lead|follow
+predominantly|adv|esas olarak;büyük ölçüde;genellikle;başlıca|mainly;mostly;chiefly|
+prejudice|n|taraflılık;peşin hüküm;ayrımcılık;zarar|bias;discrimination;bigotry|tolerance
+premise|n|dayanak;önerme;mülk;tesis|assumption;basis;proposition|conclusion
+prevalent|adj|yaygın olan;baskın;geçerli;sık görülen|common;widespread;dominant|rare
+profound|adj|engin;ciddi;çok büyük;felsefi|deep;intense;serious|superficial;shallow
+prohibit|v|men etmek;engellemek;yasak koymak;önlemek|ban;forbid;outlaw|allow;permit
+prominent|adj|seçkin;ünlü;çıkıntılı;göze çarpan|noticeable;famous;eminent|unknown;minor
+provoke|v|tahrik etmek;kızdırmak;yol açmak;uyandırmak|incite;cause;anger|calm
+radical|adj|aşırı;temelden;kökten;köktenci|fundamental;extreme;drastic|moderate;superficial
+rational|adj|makul;aklı başında;mantığa dayalı;rasyonel|logical;sensible;reasonable|irrational
+reconcile|v|bağdaştırmak;arayı bulmak;uyumlu hale getirmek;kabullenmek|resolve;settle;harmonise|
+redundant|adj|fazla;lüzumsuz;atıl;işsiz kalmış|unnecessary;superfluous;surplus|necessary
+refine|v|rafine etmek;saflaştırmak;iyileştirmek;cilalamak|purify;improve;polish|
+reinforce|v|desteklemek;sağlamlaştırmak;takviye etmek;kuvvetlendirmek|strengthen;support;bolster|weaken
+reluctance|n|gönülsüzlük;isteksizlik duyma;çekingenlik;tereddüt|unwillingness;hesitation|eagerness
+resilient|adj|esnek;dirençli;güçlü;yılmaz|tough;strong;flexible|fragile;vulnerable
+rigorous|adj|dikkatli;sert;kesin;özenli|strict;thorough;meticulous|lax;careless
+scrutiny|n|inceleme;gözetim;tetkik;didikleme|examination;inspection;investigation|
+skeptical|adj|kuşkulu;inanmayan;güvensiz;septik|doubtful;sceptical;cynical|convinced;trusting
+speculate|v|varsaymak;tahmin etmek;spekülatif yatırım yapmak;kurmak|guess;theorise;wonder|
+spontaneous|adj|anlık olarak;doğaçlama;içten gelen;plansız|impulsive;natural;unplanned|planned
+subsequent|adj|izleyen;takip eden;sonradan gelen;daha sonraki|following;later;next|previous;prior
+subtle|adj|ince;hafif;zekice;üstü kapalı|delicate;slight;understated|obvious
+supplement|n|katkı;ilave;eklenti;ek yazı|addition;extra;add-on|
+suppress|v|ezmek;zapt etmek;önlemek;gizlemek|repress;restrain;crush|release;express
+sustain|v|devam ettirmek;ayakta tutmak;katlanmak;beslemek|maintain;continue;support|end
+tangible|adj|elle tutulabilir;gerçek;dokunulabilir;kesin|concrete;real;solid|intangible;abstract
+tedious|adj|bıktırıcı;usanç verici;yorucu;monoton|boring;dull;tiresome|exciting;interesting
+thorough|adj|dikkatli;ayrıntılı;tam;özenli|detailed;meticulous;complete|superficial;careless
+transparent|adj|açık;net;dürüst;şeffaf olan|clear;see-through;open|opaque
+undermine|v|sarsmak;temelini çürütmek;köstek olmak;bozmak|weaken;sabotage;subvert|strengthen;support
+undertake|v|yüklenmek;girişmek fiili;söz vermek;başlamak|take on;assume;embark on|
+unprecedented|adj|benzersiz;emsalsiz;ilk kez görülen;görülmemiş|unparalleled;unique;new|common;usual
+utilise|v|faydalanmak;kullanmak fiili;işlemek;değerlendirmek|use;employ;exploit|
+viable|adj|yürütülebilir;yapılabilir;geçerli;hayatta kalabilir|feasible;workable;practical|unworkable
+vulnerable|adj|zayıf;açık;incinebilir;korumasız|exposed;defenceless;weak|protected;strong
+whereby|conj|ki onunla;sayesinde;ki bu yolla;vasıtasıyla|by which;through which|

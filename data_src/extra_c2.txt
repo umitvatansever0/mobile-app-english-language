@@ -1,0 +1,130 @@
+# C2 ek anlamlar
+# Biçim: ingilizce|tür|ek türkçe anlamlar|eş anlamlılar (EN)|zıt anlamlılar (EN)
+aberration|n|sapkınlık;istisna;tuhaflık;yoldan çıkma|anomaly;deviation;irregularity|norm
+abhor|v|iğrenmek;hiç sevmemek;kin duymak;nefret duymak|detest;loathe;hate|love;adore
+acquiesce|v|kabullenmek;rıza göstermek;onaylamak;ses çıkarmamak|accept;agree;consent|resist;refuse
+acumen|n|kavrayış;zekâ;anlayış;feraset|shrewdness;insight;sharpness|ignorance
+adamant|adj|kesin kararlı;dik başlı;ısrarcı;taviz vermeyen|determined;firm;resolute|flexible;yielding
+admonish|v|ihtar etmek;paylamak;kınamak;öğüt vermek|reprimand;scold;warn|praise
+aesthetic|adj|güzellikle ilgili;zevkli;sanatsal;estetik açıdan|artistic;beautiful;tasteful|ugly
+affluent|adj|zengin olan;bolluk içinde;hali vakti yerinde;müreffeh|wealthy;rich;prosperous|poor
+alleviate|v|yatıştırmak;azaltmak;rahatlatmak;kolaylaştırmak|ease;relieve;reduce|aggravate;worsen
+altruistic|adj|bencil olmayan;yardımsever;diğerkâm;cömert|selfless;generous;unselfish|selfish
+ambivalent|adj|ikircikli;bocalayan;emin olmayan;iki duygulu|uncertain;undecided;conflicted|certain;decisive
+ameliorate|v|ıslah etmek;geliştirmek;daha iyi hale getirmek;iyileşmek|improve;better;enhance|worsen
+anomaly|n|sapma;tuhaflık;istisna;düzensizlik|irregularity;oddity;exception|norm
+apathy|n|kayıtsızlık;duyarsızlık;vurdumduymazlık;isteksizlik|indifference;lethargy|enthusiasm;interest
+arduous|adj|zor;yıpratıcı;meşakkatli;güç|difficult;hard;strenuous|easy
+astute|adj|akıllı;uyanık;cin fikirli;ileri görüşlü|shrewd;clever;sharp|foolish;naive
+audacious|adj|cesur;atak;küstah;pervasız|bold;daring;fearless|timid;cautious
+austerity|n|tasarruf;sıkı ekonomi;sertlik;yalınlık|frugality;strictness;economy|luxury
+benevolent|adj|yardımsever;merhametli;şefkatli;iyi kalpli|kind;generous;charitable|malevolent;cruel
+blatant|adj|apaçık;göz göre göre;arsız;belirgin|obvious;flagrant;glaring|subtle;hidden
+candid|adj|içten;dürüst;dobra;doğal|frank;honest;open|evasive;guarded
+capricious|adj|maymun iştahlı;tutarsız;keyfi;huysuz|fickle;unpredictable;erratic|stable;consistent
+catalyst|n|hızlandırıcı;etken;neden;tetik|stimulus;trigger;spark|
+circumvent|v|kaçmak;kurtulmak;sakınmak;yolunu bulmak|avoid;evade;bypass|confront
+cognitive|adj|zihinsel;algısal;düşünsel;idrakle ilgili|mental;intellectual;cerebral|
+complacent|adj|halinden memnun;gevşek;tembel;özgüveni aşırı|smug;self-satisfied;lax|vigilant;concerned
+conducive|adj|uygun;katkıda bulunan;yol açan;destekleyici|favourable;helpful;beneficial|unfavourable
+conjecture|n|sanı;kestirim;zan;tahmin yürütme|guess;speculation;assumption|fact;certainty
+conspicuous|adj|belirgin;göze batan;dikkat çeken;ortada|noticeable;obvious;prominent|inconspicuous;hidden
+convoluted|adj|karışık;girift;içinden çıkılmaz;kıvrımlı|complicated;complex;tangled|simple;straightforward
+corroborate|v|kanıtlamak;desteklemek;onaylamak;pekiştirmek|confirm;support;verify|refute;contradict
+culminate|v|zirveye çıkmak;sona ermek;neticelenmek;doruk noktasına varmak|climax;end;conclude|begin
+cumbersome|adj|ağır;biçimsiz;zahmetli;yavaş işleyen|unwieldy;awkward;clumsy|convenient;handy
+debilitating|adj|bitkin düşüren;yıpratıcı;yorucu;güçsüzleştiren|weakening;exhausting;crippling|strengthening
+deference|n|itaat;saygı gösterme;boyun eğme;riayet|respect;regard;submission|disrespect
+delineate|v|betimlemek;çizmek;belirlemek;ana hatlarını vermek|describe;outline;define|
+deplete|v|bitirmek;eksiltmek;boşaltmak;kurutmak|exhaust;drain;use up|replenish;restore
+deride|v|dalga geçmek;hor görmek;eğlenmek;alaya almak|mock;ridicule;scorn|praise;respect
+detrimental|adj|zarar getiren;kötü;olumsuz;yıkıcı|harmful;damaging;adverse|beneficial
+dichotomy|n|ayrılık;karşıtlık;bölünme;zıtlık|division;split;contrast|unity
+diligent|adj|gayretli;dikkatli;titiz;azimli|hard-working;industrious;careful|lazy;careless
+discern|v|fark etmek;anlamak;görmek;seçebilmek|perceive;detect;distinguish|overlook
+disparity|n|fark;uyuşmazlık;dengesizlik;ayrılık|inequality;difference;gap|equality;similarity
+disseminate|v|dağıtmak;yaygınlaştırmak;duyurmak;saçmak|spread;distribute;circulate|
+eccentric|adj|acayip;garip;alışılmamış;sıra dışı kişi|odd;quirky;strange|conventional;normal
+elusive|adj|ele geçmez;kaçamak;zor bulunan;belirsiz|evasive;slippery;hard to find|
+emulate|v|özenmek;benzemeye çalışmak;öykünmek;rekabet etmek|imitate;copy;follow|
+enigma|n|sır;esrar;bulmaca;anlaşılmaz şey|mystery;puzzle;riddle|
+ephemeral|adj|anlık;fani;gelip geçici;kalıcı olmayan|fleeting;transient;brief|permanent;lasting
+epitome|n|örnek;timsal;özet;somut örnek|embodiment;essence;model|
+eradicate|v|silmek;ortadan kaldırmak;temizlemek;kökten yok etmek|eliminate;destroy;wipe out|create;establish
+erroneous|adj|yanlış olan;yanıltıcı;kusurlu;doğru olmayan|wrong;incorrect;mistaken|correct;accurate
+exacerbate|v|ağırlaştırmak;tırmandırmak;körüklemek;artırmak|worsen;aggravate;intensify|alleviate;improve
+exemplary|adj|ideal;kusursuz;takdire değer;örnek alınacak|model;ideal;admirable|poor
+exorbitant|adj|astronomik;çok yüksek;makul olmayan;kazık|excessive;outrageous;extortionate|reasonable;cheap
+expedite|v|çabuklaştırmak;ivme kazandırmak;kolaylaştırmak;acele ettirmek|speed up;accelerate;hasten|delay;slow
+fallacy|n|hata;yanlış kanı;mantık hatası;aldatmaca|misconception;error;myth|truth
+fastidious|adj|kılı kırk yaran;müşkülpesent;titiz olan;seçici|meticulous;picky;particular|careless;sloppy
+fervent|adj|coşkulu;heyecanlı;içten;gayretli|passionate;ardent;intense|indifferent
+frivolous|adj|hafifmeşrep;saçma;boş;ciddi olmayan|trivial;silly;flippant|serious
+futile|adj|yararsız;sonuçsuz;nafile;boş|useless;pointless;vain|useful;effective
+gregarious|adj|toplumcul;arkadaş canlısı;canayakın;dışa dönük|sociable;outgoing;friendly|shy;introverted
+hackneyed|adj|beylik;yıpranmış;sıradan;çok kullanılmış|clichéd;trite;overused|original;fresh
+hinder|v|zorlaştırmak;geciktirmek;köstek olmak;mani olmak|obstruct;impede;hamper|help;facilitate
+idiosyncratic|adj|kişiye özgü;sıra dışı;farklı;özgün|peculiar;quirky;distinctive|common;ordinary
+impeccable|adj|hatasız;kusursuz olan;eksiksiz;tertemiz|flawless;perfect;faultless|flawed
+impetus|n|teşvik;dürtü;güç;hız|momentum;stimulus;drive|
+inadvertently|adv|farkında olmadan;kazara;bilmeden;dikkatsizlikle|accidentally;unintentionally|deliberately
+incessant|adj|sürekli;bitmek bilmeyen;kesintisiz;dinmeyen|constant;endless;continuous|occasional
+incongruous|adj|uygunsuz;tutarsız;garip;yakışmayan|inappropriate;out of place;odd|appropriate;fitting
+indigenous|adj|yerli halk;doğal;asıl;bölgeye özgü|native;local;aboriginal|foreign;alien
+indispensable|adj|elzem;zorunlu;çok gerekli;şart|essential;vital;necessary|dispensable;unnecessary
+ineffable|adj|tarif edilemez;kelimelerle anlatılamaz;sözle ifade edilemez;eşsiz|indescribable;inexpressible|describable
+innate|adj|yaradılıştan;içgüdüsel;doğal;kalıtsal|inborn;natural;inherent|acquired;learned
+insatiable|adj|açgözlü;doyumsuz;tatmin olmaz;oburca|greedy;unquenchable;voracious|satisfied
+intrinsic|adj|özünde var olan;doğal;asli;yapısal|inherent;essential;innate|extrinsic
+inundate|v|bunaltmak;taşmak;kaplamak;yağdırmak|flood;overwhelm;swamp|
+juxtapose|v|karşılaştırmak;yan yana getirmek;bir arada sunmak;kıyaslamak|compare;contrast;place side by side|
+lethargic|adj|tembel;durgun;miskin;cansız|sluggish;listless;drowsy|energetic;lively
+lucrative|adj|kazandıran;karlı;verimli;getirisi yüksek|profitable;rewarding;well-paid|unprofitable
+magnanimous|adj|bağışlayıcı;asil;hoşgörülü;geniş yürekli|generous;noble;forgiving|petty;mean
+meticulous|adj|dikkatli;titiz olan;kılı kırk yaran;özenli|careful;precise;thorough|careless;sloppy
+mundane|adj|alelade;bayağı;sıkıcı;gündelik|ordinary;dull;everyday|extraordinary;exciting
+nebulous|adj|bulutsu;muğlak;anlaşılmaz;sisli|vague;unclear;hazy|clear;definite
+nonchalant|adj|ilgisiz;soğukkanlı;aldırmaz;umursamaz tavırlı|casual;indifferent;relaxed|anxious;concerned
+nostalgia|n|hasret;geçmiş özlemi;özlem;eski günlere özlem|longing;wistfulness;homesickness|
+obsolete|adj|demode;geçerliliğini yitirmiş;eski;köhne|outdated;old-fashioned;out of date|modern;current
+omnipresent|adj|her yerde var olan;yaygın;her an;sürekli|ubiquitous;pervasive;everywhere|rare
+onerous|adj|zahmetli;güç;sıkıntılı;yüklü|burdensome;heavy;demanding|easy;light
+opulent|adj|lüks;varlıklı;bol;zengin dekorlu|luxurious;lavish;rich|modest;plain
+ostensibly|adv|göstermelik;sözüm ona;dışarıdan bakıldığında;güya|apparently;seemingly;supposedly|actually
+paramount|adj|en üstün;birincil;başlıca;öncelikli|supreme;foremost;primary|minor;secondary
+pejorative|adj|küçültücü;kötüleyici;olumsuz çağrışımlı;aşağılayan|derogatory;disparaging;insulting|complimentary
+perfunctory|adj|gelişigüzel;yarım yamalak;şekilsel;özensiz|cursory;superficial;careless|thorough;careful
+pernicious|adj|zarar veren;öldürücü;tehlikeli;yıkıcı|harmful;damaging;destructive|beneficial
+plethora|n|fazlalık;yığın;çokluk;bolca|abundance;excess;surplus|lack;scarcity
+precarious|adj|riskli;tehlikeli olan;sağlam olmayan;dengesiz|unstable;risky;insecure|stable;secure
+proliferation|n|artış;üreme;hızla yayılma;türeme|spread;growth;increase|decrease
+prudent|adj|basiretli;akıllıca;dikkatli;temkinli|wise;sensible;careful|reckless;rash
+quintessential|adj|tipik;en mükemmel örnek;özsel;klasik|typical;classic;ideal|atypical
+rampant|adj|yaygın;önüne geçilemeyen;dizginsiz;salgın halinde|widespread;unchecked;uncontrolled|controlled
+reciprocate|v|mukabele etmek;karşılıkta bulunmak;aynıyla karşılık vermek;yanıt vermek|return;respond;repay|
+relentless|adj|acımasız;aralıksız;yılmayan;merhametsiz|unrelenting;persistent;ruthless|lenient
+renowned|adj|meşhur;şöhretli;bilinen;nam salmış|famous;celebrated;well-known|unknown;obscure
+replicate|v|kopya etmek;çoğaltmak;yinelemek;taklit etmek|copy;duplicate;reproduce|
+resonate|v|yankılanmak;ses vermek;etkilemek;uyumlu olmak|echo;reverberate;strike a chord|
+rhetoric|n|belagat;hitabet;söz sanatı;boş laf|oratory;eloquence;bombast|
+scrupulous|adj|özenli;dikkatli;ahlaklı;namuslu|meticulous;honest;principled|careless;unscrupulous
+serendipity|n|talih;şans;rastlantı;hoş bir tesadüf|luck;chance;fortune|misfortune
+spurious|adj|uydurma;düzmece;yapmacık;geçersiz|false;fake;bogus|genuine;authentic
+stringent|adj|sert;katı kurallı;sıkı denetimli;titiz|strict;rigorous;tough|lenient;lax
+superfluous|adj|lüzumsuz;fazladan;artık;gereğinden fazla|unnecessary;redundant;excess|necessary;essential
+surreptitiously|adv|kaçamak;gizli gizli;sinsice;çaktırmadan|secretly;covertly;stealthily|openly
+tacit|adj|söylenmeden anlaşılan;üstü kapalı;dolaylı;söze dökülmemiş|implicit;unspoken;implied|explicit
+tenacious|adj|kararlı;sebatkar;direngen;inatçı olan|persistent;determined;stubborn|irresolute
+tentative|adj|kesin olmayan;ihtiyatlı;deneme amaçlı;geçici olarak|provisional;uncertain;hesitant|definite;confident
+trepidation|n|korku;kaygı;titreme;huzursuzluk|fear;anxiety;apprehension|calm;confidence
+trivial|adj|değersiz;ufak tefek;sıradan;önemsiz şey|insignificant;minor;petty|important;significant
+ubiquitous|adj|yaygın;her yerde var olan;her yerde görülen;her an|omnipresent;pervasive;everywhere|rare;scarce
+unequivocal|adj|apaçık;kesin olarak;şüphesiz;tartışmasız|clear;definite;unambiguous|ambiguous;equivocal
+untenable|adj|tutarsız;sürdürülemez durum;dayanaksız;çürük|indefensible;unsustainable|defensible
+vehemently|adv|ateşli bir şekilde;kuvvetle;sert şekilde;tutkuyla|strongly;fiercely;passionately|mildly
+venerable|adj|hürmete layık;yaşlı ve bilge;ulu;sayın|respected;revered;esteemed|
+verbose|adj|geveze;uzun soluklu;sözü uzatan;ağdalı|wordy;long-winded;rambling|concise;brief
+vindicate|v|aklamak;temize çıkarmak;doğrulamak;savunmak|justify;clear;exonerate|blame;accuse
+volatile|adj|dengesiz;oynak;kararsız;geçici|unstable;unpredictable;explosive|stable
+wary|adj|dikkatli;tedbirli;şüpheli;kuşkulu|cautious;careful;suspicious|careless;trusting
+zealous|adj|istekli;çalışkan;coşkulu;fanatik|eager;passionate;enthusiastic|apathetic
